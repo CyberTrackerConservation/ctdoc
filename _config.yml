@@ -30,9 +30,9 @@ twitter_username: jekyllrb
 github_username:  jekyll
 
 # Build settings
+#remote_theme: pmarsceill/just-the-docs
 remote_theme: pmarsceill/just-the-docs
-#theme: just-the-docs
-#theme: minima
+theme: just-the-docs
 
 # Include for processing.
 include: ["_pages", "_posts"]
