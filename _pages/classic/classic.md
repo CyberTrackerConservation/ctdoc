@@ -9,53 +9,15 @@ permalink: /classic/
 
 ## What is CyberTracker Classic?
 
-[CyberTracker](http://cybertracker.org) is a non-profit organization
-which created a software application as part of a larger vision.
-CyberTracker is also a software application for mobile data capture and
-visualization.
+CyberTracker Classic is a software application for mobile data capture and visualization. 
+The desktop (running on Microsoft Windows) application  handles form design and reporting. The mobile (running on Android & iOS) application is used for data capture.
 
-It is used widely in conservation, because of it's [award
-winning](http://cybertracker.org/background/awards) Icon User Interface,
-but has also been successfully customized for a variety of other fields.
+## Why "Classic"?
 
-From its origins with indigenous Kalahari trackers, CyberTracker
-projects have been initiated to protect rhinos in Africa, to monitor
-gorillas in the Congo, snow leopards in the Himalayas, butterflies in
-Switzerland, jaguars in Costa Rica, birds in the Amazon, wild horses in
-Mongolia, dolphins in California, marine turtles in the Pacific and
-whales in Antarctica.
+Much of the application was built around 20 years ago. While it has evolved and continues to work well, the larger software world is 
+moving to new platforms and the web.
 
-CyberTracker is being used worldwide by indigenous communities, in
-national parks, scientific research, citizen science, environmental
-education, forestry, farming, social surveys, crime prevention and
-disaster relief.
+## Is Classic going away?
 
-Climate change, pollution, habitat destruction and loss of biodiversity
-may have serious impacts on human welfare. To prevent this will require
-ongoing long-term monitoring of all aspects of the environment. Our
-vision is to promote the development of a Worldwide Environmental
-Monitoring Network.
-
-## What does CyberTracker need in order to run?
-
-The desktop application runs on all versions of Microsoft Windows.
-
-Data can be captured directly using the desktop software or an
-[Android](http://www.bing.com/images/search?q=android+phone) or [Windows
-Mobile](http://www.bing.com/images/search?q=rugged+windows+mobile)
-device. iOS is supported as well, but there are some limitations.
-
-## How much does CyberTracker cost?
-
-CyberTracker is freeware and is supported through donors and community
-funded features.
-
-## How can I get technical support?
-
-CyberTracker is supported by a [Google
-group](https://groups.google.com/g/cybertrackerwiki/). The group is
-monitored by the CyberTracker team and has many knowledgeable folks
-asking and answering questions.
-
-The group has been around for many years, so try searching the archives
-to get a sense for the kinds of questions people ask.
+CyberTracker Classic will continue to work indefinitely and bugs will be fixed as soon as they are found. New features may only be supported in other
+systems (like SMART).
