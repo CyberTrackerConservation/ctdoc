@@ -1,0 +1,29 @@
+@if variable-exists(logo) {
+  .site-logo {
+    width: 100%;
+    height: 100%;
+    background-image: url($logo);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 70%;
+  }
+}
+
+.site-header {
+  display: flex;
+  min-height: $header-height * 3;
+  align-items: center;
+
+  @include mq(md) {
+    height: $header-height;
+    max-height: $header-height;
+    border-bottom: 0px solid $border-color;
+  }
+}
+
+.site-footer {
+  visibility: hidden;
+  height: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+}
