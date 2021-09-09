@@ -1,11 +1,11 @@
 ---
 layout: page
 title: Download
-nav_order: 2
-parent: Classic
+nav_order: 10
+parent: CyberTracker Classic
 permalink: /classic/download/
 ---
-## Download 
+# Download 
 
 Click the links below to download the latest release of CyberTracker:
 

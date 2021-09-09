@@ -1,11 +1,11 @@
 ---
 layout: page
 title: Videos
-nav_order: 3
-parent: Classic
+nav_order: 20
+parent: CyberTracker Classic
 permalink: /classic/videos/
 ---
-## Videos
+# Videos
 {: .no_toc }
 
 Please send requests for new videos to justin@steventon.com.

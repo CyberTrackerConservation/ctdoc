@@ -1,11 +1,11 @@
 ---
 layout: page
 title: Frequently Asked Questions
-nav_order: 3
-parent: Classic
+nav_order: 50
+parent: CyberTracker Classic
 permalink: /classic/faq/
 ---
-## Frequently Asked Questions
+# Frequently Asked Questions (FAQ)
 {: .no_toc }
 
 ## Table of Contents

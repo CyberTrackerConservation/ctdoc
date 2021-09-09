@@ -1,12 +1,12 @@
 ---
 layout: page
 title: Devices
-nav_order: 3
-parent: Classic
+nav_order: 60
+parent: CyberTracker Classic
 permalink: /classic/devices/
 img_source: /assets/img/Devices
 ---
-## Devices
+# Devices
 {: .no_toc }
 
 ## Table of Contents

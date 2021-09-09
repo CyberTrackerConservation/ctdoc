@@ -1,12 +1,12 @@
 ---
 layout: page
 title: Advanced Topics
-nav_order: 3
-parent: Classic
+nav_order: 70
+parent: CyberTracker Classic
 permalink: /classic/advanced-topics/
 img_source: /assets/img
 ---
-## Advanced Topics
+# Advanced Topics
 {: .no_toc }
 
 ## Table of Contents

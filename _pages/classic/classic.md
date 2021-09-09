@@ -1,10 +1,12 @@
 ---
 layout: default
-title: Classic
+title: CyberTracker Classic
 has_children: true
 nav_order: 3
 permalink: /classic/
 ---
+# CyberTracker Classic
+
 ## What is CyberTracker Classic?
 
 [CyberTracker](http://cybertracker.org) is a non-profit organization

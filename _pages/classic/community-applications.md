@@ -1,13 +1,13 @@
 ---
 layout: page
 title: Community Applications
-nav_order: 3
-parent: Classic
+nav_order: 30
+parent: CyberTracker Classic
 permalink: /classic/community-applications/
 thumbnails: /assets/img/Community_applications
 app_source: https://cybertrackerwiki.blob.core.windows.net/cybertrackerwiki-ct-public
 ---
-## Community Applications
+# Community Applications
 
 Please send applications to justin@steventon.com if you'd like them to
 be added to this list.

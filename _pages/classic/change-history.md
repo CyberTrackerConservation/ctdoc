@@ -1,11 +1,11 @@
 ---
 layout: page
 title: Change History
-nav_order: 3
-parent: Classic
+nav_order: 80
+parent: CyberTracker Classic
 permalink: /classic/change-history/
 ---
-## Change History
+# Change History
 
 ### 3.517: 08/27/2021
 
