@@ -5,10 +5,11 @@ permalink: /about/
 ---
 # About
 
-![Profile picture]({{ site.baseurl }}/assets/AboutJustin.png "Profile picture")
+![Profile picture]({{ site.baseurl }}/assets/AboutJustin2.png "Profile picture")
 
 ## Profile
-Justin Steventon is the co-founder and primary developer of CyberTracker. He is based in Seattle, USA.
+Justin Steventon is a co-founder and developer working on CyberTracker. He is based in Seattle, USA.
 
 ## Contact
-Email: [justin@steventon.com](mailto:justin@steventon.com)
+Email: [justin@steventon.com](mailto:justin@steventon.com)<br/>
+LinkedIn: [justinsteventon](https://www.linkedin.com/in/justinsteventon/)
