@@ -4,7 +4,6 @@ title: Advanced Topics
 nav_order: 70
 parent: CyberTracker Classic
 permalink: /classic/advanced-topics/
-img_source: /assets/img
 ---
 # Advanced Topics
 {: .no_toc }
@@ -409,7 +408,7 @@ purpose.
 
 ### Filter sample
 
-![Ct3key.png]({{ page.img_source }}/Ct3key.png "Ct3key.png")
+![Ct3key.png]({{ site.baseurl }}/assets/classic/Ct3key.png "Ct3key.png")
 
 To configure a key outside of CyberTracker, follow these steps:
 
@@ -418,7 +417,7 @@ To configure a key outside of CyberTracker, follow these steps:
 3.  Copy to the clipboard
 4.  Paste into CyberTracker
 
-The above key and demo can be [downloaded here](/assets/CTKEY.zip "CTKey.zip").
+The above key and demo can be [downloaded here](/assets/classic/CTKEY.zip "CTKey.zip").
 
 ## GPS Outliers
 
@@ -510,7 +509,7 @@ below, the "Walk" Element was used to specify the accuracy settings. If
 the settings were not specified using Element properties, then this line
 will not be visible. Note that if the required accuracy is not met, the
 metric shows in red.  
-![TravelMode.png]({{ page.img_source }}/TravelMode.png "TravelMode.png")  
+![TravelMode.png](/assets/classic/TravelMode.png "TravelMode.png")  
   
 A demo of using Element properties to set the accuracy can be
 [downloaded

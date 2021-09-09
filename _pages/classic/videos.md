@@ -27,7 +27,7 @@ Check out how it works.
   </summary>
 <figure class="video_container">
   <video controls="true" allowfullscreen="true">
-    <source src="/assets/Transects.mp4" type="video/mp4">
+    <source src="/assets/classic/Transects.mp4" type="video/mp4">
   </video>
 </figure>
 </details>
@@ -42,7 +42,7 @@ it works.
   </summary>
 <figure class="video_container">
   <video controls="true" allowfullscreen="true">
-    <source src="/assets/Element_List_Filters.mp4" type="video/mp4">
+    <source src="/assets/classic/Element_List_Filters.mp4" type="video/mp4">
   </video>
 </figure>
 </details>
@@ -58,7 +58,7 @@ there is additional documentation [here](Documentation "wikilink").
   </summary>
 <figure class="video_container">
   <video controls="true" allowfullscreen="true">
-    <source src="/assets/Element_List_Properties.mp4" type="video/mp4">
+    <source src="/assets/classic/Element_List_Properties.mp4" type="video/mp4">
   </video>
 </figure>
 </details>
@@ -74,7 +74,7 @@ useful mapping features.
   </summary>
 <figure class="video_container">
   <video controls="true" allowfullscreen="true">
-    <source src="/assets/GIS_Features.mp4" type="video/mp4">
+    <source src="/assets/classic/GIS_Features.mp4" type="video/mp4">
   </video>
 </figure>
 </details>
@@ -88,7 +88,7 @@ Trend graphs are a way to see simple trends in data over time.
   </summary>
 <figure class="video_container">
   <video controls="true" allowfullscreen="true">
-    <source src="/assets/Trend_Graph.mp4" type="video/mp4">
+    <source src="/assets/classic/Trend_Graph.mp4" type="video/mp4">
   </video>
 </figure>
 </details>
@@ -104,7 +104,7 @@ database to another group that may need to add their own users.
   </summary>
 <figure class="video_container">
   <video controls="true" allowfullscreen="true">
-    <source src="/assets/User_Lists.mp4" type="video/mp4">
+    <source src="/assets/classic/User_Lists.mp4" type="video/mp4">
   </video>
 </figure>
 </details>
@@ -119,7 +119,7 @@ integrity.
   </summary>
 <figure class="video_container">
   <video controls="true" allowfullscreen="true">
-    <source src="/assets/Basic_Application_Editing.mp4" type="video/mp4">
+    <source src="/assets/classic/Basic_Application_Editing.mp4" type="video/mp4">
   </video>
 </figure>
 </details>
@@ -134,7 +134,7 @@ can be selected and CyberTracker will navigate users to them.
   </summary>
 <figure class="video_container">
   <video controls="true" allowfullscreen="true">
-    <source src="/assets/Goto_List.mp4" type="video/mp4">
+    <source src="/assets/classic/Goto_List.mp4" type="video/mp4">
   </video>
 </figure>
 </details>
@@ -151,7 +151,7 @@ list.
   </summary>
 <figure class="video_container">
   <video controls="true" allowfullscreen="true">
-    <source src="/assets/Goto_List_2.mp4" type="video/mp4">
+    <source src="/assets/classic/Goto_List_2.mp4" type="video/mp4">
   </video>
 </figure>
 </details>
@@ -166,7 +166,7 @@ appear on the device.
   </summary>
 <figure class="video_container">
   <video controls="true" allowfullscreen="true">
-    <source src="/assets/History.mp4" type="video/mp4">
+    <source src="/assets/classic/History.mp4" type="video/mp4">
   </video>
 </figure>
 </details>
@@ -182,7 +182,7 @@ useful for names of users, which are likely to change a lot.
   </summary>
 <figure class="video_container">
   <video controls="true" allowfullscreen="true">
-    <source src="/assets/User_Lists.mp4" type="video/mp4">
+    <source src="/assets/classic/User_Lists.mp4" type="video/mp4">
   </video>
 </figure>
 </details>
@@ -197,7 +197,7 @@ editing a limited set of properties in an application.
   </summary>
 <figure class="video_container">
   <video controls="true" allowfullscreen="true">
-    <source src="/assets/Basic_Application_Editing.mp4" type="video/mp4">
+    <source src="/assets/classic/Basic_Application_Editing.mp4" type="video/mp4">
   </video>
 </figure>
 </details>
@@ -211,7 +211,7 @@ A Date Control allows you to specify a date.
   </summary>
 <figure class="video_container">
   <video controls="true" allowfullscreen="true">
-    <source src="/assets/Date_Control.mp4" type="video/mp4">
+    <source src="/assets/classic/Date_Control.mp4" type="video/mp4">
   </video>
 </figure>
 </details>
@@ -226,7 +226,7 @@ over HTTP/HTTPS as JSON.
   </summary>
 <figure class="video_container">
   <video controls="true" allowfullscreen="true">
-    <source src="/assets/HttpTransfer.mp4" type="video/mp4">
+    <source src="/assets/classic/HttpTransfer.mp4" type="video/mp4">
   </video>
 </figure>
 </details>
@@ -241,7 +241,7 @@ the field.
   </summary>
 <figure class="video_container">
   <video controls="true" allowfullscreen="true">
-    <source src="/assets/Esri_Connect.mp4" type="video/mp4">
+    <source src="/assets/classic/Esri_Connect.mp4" type="video/mp4">
   </video>
 </figure>
 </details>
@@ -255,7 +255,7 @@ the field.
   </summary>
 <figure class="video_container">
   <video controls="true" allowfullscreen="true">
-    <source src="/assets/RemoveLoopedAttributesFull.mp4" type="video/mp4">
+    <source src="/assets/classic/RemoveLoopedAttributesFull.mp4" type="video/mp4">
   </video>
 </figure>
 </details>
@@ -269,7 +269,7 @@ the field.
   </summary>
 <figure class="video_container">
   <video controls="true" allowfullscreen="true">
-    <source src="/assets/WebUpdateFull.mp4" type="video/mp4">
+    <source src="/assets/classic/WebUpdateFull.mp4" type="video/mp4">
   </video>
 </figure>
 </details>
