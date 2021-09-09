@@ -417,7 +417,7 @@ To configure a key outside of CyberTracker, follow these steps:
 3.  Copy to the clipboard
 4.  Paste into CyberTracker
 
-The above key and demo can be [downloaded here](/assets/classic/CTKEY.zip "CTKey.zip").
+The above key and demo can be [downloaded here]({{ site.baseurl }}/assets/classic/CTKEY.zip "CTKey.zip").
 
 ## GPS Outliers
 
@@ -509,8 +509,8 @@ below, the "Walk" Element was used to specify the accuracy settings. If
 the settings were not specified using Element properties, then this line
 will not be visible. Note that if the required accuracy is not met, the
 metric shows in red.  
-![TravelMode.png](/assets/classic/TravelMode.png "TravelMode.png")  
+![TravelMode.png]({{ site.baseurl }}/assets/classic/TravelMode.png "TravelMode.png")  
   
 A demo of using Element properties to set the accuracy can be
 [downloaded
-here](https://cybertrackerwiki.blob.core.windows.net/cybertrackerwiki-ct-public/TravelModeDemo.CTX).
+here]({{ site.baseurl }}/assets/classic/TravelModeDemo.CTX).
