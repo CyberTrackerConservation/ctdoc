@@ -31,7 +31,7 @@ own use and these then become available for everyone.
 ### Where can I get the latest version of CyberTracker?
 
 The most recent version is available on this web
-[here](Download "wikilink"). The version numbers are always
+[here](/_pages/classic/download.md). The version numbers are always
 incrementing, so 3.200 is more recent than 3.195. If the version is a
 test version (not well tested), then it will have "(BETA)" after the
 build number.
