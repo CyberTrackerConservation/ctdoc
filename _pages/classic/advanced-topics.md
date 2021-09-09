@@ -418,7 +418,7 @@ To configure a key outside of CyberTracker, follow these steps:
 3.  Copy to the clipboard
 4.  Paste into CyberTracker
 
-The above key and demo can be [downloaded here](/assets/files/CTKEY.zip "CTKey.zip").
+The above key and demo can be [downloaded here](/assets/CTKEY.zip "CTKey.zip").
 
 ## GPS Outliers
 

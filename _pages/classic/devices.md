@@ -4,7 +4,6 @@ title: Devices
 nav_order: 60
 parent: CyberTracker Classic
 permalink: /classic/devices/
-img_source: /assets/img/Devices
 ---
 # Devices
 {: .no_toc }
@@ -50,7 +49,7 @@ set to record an automated “track log” point every 5 minutes. Percentage
 of battery power remaining was recorded at the beginning and end of each
 day.
 
-![SmartDeviceReport1.jpg]({{ site.baseurl }}{{ page.img_source }}/SmartDeviceReport1.jpg "SmartDeviceReport1")
+![SmartDeviceReport1.jpg]({{ site.baseurl }}/assets/SmartDeviceReport1.jpg "SmartDeviceReport1")
 
 ### Devices tested
 
@@ -81,19 +80,19 @@ day.
 
 ### Reports
 
-![SmartDeviceReport2.png]({{ site.baseurl }}{{ page.img_source }}/SmartDeviceReport2.png "SmartDeviceReport2.png")
+![SmartDeviceReport2.png]({{ site.baseurl }}/assets/SmartDeviceReport2.png "SmartDeviceReport2.png")
 
-![SmartDeviceReport3.png]({{ site.baseurl }}{{ page.img_source }}/SmartDeviceReport3.png "SmartDeviceReport3.png")
+![SmartDeviceReport3.png]({{ site.baseurl }}/assets/SmartDeviceReport3.png "SmartDeviceReport3.png")
 
-![SmartDeviceReport4.png]({{ site.baseurl }}{{ page.img_source }}/SmartDeviceReport4.png "SmartDeviceReport4.png")
+![SmartDeviceReport4.png]({{ site.baseurl }}/assets/SmartDeviceReport4.png "SmartDeviceReport4.png")
 
-![SmartDeviceReport5.png]({{ site.baseurl }}{{ page.img_source }}/SmartDeviceReport5.png "SmartDeviceReport5.png")
+![SmartDeviceReport5.png]({{ site.baseurl }}/assets/SmartDeviceReport5.png "SmartDeviceReport5.png")
 
-![SmartDeviceReports6.png]({{ site.baseurl }}{{ page.img_source }}/SmartDeviceReports6.png "SmartDeviceReports6.png")
+![SmartDeviceReports6.png]({{ site.baseurl }}/assets/SmartDeviceReports6.png "SmartDeviceReports6.png")
 
-![SmartDeviceReports7.png]({{ site.baseurl }}{{ page.img_source }}/SmartDeviceReports7.png "SmartDeviceReports7.png")
+![SmartDeviceReports7.png]({{ site.baseurl }}/assets/SmartDeviceReports7.png "SmartDeviceReports7.png")
 
-![SmartDeviceReports8.png]({{ site.baseurl }}{{ page.img_source }}/SmartDeviceReports8.png "SmartDeviceReports8.png")
+![SmartDeviceReports8.png]({{ site.baseurl }}/assets/SmartDeviceReports8.png "SmartDeviceReports8.png")
 
 ### General Notes
 
@@ -111,7 +110,7 @@ position acquisition for some Android devices may be related to this.
 
 #### CAT B15
 
-![Device\_CAT\_B15.png]({{ site.baseurl }}{{ page.img_source }}/Device_CAT_B15.png "Device_CAT_B15.png")  
+![Device\_CAT\_B15.png]({{ site.baseurl }}/assets/Device_CAT_B15.png "Device_CAT_B15.png")  
 **Advantages**  
 \* Small and easily portable
 
@@ -129,7 +128,7 @@ position acquisition for some Android devices may be related to this.
 
 #### Runbo X5
 
-![Device\_Runbo\_X5.png]({{ site.baseurl }}{{ page.img_source }}/Device_Runbo_X5.png "Device_Runbo_X5.png")  
+![Device\_Runbo\_X5.png]({{ site.baseurl }}/assets/Device_Runbo_X5.png "Device_Runbo_X5.png")  
 **Advantages**  
 \* Less expensive
 
@@ -147,7 +146,7 @@ satellites
 
 #### Trimble Juno T41C
 
-![Device\_Trimble\_Juno\_T41C.png]({{ site.baseurl }}{{ page.img_source }}/Device_Trimble_Juno_T41C.png "Device")  
+![Device\_Trimble\_Juno\_T41C.png]({{ site.baseurl }}/assets/Device_Trimble_Juno_T41C.png "Device")  
 **Advantages**  
 \* Large touchscreen easy to use
 
@@ -169,7 +168,7 @@ satellites
 
 #### Trimble Juno T41CG
 
-![Device\_Trimble\_Juno\_T41CG.png]({{ site.baseurl }}{{ page.img_source }}/Device_Trimble_Juno_T41CG.png "Device")  
+![Device\_Trimble\_Juno\_T41CG.png]({{ site.baseurl }}/assets/Device_Trimble_Juno_T41CG.png "Device")  
 **Advantages**  
 \* Large touchscreen easy to use
 
@@ -190,7 +189,7 @@ satellites
 
 #### RugGear RG960/Land Rover Experience
 
-![Device\_RugGear\_RG960.png]({{ site.baseurl }}{{ page.img_source }}/Device_RugGear_RG960.png "Device")  
+![Device\_RugGear\_RG960.png]({{ site.baseurl }}/assets/Device_RugGear_RG960.png "Device")  
 **Disadvantages**
 
   - Poor GPS reception
@@ -201,7 +200,7 @@ satellites
 
 #### Pharos 585
 
-![Device\_Pharos\_585.png]({{ site.baseurl }}{{ page.img_source }}/Device_Pharos_585.png "Device")  
+![Device\_Pharos\_585.png]({{ site.baseurl }}/assets/Device_Pharos_585.png "Device")  
 **Advantages**  
 \* Excellent GPS acquisition (best of tested devices)
 
@@ -222,7 +221,7 @@ satellites
 
 #### Nomad 900L
 
-![Device\_Nomad\_900L.png]({{ site.baseurl }}{{ page.img_source }}/Device_Nomad_900L.png "Device")  
+![Device\_Nomad\_900L.png]({{ site.baseurl }}/assets/Device_Nomad_900L.png "Device")  
 **Advantages**  
 \* Excellent GPS Acquisition
 
