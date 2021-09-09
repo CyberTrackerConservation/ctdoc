@@ -7,7 +7,6 @@ permalink: /classic/community-applications/
 thumbnails: /assets/img/Community_applications
 app_source: https://cybertrackerwiki.blob.core.windows.net/cybertrackerwiki-ct-public
 ---
-
 ## Community Applications
 
 Please send applications to justin@steventon.com if you'd like them to
