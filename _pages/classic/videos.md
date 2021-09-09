@@ -51,7 +51,7 @@ it works.
 
 The Element List control is the most flexible control in CyberTracker.
 Check out this demo of various properties that can be customized. Note
-there is additional documentation [here](/classic/controls-reference-manual).
+there is additional documentation [here]({{ site.baseurl }}/classic/controls-reference-manual).
 <details markdown="block">
   <summary>
   Watch video
