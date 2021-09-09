@@ -40,6 +40,10 @@ include: ["_pages"]
 # Enable or disable heading anchors
 heading_anchors: true
 
+# Google Analytics Tracking
+ga_tracking: G-T7RMFRMKP5
+ga_tracking_anonymize_ip: true # Use GDPR compliant Google Analytics settings (true by default)
+
 # Aux links for the upper right navigation
 aux_links:
   "CyberTracker":
