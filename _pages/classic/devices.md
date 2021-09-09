@@ -112,17 +112,15 @@ position acquisition for some Android devices may be related to this.
 
 ![Device\_CAT\_B15.png]({{ site.baseurl }}/assets/classic/Device_CAT_B15.png "Device_CAT_B15.png")  
 **Advantages**  
-\* Small and easily portable
-
-  - GPS position acquisition generally good
-  - Less expensive
-  - Best Android smartphone tested
+- Small and easily portable
+- GPS position acquisition generally good
+- Less expensive
+- Best Android smartphone tested
 
 **Disadvantages**  
-\* Battery life poor compared to other devices
-
-  - Some question as to waterproofness of battery cover
-  - Poor track log performance, especially when battery was low
+- Battery life poor compared to other devices
+- Some question as to waterproofness of battery cover
+- Poor track log performance, especially when battery was low
 
 -----
 
@@ -130,17 +128,13 @@ position acquisition for some Android devices may be related to this.
 
 ![Device\_Runbo\_X5.png]({{ site.baseurl }}/assets/classic/Device_Runbo_X5.png "Device_Runbo_X5.png")  
 **Advantages**  
-\* Less expensive
-
-  - Reasonable overall performance
+- Less expensive
+- Reasonable overall performance
 
 **Disadvantages**  
-\* GPS slow to acquire and often receiving data from relatively few
-satellites
-
-  - Processing speed appeared slow
-  - Battery cannot be easily changed due to multiple screws securing
-    cover
+- GPS slow to acquire and often receiving data from relatively few satellites
+- Processing speed appeared slow
+- Battery cannot be easily changed due to multiple screws securing cover
 
 -----
 
@@ -148,21 +142,17 @@ satellites
 
 ![Device\_Trimble\_Juno\_T41C.png]({{ site.baseurl }}/assets/classic/Device_Trimble_Juno_T41C.png "Device")  
 **Advantages**  
-\* Large touchscreen easy to use
-
-  - Large virtual keyboard easy to use
-  - Battery non-removable: may be an advantage for waterproofness
-  - External battery pack available, potentially doubling operating time
-  - Wide array of accessories available
+- Large touchscreen easy to use
+- Large virtual keyboard easy to use
+- Battery non-removable: may be an advantage for waterproofness
+- External battery pack available, potentially doubling operating time
+- Wide array of accessories available
 
 **Disadvantages**  
-\* Track log performance only average
-
-  - Battery life on T41C less than T41CG-may be related to firmware
-    update on T41CG
-  - Relatively expensive compared to non-Trimble devices
-  - Device as tested does not include GSM capability (available as an
-    optional extra)
+- Track log performance only average
+- Battery life on T41C less than T41CG-may be related to firmware update on T41CG
+- Relatively expensive compared to non-Trimble devices
+- Device as tested does not include GSM capability (available as an optional extra)
 
 -----
 
@@ -170,20 +160,17 @@ satellites
 
 ![Device\_Trimble\_Juno\_T41CG.png]({{ site.baseurl }}/assets/classic/Device_Trimble_Juno_T41CG.png "Device")  
 **Advantages**  
-\* Large touchscreen easy to use
-
-  - Large virtual keyboard easy to use
-  - Excellent battery life
-  - Excellent GP position acquisition
-  - Battery non-removable: may be an advantage for waterproofness
-  - External battery pack available, potentially doubling operating time
-  - Wide array of accessories available
+- Large touchscreen easy to use
+- Large virtual keyboard easy to use
+- Excellent battery life
+- Excellent GP position acquisition
+- Battery non-removable: may be an advantage for waterproofness
+- External battery pack available, potentially doubling operating time
+- Wide array of accessories available
 
 **Disadvantages**  
-\* Most expensive device
-
-  - Device as tested does not include GSM capability (available as an
-    optional extra)
+- Most expensive device
+- Device as tested does not include GSM capability (available as an optional extra)
 
 -----
 
@@ -191,7 +178,6 @@ satellites
 
 ![Device\_RugGear\_RG960.png]({{ site.baseurl }}/assets/classic/Device_RugGear_RG960.png "Device")  
 **Disadvantages**
-
   - Poor GPS reception
   - Poor battery life
   - Not recommended
@@ -202,20 +188,17 @@ satellites
 
 ![Device\_Pharos\_585.png]({{ site.baseurl }}/assets/classic/Device_Pharos_585.png "Device")  
 **Advantages**  
-\* Excellent GPS acquisition (best of tested devices)
-
-  - Excellent battery life
-  - Small form factor
-  - Less expensive
-  - Best non-Trimble device tested
+- Excellent GPS acquisition (best of tested devices)
+- Excellent battery life
+- Small form factor
+- Less expensive
+- Best non-Trimble device tested
 
 **Disadvantages**  
-\* Lower ruggedness rating than other devices
-
-  - Small amount of built in memory
-  - Small resistive touchscreen harder to use (especially with virtual
-    keyboard) and prone to damage over time
-  - No storage location for stylus
+- Lower ruggedness rating than other devices
+- Small amount of built in memory
+- Small resistive touchscreen harder to use (especially with virtual keyboard) and prone to damage over time
+- No storage location for stylus
 
 -----
 
@@ -223,18 +206,14 @@ satellites
 
 ![Device\_Nomad\_900L.png]({{ site.baseurl }}/assets/classic/Device_Nomad_900L.png "Device")  
 **Advantages**  
-\* Excellent GPS Acquisition
-
-  - Excellent battery life
-  - Wide array of accessories available
+- Excellent GPS Acquisition
+- Excellent battery life
+- Wide array of accessories available
 
 **Disadvantages**  
-\* Small resistive touchscreen harder to use (especially with virtual
-keyboard) and prone to damage over time
-
-  - Relatively expensive compared to non-Trimble devices
-  - Device as tested does not include GSM capability (available as an
-    optional extra)
+- Small resistive touchscreen harder to use (especially with virtual keyboard) and prone to damage over time
+- Relatively expensive compared to non-Trimble devices
+- Device as tested does not include GSM capability (available as an optional extra)
 
 -----
 
