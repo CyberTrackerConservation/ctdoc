@@ -25,7 +25,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   CyberTracker Wiki is for users wanting to get the most out of CyberTracker. It includes
   information for users of all levels.
 baseurl: "/ctdoc" # the subpath for github pages
-url: "http://cybertrackerwiki.org" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://www.cybertrackerwiki.org" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  justinsteventon
 
 color_scheme: ctcolors
