@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="29.369mm" height="29.369mm" version="1.1" viewBox="0 0 29.369 29.369" xmlns="http://www.w3.org/2000/svg">
+ <g transform="translate(3.32543 -.28272)" fill="#5d4b3f">
+  <path class="cls-3" d="m21.473 19.148v0.55033c0 1.8521-0.34131 3.9211-2.8866 5.416l-7.2231 4.5376-7.5036-4.5402c-2.6141-1.6272-2.6141-4.3789-2.6141-5.4134v-0.52917z" stroke-width=".26458"/>
+  <polygon class="cls-4" transform="matrix(.26458 0 0 .26458 -55.124 .28272)" points="213.05 29.57 289.5 29.57 291.33 6.57 251.28 0 211.22 6.57" style="mix-blend-mode:multiply"/>
+  <polygon class="cls-3" transform="matrix(.26458 0 0 .26458 -55.124 .28272)" points="280.38 35.7 213.05 35.77 213.05 64.25 280.38 64.25"/>
+ </g>
+</svg>
