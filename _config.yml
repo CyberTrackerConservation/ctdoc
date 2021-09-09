@@ -24,7 +24,7 @@ logo: "/assets/logo.svg"
 description: >- # this means to ignore newlines until "baseurl:"
   CyberTracker Wiki is for users wanting to get the most out of CyberTracker. It includes
   information for users of all levels.
-baseurl: "ctdoc" # the subpath of your site, e.g. /blog
+baseurl: "/ctdoc" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  justinsteventon
 
