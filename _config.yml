@@ -35,7 +35,7 @@ remote_theme: pmarsceill/just-the-docs
 #theme: just-the-docs
 
 # Include for processing.
-include: ["_pages"]
+include: ["_pages", ".well-known"]
 
 # Enable or disable heading anchors
 heading_anchors: true

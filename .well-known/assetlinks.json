@@ -1,0 +1,26 @@
+[
+    {
+        "relation": [
+            "delegate_permission/common.handle_all_urls"
+        ],
+        "target": {
+            "namespace": "android_app",
+            "package_name": "org.cybertracker.mobile.ct",
+            "sha256_cert_fingerprints": [
+                "78:C9:34:8D:DA:A0:29:5F:22:EC:43:F6:DE:27:AB:68:74:0E:EE:8D:56:92:98:27:F6:44:03:84:B1:E4:44:A4"
+            ]
+        }
+    },
+    {
+        "relation": [
+            "delegate_permission/common.handle_all_urls"
+        ],
+        "target": {
+            "namespace": "android_app",
+            "package_name": "org.cybertracker.mobile.sm",
+            "sha256_cert_fingerprints": [
+                "F7:45:2D:EA:B9:2D:87:D6:D1:F5:65:2A:38:14:E0:98:72:AB:00:CA:CC:9C:41:5F:A3:57:A5:0D:67:86:01:5D"
+            ]
+        }
+    }
+]
