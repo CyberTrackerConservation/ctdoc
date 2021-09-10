@@ -26,7 +26,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   information for users of all levels.
 baseurl: "" # the subpath for github pages
 url: "https://cybertrackerwiki.org" # the base hostname & protocol for your site, e.g. http://example.com
-github_username:  justinsteventon
+github_username: justinsteventon
 
 color_scheme: ctcolors
 
@@ -52,6 +52,10 @@ aux_links:
 # Back to top link
 back_to_top: true
 back_to_top_text: "Back to top"
+
+# Enable or disable the site search
+# Supports true (default) or false
+search_enabled: true
 
 # Exclude from processing.
 # The following items will not be processed, by default.
