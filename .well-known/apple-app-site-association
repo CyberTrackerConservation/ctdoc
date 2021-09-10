@@ -1,0 +1,10 @@
+{
+    "applinks": {
+        "apps": [],
+        "details": [{
+                "appID": "HTYSXFSCA2.org.cybertracker.mobile",
+                "paths": ["/open", "/install"]
+            }
+        ]
+    }
+}
