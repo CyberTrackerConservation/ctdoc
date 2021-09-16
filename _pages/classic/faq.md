@@ -264,19 +264,17 @@ sighting for it to be considered part of the same path. The concept is
 that we can build different paths out of the same data, depending on
 what I want to connect. Some examples:
 
-Connecting observations made by one particular Observer: <code>
+Connecting observations made by one particular Observer:
+```
+Set "Join Element(s)" to the Name of the observer
+```
 
-`Set "Join Element(s)" to the Name of the observer `
+Connecting observations by transportation mode, e.g. Walk, Horse, Vehicle:
 
-</code>
-
-Connecting observations by transportation mode, e.g. Walk, Horse,
-Vehicle: <code>
-
-`Set the "Join Element(s)" to a category containing the "Walk", "Horse" and "Vehicle" Elements. `  
-`Note, this assumes that all your sightings contain the mode of transportation that was used and only one can be used at a time.`
-
-</code>
+```
+Set the "Join Element(s)" to a category containing the "Walk", "Horse" and "Vehicle" Elements.
+Note, this assumes that all your sightings contain the mode of transportation that was used and only one can be used at a time.
+```
 
 ### How does the Element Formula control work?
 
