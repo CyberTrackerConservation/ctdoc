@@ -7,7 +7,7 @@
             "namespace": "android_app",
             "package_name": "org.cybertracker.mobile.ct",
             "sha256_cert_fingerprints": [
-                "78:C9:34:8D:DA:A0:29:5F:22:EC:43:F6:DE:27:AB:68:74:0E:EE:8D:56:92:98:27:F6:44:03:84:B1:E4:44:A4"
+                "34:57:2C:F0:07:57:FE:DC:E1:2F:E6:18:EE:34:D7:5A:B1:C1:E8:1F:CC:C6:73:13:39:79:12:19:C5:0D:CA:46"
             ]
         }
     },
@@ -19,7 +19,7 @@
             "namespace": "android_app",
             "package_name": "org.cybertracker.mobile.sm",
             "sha256_cert_fingerprints": [
-                "F7:45:2D:EA:B9:2D:87:D6:D1:F5:65:2A:38:14:E0:98:72:AB:00:CA:CC:9C:41:5F:A3:57:A5:0D:67:86:01:5D"
+                "34:57:2C:F0:07:57:FE:DC:E1:2F:E6:18:EE:34:D7:5A:B1:C1:E8:1F:CC:C6:73:13:39:79:12:19:C5:0D:CA:46"
             ]
         }
     }
