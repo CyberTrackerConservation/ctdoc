@@ -1,9 +1,14 @@
 {
     "applinks": {
         "apps": [],
-        "details": [{
+        "details": [
+            {
                 "appID": "HTYSXFSCA2.org.cybertracker.mobile",
-                "paths": ["/deeplink"]
+                "paths": ["/applinkct", "/applinksm"]
+            },
+            {
+                "appID": "HTYSXFSCA2.org.cybertracker.smartcollect",
+                "paths": ["/applinksm"]
             }
         ]
     }
