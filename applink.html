@@ -1,0 +1,137 @@
+---
+permalink: /applink/
+layout: table_wrappers
+search_exclude: true
+---
+<style type="text/css">
+    * {
+        box-sizing: border-box;
+    }
+
+    .col-1 {
+        width: 8.33%;
+    }
+
+    .col-2 {
+        width: 16.66%;
+    }
+
+    .col-3 {
+        width: 25%;
+    }
+
+    .col-4 {
+        width: 33.33%;
+    }
+
+    .col-5 {
+        width: 41.66%;
+    }
+
+    .col-6 {
+        width: 50%;
+    }
+
+    .col-7 {
+        width: 58.33%;
+    }
+
+    .col-8 {
+        width: 66.66%;
+    }
+
+    .col-9 {
+        width: 75%;
+    }
+
+    .col-10 {
+        width: 83.33%;
+    }
+
+    .col-11 {
+        width: 91.66%;
+    }
+
+    .col-12 {
+        width: 100%;
+    }
+
+    [class*="col-"] {
+        float: left;
+        padding: 15px;
+    }
+
+    .logo {
+        width: 25%;
+        border-radius: 50%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    html {
+        font-family: "Lucida Sans", sans-serif;
+    }
+
+    @media only screen and (max-width: 768px) {
+
+        /* For mobile phones: */
+        [class*="col-"] {
+            width: 100%;
+        }
+    }
+
+    .instructions {
+        background-color: #ccc;
+        display: block;
+        padding: 1em;
+    }
+
+    .row {
+        display: flex;
+    }
+
+    .column {
+        justify-content: space-between;
+    }
+</style>
+
+<body>
+    <div class="row">
+        <div class="col-3"></div> <!-- 25% -->
+        <div class="col-6">
+            <img class="logo" src="{{ site.baseurl }}/assets/logo.svg" alt="Logo" />
+            <h1>Install CyberTracker</h1>
+            <p>To use CyberTracker, first install the mobile application by clicking the link below or following the
+                instructions.</p>
+            <h2>Download CyberTracker</h2>
+            <div class="row">
+                <div class="column">
+                    <a href="https://apps.apple.com/us/app/cybertracker/id1524186167" target="_blank">
+                        <img src="{{ site.baseurl }}/assets/button-app-store.png" alt="App Store" style="width:100%">
+                    </a>
+                </div>
+                <div class="column" style="width:16px"></div>
+                <div class="column">
+                    <a href="https://play.google.com/store/apps/details?id=org.cybertracker.mobile.ct"
+                        class="google-play" target="_blank">
+                        <img src="{{ site.baseurl }}/assets/button-google-play.png" alt="Google Play Store" style="width:100%">
+                    </a>
+                </div>
+            </div>
+            <br />
+            <div class="instructions">
+                <span style="font-weight:bold">Steps:</span>
+                <ol>
+                    <li>Open app store</li>
+                    <li>Find CyberTracker</li>
+                    <li>Download and install</li>
+                    <li>Connect to a project</li>
+                    <li>Launch project</li>
+                </ol>
+            </div>
+
+        </div> <!-- 75% -->
+        <div class="col-3"></div> <!-- 25% -->
+    </div>
+</body>
