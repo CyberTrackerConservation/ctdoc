@@ -74,13 +74,17 @@ search_exclude: true
     }
 
     @media only screen and (max-width: 768px) {
-
-        /* For mobile phones: */
         [class*="col-"] {
             width: 100%;
         }
     }
 
+    @media only screen and (orientation: portrait) {
+        [class*="col-"] {
+            width: 100%;
+        }
+    }
+    
     .instructions {
         background-color: #ccc;
         display: block;
