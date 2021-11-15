@@ -7,6 +7,13 @@ permalink: /classic/change-history/
 ---
 # Change History
 
+### 3.518: 10/14/2021
+
+Bug fixes
+
+  - Repoint wiki links
+  - Remove telemetry which showed scripting errors
+
 ### 3.517: 08/27/2021
 
 Bug fixes
