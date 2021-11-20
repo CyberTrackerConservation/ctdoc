@@ -7,6 +7,12 @@ permalink: /classic/change-history/
 ---
 # Change History
 
+### 3.520: 11/19/2021
+
+Bug fixes
+
+  - Support for Android 11
+
 ### 3.518: 10/14/2021
 
 Bug fixes

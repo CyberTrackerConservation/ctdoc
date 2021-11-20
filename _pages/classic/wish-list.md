@@ -60,6 +60,7 @@ permalink: /classic/wish-list/
 41. Multi-select User lists
 42. Ability to select target folder for images when exporting a table
 43. Cyrillic alphabet support
+44. SFTP
 
 ## Completed features
 
