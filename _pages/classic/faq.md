@@ -368,12 +368,16 @@ ways. The task bar is also hidden.
 Kiosk mode is often combined with a password keypad to allow
 administrators to work on the system in the field.
 
+Note: Kiosk mode does not work on Android devices.
+
 ### How can "Kiosk Mode" be bypassed in the field?
 
 Place an "Element Keypad" control on a screen and set the "Password"
 property to "1234". Set the "Password auto next" property to "Shutdown".
 When the correct password is entered, CyberTracker will close the
 current Application, thereby terminating Kiosk mode.
+
+Note: Kiosk mode does not work on Android devices.
 
 ### CyberTracker reports that it cannot install to a Windows Mobile device: INF error
 
