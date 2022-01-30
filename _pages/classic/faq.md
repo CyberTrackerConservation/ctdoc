@@ -56,12 +56,11 @@ Windows RT.
 
 ### What mobile devices does CyberTracker support?
 
-CyberTracker supports Windows Mobile and Android devices. If you bought
-a device in the last 5 years that runs Windows Mobile/CE or Android,
-then it will probably work. However, we currently do require touch
-screen support, so Smart phones without touch screens are not supported.
+CyberTracker supports Windows Mobile, Android and iOS devices. If you bought
+a device in the last 5 years that runs Android or iOS then it will probably work. 
+Smart phones without touch screens are not supported.
 
-### Can I collect data with both Windows Mobile and Android devices at the same time?
+### Can I collect data with both iOS and Android devices at the same time?
 
 Yes. You won't be able to tell which data came from which device (unless
 you want to).
@@ -205,7 +204,7 @@ RangeFinder.
 
 CyberTracker supports RangeFinders that output the Laser Atlanta NMEA
 sentences LA1KA, LA1KC and LA1KD. RangeFinders are not currently
-supported on Android.
+supported on iOS or Android.
 
 ### How can I export data that I collect back to my GPS?
 
@@ -368,12 +367,16 @@ ways. The task bar is also hidden.
 Kiosk mode is often combined with a password keypad to allow
 administrators to work on the system in the field.
 
+Note: Kiosk mode does not work on iOS and Android devices.
+
 ### How can "Kiosk Mode" be bypassed in the field?
 
 Place an "Element Keypad" control on a screen and set the "Password"
 property to "1234". Set the "Password auto next" property to "Shutdown".
 When the correct password is entered, CyberTracker will close the
 current Application, thereby terminating Kiosk mode.
+
+Note: Kiosk mode does not work on iOS and Android devices.
 
 ### CyberTracker reports that it cannot install to a Windows Mobile device: INF error
 
