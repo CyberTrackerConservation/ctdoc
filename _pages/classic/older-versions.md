@@ -7,6 +7,8 @@ permalink: /classic/older-versions/
 ---
 # Older Versions
 
+[3.521 - user](https://cybertrackerwiki.blob.core.windows.net/ctbuilds/ct3521u.msi)  
+[3.521 - admin](https://cybertrackerwiki.blob.core.windows.net/ctbuilds/ct3521.msi)  
 [3.520 - user](https://cybertrackerwiki.blob.core.windows.net/ctbuilds/ct3520u.msi)  
 [3.520 - admin](https://cybertrackerwiki.blob.core.windows.net/ctbuilds/ct3520.msi)  
 [3.518 - user](https://cybertrackerwiki.blob.core.windows.net/ctbuilds/ct3518u.msi)  

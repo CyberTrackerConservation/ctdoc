@@ -9,11 +9,11 @@ permalink: /classic/download/
 
 Click the links below to download the latest release of CyberTracker:
 
-[Download latest release (recommended): 3.520
-\~ 11MB](https://cybertrackerwiki.blob.core.windows.net/ctbuilds/ct3520u.msi)
+[Download latest release (recommended): 3.521
+\~ 11MB](https://cybertrackerwiki.blob.core.windows.net/ctbuilds/ct3521u.msi)
 
-[Download latest release (admin install): 3.520
-\~ 11MB](https://cybertrackerwiki.blob.core.windows.net/ctbuilds/ct3520.msi)
+[Download latest release (admin install): 3.521
+\~ 11MB](https://cybertrackerwiki.blob.core.windows.net/ctbuilds/ct3521.msi)
 
 ## Legacy downloads
 

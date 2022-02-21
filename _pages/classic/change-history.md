@@ -7,6 +7,13 @@ permalink: /classic/change-history/
 ---
 # Change History
 
+### 3.521: 02/21/2022
+
+Bug fixes
+
+  - ESRI Connector requries https
+  - Too many track points result in out of memory errors
+
 ### 3.520: 11/19/2021
 
 Bug fixes
