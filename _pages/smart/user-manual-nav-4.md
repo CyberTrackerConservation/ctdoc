@@ -1,9 +1,9 @@
 ---
 layout: page
 title: Installation and setup
-nav_order: 4
-grand_parent: SMART
+nav_order: 4000
 parent: User manual
+grand_parent: SMART
 permalink: /smart/user-manual/4
 ---
 Table of Contents
@@ -12,4 +12,4 @@ Table of Contents
 1. TOC
 {:toc}
 
-{% include_relative user-manual-4.md %}
+{% include_relative user-manual-4.md.inc %}

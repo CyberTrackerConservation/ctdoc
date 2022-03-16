@@ -34,11 +34,14 @@ This training resource covers the practical aspects of field data collection usi
 Table of Contents
 {: .no_toc .text-delta }
 
-1. TOC
 {:toc}
-{% include_relative user-manual-1.md %}
-{% include_relative user-manual-2.md %}
-{% include_relative user-manual-3.md %}
-{% include_relative user-manual-4.md %}
-{% include_relative user-manual-5.md %}
+1. TOC
+
+{% include_relative user-manual-1.md.inc %}
+{% include_relative user-manual-2.md.inc %}
+{% include_relative user-manual-3.md.inc %}
+{% include_relative user-manual-4.md.inc %}
+{% include_relative user-manual-5.md.inc %} 
+{% include_relative user-manual-6.md.inc %} 
+{% include_relative user-manual-7.md.inc %} 
 {% include_relative sm.md %}

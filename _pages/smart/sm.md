@@ -1,23 +1,3 @@
-## Overlay of Internet Map Layers
-
-WMS layers can be configured in the "Basemap Settings" under the
-package. There are many public layers available, for example:
-
--   https://nowcoast.noaa.gov/arcgis/services/nowcoast/radar_meteo_imagery_nexrad_time/MapServer/WMSServer
-
-![Map Description automatically
-generated]({{ site.baseurl }}/assets/smart/image14.png){width="3.0in"
-height="4.002000218722659in"}
-
-## Track Settings Can Vary by Transport Type
-
-The desktop can configure different track timer settings for each patrol
-type. The value of this setting can be seen on the map screen:
-
-![Map Description automatically
-generated]({{ site.baseurl }}/assets/smart/image18.png){width="3.0in"
-height="4.002000218722659in"}
-
 [Optional step: Check what your configurable model looks like in the
 simulator]
 
