@@ -25,3 +25,141 @@
   visibility: hidden;
   display: none;
 }
+
+// Remove extra stuff for print media.
+@media print {
+  .site-footer,
+  .site-button,
+  .edit-this-page,
+  .back-to-top,
+  .breadcrumb-nav,
+  .site-nav,
+  .main-header {
+    display: none !important;
+  }
+
+  .side-bar {
+    width: 100%;
+    height: auto;
+    border-right: 0 !important;
+  }
+
+  .site-header {
+    border-bottom: 1px solid $border-color;
+    display: none
+  }
+
+  .site-title {
+    font-size: $root-font-size !important;
+    font-weight: 700 !important;
+  }
+
+  .text-small {
+    font-size: 8pt !important;
+  }
+
+  pre.highlight {
+    border: 1px solid $border-color;
+  }
+
+  .main {
+    max-width: none;
+    margin-left: 0;
+  }
+}
+
+// Callouts, a.k.a. block quotes.
+
+$pink-000: #f77ef1;
+$pink-100: #f967f1;
+$pink-200: #e94ee1;
+$pink-300: #dd2cd4;
+
+$callouts: (
+    admonition: ($grey-lt-300, rgba($grey-lt-000, .2), ''),
+    attention: ($purple-300, rgba($purple-000, .2), 'Attention'),
+    caution: ($yellow-300, rgba($yellow-000, .2), 'Caution'),
+    custom: ($pink-300, rgba($pink-000, .3), 'Custom'),
+    danger: ($red-300, rgba($red-000, .2), 'Danger'),
+    error: ($red-300, rgba($red-000, .2), 'Error'),
+    highlight: ($yellow-300, rgba($yellow-000, .5), ''),
+    hint: ($grey-dk-300, rgba($grey-dk-000, .2), 'Hint'),
+    important: ($green-300, rgba($green-000, .2), 'Important'),
+    note: ($blue-300, rgba($blue-000, .2), 'Note'),
+    tip: ($grey-dk-300, rgba($grey-dk-000, .2), 'Tip'),
+    warning: ($red-300, rgba($red-000, .2), 'Warning')
+);
+
+@each $class, $props in $callouts {
+
+p.#{$class}, blockquote.#{$class} {
+  background: nth($props, 2);
+  border-left: $border-radius solid nth($props, 1);  
+  border-radius: $border-radius;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.12), 0 3px 10px rgba(0, 0, 0, 0.08);
+  padding: .8rem;
+
+  &::before {
+    color: nth($props, 1);
+    content: nth($props, 3);
+    display: block;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: .75em;
+    padding-bottom: .125rem;
+  }
+  
+  > .#{$class}-title {
+    color: nth($props, 1);
+    display: block;
+    font-weight: bold;
+    text-transform: uppercase;   
+    font-size: .75em;
+    padding-bottom: .125rem;
+  }
+}
+
+p.#{$class}-title, blockquote.#{$class}-title {
+  background: nth($props, 2);
+  border-left: $border-radius solid nth($props, 1);  
+  border-radius: $border-radius;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.12), 0 3px 10px rgba(0, 0, 0, 0.08);
+  padding: .8rem;
+  > p:first-child {
+    margin-top: 0;
+    margin-bottom: 0;
+    color: nth($props, 1);
+    display: block;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: .75em;
+    padding-bottom: .125rem;
+  }
+}
+
+blockquote.#{$class} {
+  margin-left: 0;
+  margin-right: 0;
+
+  > p:first-child {
+    margin-top: 0;
+  }
+  
+  > p:last-child {
+    margin-bottom: 0;
+  }
+}
+
+blockquote.#{$class}-title {
+  margin-left: 0;
+  margin-right: 0;
+
+  > p:nth-child(2) {
+    margin-top: 0;
+  }
+  
+  > p:last-child {
+    margin-bottom: 0;
+  }
+}
+}
