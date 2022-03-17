@@ -60,21 +60,26 @@ We are continuously working to make SMART Mobile better. Newer builds may be rel
 C. Save the .APK file in an easily found location on your computer (e.g., the same root folder as your SMART Desktop installation). Connect your mobile device to your computer. In SMART Desktop, go to **Field Data \> SMART Mobile \> Install SMART Mobile on Device...**
 
 **NOTE: This wizard will overwrite the existing APK on your device with the most current version. (Fig. 11)**
-![]({{ site.baseurl }}/assets/smart/image105.png)
+
+  > ![]({{ site.baseurl }}/assets/smart/image105.png){: width="40%" }
 
 D. Click the "**\...**" button and browse to the folder where you saved the APK file and select it and click **Next.**
-![]({{ site.baseurl }}/assets/smart/image21.png)
+
+  > ![]({{ site.baseurl }}/assets/smart/image21.png){: width="40%" }
 
 E. Select the option **Copy SMART Mobile to Device**.
 
 F. Click **Next**
-![]({{ site.baseurl }}/assets/smart/image159.png)
+
+  > ![]({{ site.baseurl }}/assets/smart/image159.png){: width="40%" }
 
 G. Select the device you would like to export to. If the device is not shown check that it is in file transfer mode and refresh the list. Always select **internal storage** if given the option of SD card. Ensure to de-select SD card option.
-![]({{ site.baseurl }}/assets/smart/image83.png)
+
+  > ![]({{ site.baseurl }}/assets/smart/image83.png){: width="40%" }
 
 H. Click **Copy application to selected devices. This ends the desktop setup, now go and** check your device for the SMART Mobile application.
-![]({{ site.baseurl }}/assets/smart/image154.png)
+
+  > ![]({{ site.baseurl }}/assets/smart/image154.png){: width="40%" }
 
 I. Now looking at your device, install the SMART Mobile Application (see screenshot examples below)
 1. On your Android device, use the file manager to find the SMART Mobile APK file.
@@ -83,14 +88,16 @@ I. Now looking at your device, install the SMART Mobile Application (see screens
 1. Once the installation has finished, select **Done**. 
 1. You will be prompted to "delete the installation package". Click **Yes**.
 
-![]({{ site.baseurl }}/assets/smart/image176.png)
-![]({{ site.baseurl }}/assets/smart/image179.png)
+  > ![]({{ site.baseurl }}/assets/smart/image176.png){: width="80%" } 
+  > ![]({{ site.baseurl }}/assets/smart/image179.png){: width="80%" }
 
 J.  You may be prompted to switch your Android device's home launcher app to SMART. **If you receive this message, do [NOT] select switch launcher apps.** (Note: This prompt may be different on your device.)
-![]({{ site.baseurl }}/assets/smart/image178.png)
+
+  > ![]({{ site.baseurl }}/assets/smart/image178.png){: width="40%" }
 
 K. Launch SMART Mobile
-![]({{ site.baseurl }}/assets/smart/image20.png)
+
+  > ![]({{ site.baseurl }}/assets/smart/image20.png){: width="80%" }
 
 ### SMART Mobile setup after installation to the device
 
@@ -122,8 +129,8 @@ Manua](https://smartconservationtools.org/wp-content/uploads/2019/07/SMART%206%2
 {: .note }
 For SMART 7 these configurations apply to both SMART Mobile and Cybertracker Classic. You will configure properties for both here.
 
-![]({{ site.baseurl }}/assets/smart/image8.png)
-![]({{ site.baseurl }}/assets/smart/image5.png)
+  > ![]({{ site.baseurl }}/assets/smart/image8.png){: width="80%" } 
+  > ![]({{ site.baseurl }}/assets/smart/image5.png){: width="80%" }
 
 ### Additional Configurable Model Features
 
@@ -131,7 +138,7 @@ For SMART 7 these configurations apply to both SMART Mobile and Cybertracker Cla
 
 SMART Mobile, unlike Classic CyberTracker, is capable of rendering any Unicode language as text on the device. In order to do this, you need to edit the text of your configurable model. Open a configurable model, select **Edit** and select all the categories and attributes, one-by-one, and simply type in whatever language you want displayed on the device. 
 
-![]({{ site.baseurl }}/assets/smart/image3.png)
+![]({{ site.baseurl }}/assets/smart/image3.png){: width="40%" }
 
 #### Icons
 
@@ -156,9 +163,9 @@ selecting "**Custom**" under "**Image**". You can then select an icon
 from your hard drive (or select another built-in SMART icon) and
 associate this with your group, category or attribute. 
 
-![]({{ site.baseurl }}/assets/smart/image6.png)
-![]({{ site.baseurl }}/assets/smart/image2.png)
-![]({{ site.baseurl }}/assets/smart/image13.png)
+![]({{ site.baseurl }}/assets/smart/image6.png){: width="40%" }
+![]({{ site.baseurl }}/assets/smart/image2.png){: width="40%" }
+![]({{ site.baseurl }}/assets/smart/image13.png){: width="40%" }
 
 Once you're happy with the structure and design of your configurable
 model click **Save**.
