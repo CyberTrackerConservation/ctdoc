@@ -37,11 +37,13 @@ Table of Contents
 {:toc}
 1. TOC
 
-{% include_relative user-manual-1.md.inc %}
-{% include_relative user-manual-2.md.inc %}
-{% include_relative user-manual-3.md.inc %}
-{% include_relative user-manual-4.md.inc %}
-{% include_relative user-manual-5.md.inc %} 
-{% include_relative user-manual-6.md.inc %} 
-{% include_relative user-manual-7.md.inc %} 
-{% include_relative sm.md %}
+<!-- 
+{% include_relative _user-manual-1.md %}
+{% include_relative _user-manual-2.md %}
+{% include_relative _user-manual-3.md %}
+{% include_relative _user-manual-4.md %}
+{% include_relative _user-manual-5.md %} 
+{% include_relative _user-manual-6.md %} 
+{% include_relative _user-manual-7.md %}  -->
+
+{% include_relative _sm.md %}

@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Installation and setup
-nav_order: 4000
+title: Creating a package
+nav_order: 8000
 parent: User manual
 grand_parent: SMART
-permalink: /smart/user-manual/4
+permalink: /smart/user-manual/8
 ---
 Table of Contents
 {: .no_toc .text-delta }
@@ -12,4 +12,4 @@ Table of Contents
 1. TOC
 {:toc}
 
-{% include_relative _user-manual-4.md %}
+{% include_relative _user-manual-8.md %}

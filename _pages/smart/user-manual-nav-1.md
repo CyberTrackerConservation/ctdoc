@@ -13,4 +13,4 @@ Table of Contents
 1. TOC
 {:toc}
 
-{% include_relative user-manual-1.md.inc %}
+{% include_relative _user-manual-1.md %}
