@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Kiosk mode setup
+title: 5. Using SMART for adaptive management
 nav_order: 5000
 parent: User manual
 grand_parent: SMART

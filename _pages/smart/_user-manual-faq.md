@@ -22,22 +22,22 @@ the most common causes of device problems. Many mobile devices nowadays have bui
 service or replaced.
 5. **Operating system**: SMART can be locked to run in kiosk mode using the installation process described above in section 3.4.2.
 
-#### What should we do if SMART Mobile/CyberTracker device stops working during a patrol?
+### What should we do if SMART Mobile/CyberTracker device stops working during a patrol?
 It is best practice to always have a backup. Collect data using GPS and datasheets/notebooks as well whenever possible. Note down when the device stopped working. 
 
-#### What should we do if GPS battery dies?
+### What should we do if GPS battery dies?
 As above. Keep collecting data -- ensure to write down the date and time of observation. Carry on patrol as normal. 
 
-#### What should we do if we run out of datasheets?
+### What should we do if we run out of datasheets?
 If you have a notebook, you can make notes, or use the back of the datasheets to collect data. Try to ensure the same information is recorded. Carry on patrol as normal. 
 
-#### What should we do if the camera stops working/battery becomes flat?
+### What should we do if the camera stops working/battery becomes flat?
 If you have a phone with you that takes photos, you can use that. If not just carry on your patrol as normal and describe the observations as best as possible using comments and/or during the patrol debrief.
 
-#### I'm running SMART on a Mac computer but cannot import patrols from CyberTracker, why?
+### I'm running SMART on a Mac computer but cannot import patrols from CyberTracker, why?
 The desktop application of CyberTracker is **only** available for the **Windows** **OS**, meaning that the import or export of Patrol/Survey Configurable Models or data collected from the field cannot be currently done on a Mac OS or Apple computer not running Windows**.**
 
-#### My Android device will not connect to my computer and I can't install CyberTracker/import patrols, what can I do?**
+### My Android device will not connect to my computer and I can't install CyberTracker/import patrols, what can I do?**
 1. Make sure the device is plugged into the computer and enabled to 'Transfer Files'. To do this, swipe down on the top of the screen and change from 'USB Charging' to 'Transfer Files'. - This is a common issue with getting the .apk file for CyberTracker for the first installation.
 
 2. With the device plugged in, 'Export the Patrol Configurable Model' to the device, the first time, you should get an error message saying that Before CyberTracker can be used it must be installed on the device.

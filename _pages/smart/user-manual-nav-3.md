@@ -1,6 +1,6 @@
 ---
 layout: page
-title: How are data collected
+title: 3. How are data collected
 nav_order: 3000
 parent: User manual
 grand_parent: SMART

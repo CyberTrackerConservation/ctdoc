@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Frequently Asked Questions
-nav_order: 100000
+nav_order: 10000
 parent: User manual
 grand_parent: SMART
 permalink: /smart/user-manual/faq

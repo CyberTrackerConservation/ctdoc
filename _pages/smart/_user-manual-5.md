@@ -1,82 +1,18 @@
-### Kiosk mode
+# Using SMART for adaptive management; tasks for the data collector
 
-Kiosk mode is a function which locks your device to the function of a specific application and prevents the use of any other application. Essentially, using kiosk mode will turn your device into a SMART-Mobile-Only device.
+As mentioned in [[Section 1]](#smart-mobile-setup), SMART is designed to help improve the protection of conservation areas through streamlining the conversion of field data collected by rangers into information on human activities and threats to wildlife that can be used for strategic planning. For this process to work, a SMART database should receive regular updates and be managed effectively. The data manager plays an important role in making sure that data and information
+flows happen. The key tasks are described below:
 
-#### When to use kiosk mode
+1. **Ensure data are collected -** Patrols should be conducted on a regular basis to ensure protection and monitoring activities and associated data flows. Patrols can be scheduled for each team, station or planned by using the Planning Module in SMART (see: *[SMART Technical Training Manual](https://smartconservationtools.org/wp-content/uploads/2019/07/SMART%206%20Technical%20Training%20Manual_2019_07_sm.pdf): Module 6: Planning and Intelligence*).
 
-Deciding whether to use kiosk mode is highly dependent on your
-particular use case. If you feel it is necessary to lock a device to
-SMART Mobile only then kiosk mode is for you. This might be to ensure
-that devices procured for SMART data collection are used only for this
-function and nothing else. By dedicating your mobile device for SMART
-mobile data collection, kiosk mode simplifies data collection, focuses
-attention on that task alone, and conserves device resources.
+2. **Ensure data come in on time -** There should be a directive for what happens to the data once patrol teams have brought in their devices from the field. A responsible person should be assigned to upload data to the SMART database. Patrol data should be entered as soon as possible after patrols are completed so as to ensure that events requiring action such as poaching, encroachment, harvest of wildlife or other resources or other illegal activities are quickly brought to the attention of the manager. This should be done as a part of the routine debrief process for patrols, so data can be reviewed, corrected and input together with the team who collected the data.
 
-#### When not to use kiosk mode
+    - If data are being transferred manually or where SMART Connect is deployed but connectivity is limited or absent, a system should be set in place to ensure regular transfer of data from the field to the data manager. For example, waypoints, tracklogs and field forms may be submitted to the data manager within a set timeframe.
 
-If you or your field team need to use other functionality on data
-collection devices, then kiosk mode is *not* required. Other apps that
-may be used in the field include telephone function or communication
-applications, additional navigation applications, specific camera
-applications, and others (note: SMART Mobile does record track data and
-images). If your field teams do not need these other applications, then
-you may want to consider using kiosk mode.
+3. **Ensure data a correct -** Data needs to be checked for quality and accuracy by the data manager before it gets incorporated in basic analysis (queries and summaries) and appears in reports. At the end of each patrol a debrief should be done with the team collecting data. The debrief should involve the following steps;
 
-### How to enable kiosk mode
+    - Verbal report from the patrol leader to his/her supervisor on the patrol including patrol objectives, patrol mandate, team composition, route of travel, major results (wildlife, threats encountered, actions taken)
 
-Once you have made a decision about whether or not to use kiosk mode,
-you must make a change in the SMART Conservation Area (CA) on your
-computer in the settings for your configurable model.
+    - Upload the data to SMART and run the quality assurance tool on the data. Further information on how and what to check for, as well as how to use the SMART Quality Assurance tool, can be found in the *[SMART Quality Assurance Module Handbook](https://smartconservationtools.org/wp-content/uploads/2019/08/SMART%20QA%20Module%20Manual.pdf).*
 
-Login into your SMART CA then go to Conservation Area \> Configurable
-Model.
-
-- Select the model you wish to use from the list
-![]({{ site.baseurl }}/assets/smart/image199.png)
-- Select **Edit** and go to the **CyberTracker** properties tab
-- Select **Edit profile** and check/uncheck the **Kiosk mode** box
-- **Save** the change
-
-![]({{ site.baseurl }}/assets/smart/image165.png) ![]({{ site.baseurl }}/assets/smart/image168.png)
-
-### Setup for kiosk Mode
-
-1. In SMART Desktop, go to **Field Data \> SMART Mobile \> Install SMART Mobile on Device...**
-1. Click the "**\...**" button and browse to the folder where you saved the .APK file and select it and click **Next.**
-![]({{ site.baseurl }}/assets/smart/image21.png)
-1. Select the option **Configure SMART Mobile as a kiosk.**
-1. Click **Next**
-![]({{ site.baseurl }}/assets/smart/image22.png)
-1. Click **Next.**
-1. Now you must install the driver which allows this computer to install kiosk mode onto your device. Select **install / reinstall driver.**
-![]({{ site.baseurl }}/assets/smart/image25.png)
-1. Right click on "android_winusb" (file type: Setup Information) and select **install.**
-![]({{ site.baseurl }}/assets/smart/image24.png)
-![]({{ site.baseurl }}/assets/smart/image23.png)
-1. Click **Next**
-
-### Provisioning the device
-
-1. **Factory reset the device** by opening settings on your device and selecting "Factory Data Reset".
-1. Wait for the device to restart
-1. Follow the instructions and press **skip** when asked to create an account.
-![]({{ site.baseurl }}/assets/smart/image28.png)
-1. Change the time and date back to the correct date and time using the settings on the device.
-1. Change the GPS settings in **location** to use GPS only.
-![]({{ site.baseurl }}/assets/smart/image26.jpg)
-1. Enable "Developer Mode" \> **About phone \> software information** and tap on the build number (or version) 10 times to access **developer mode.**
-![A screenshot of a social media post Description automatically generated]({{ site.baseurl }}/assets/smart/image31.png)
-1. Enable "USB debugging" by opening the settings, search for USB debugging under developer options and toggle this **on.**
-![]({{ site.baseurl }}/assets/smart/image30.jpg)
-1. Connect your device to your computer -- select "allow USB debugging" if prompted and select **OK**
-1. Configure your device by selecting **"Provision the device"**
-1. Click **Finish**
-![]({{ site.baseurl }}/assets/smart/image7.png)
-1. Launch SMART Mobile
-
-### Exiting Kiosk Mode
-
-Once your mobile device has been configured for kiosk mode, you can only exit out of kiosk mode by:
-- Typing in your pin; or
-- Factory resetting the device
-
+4. **Ensure feedback from the manager is followed up on -** Further considerations for adaptive management under the SMART approach are discussed in the [[*SMART Adaptive Management Training Handbook*.]](https://smartconservationtools.org/release/623/)

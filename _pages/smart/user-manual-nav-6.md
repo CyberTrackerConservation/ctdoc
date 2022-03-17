@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Internet map layers (WMS)
+title: Features
 nav_order: 6000
 parent: User manual
 grand_parent: SMART

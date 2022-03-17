@@ -37,13 +37,35 @@ Table of Contents
 {:toc}
 1. TOC
 
-<!-- 
+<div style="page-break-after: always;"></div>
 {% include_relative _user-manual-1.md %}
-{% include_relative _user-manual-2.md %}
-{% include_relative _user-manual-3.md %}
-{% include_relative _user-manual-4.md %}
-{% include_relative _user-manual-5.md %} 
-{% include_relative _user-manual-6.md %} 
-{% include_relative _user-manual-7.md %}  -->
 
-{% include_relative _sm.md %}
+<div style="page-break-after: always;"></div>
+{% include_relative _user-manual-2.md %}
+
+<div style="page-break-after: always;"></div>
+{% include_relative _user-manual-3.md %}
+
+<div style="page-break-after: always;"></div>
+{% include_relative _user-manual-4.md %}
+
+<div style="page-break-after: always;"></div>
+{% include_relative _user-manual-5.md %} 
+
+<div style="page-break-after: always;"></div>
+{% include_relative _user-manual-6.md %} 
+
+<div style="page-break-after: always;"></div>
+{% include_relative _user-manual-7.md %}
+
+<div style="page-break-after: always;"></div>
+{% include_relative _user-manual-8.md %}
+
+<div style="page-break-after: always;"></div>
+{% include_relative _user-manual-9.md %}
+
+<div style="page-break-after: always;"></div>
+{% include_relative _user-manual-faq.md %}
+
+<div style="page-break-after: always;"></div>
+{% include_relative _user-manual-partners.md %}

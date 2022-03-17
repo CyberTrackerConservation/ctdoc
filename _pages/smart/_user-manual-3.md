@@ -163,30 +163,3 @@ During or outside of a patrol or survey, observations can be recorded independen
 <td colspan="3">Fig. 8. If you are collecting ecological records data on a mission but have a protocol of recording human-wildlife conflict or poaching signs independently, b) you can now easily record these as independent incidents without interrupting your overall data collection</td>
 </tr>
 </table>
-
-Additional details are provided in Annex 2. Instructions on how to use
-SMART Mobile are outlined below. 
-
-#### List of new features for SMART 7
-
-**New features in SMART Mobile**
-
-- SMART Mobile for iOS when using with Connect
-- New icons have been added to SMART Mobile to aid data collection
-- Manual GPS by dropping a point on the map or entering coordinates directly
-- Text change: Make observation to "Add observation" after the first one
-- Groups in SMART 7
-- Distance and direction
-- Text search for lists
-- Give users access to GPS attributes (altitude, speed, heading, accuracy)
-- Disable battery optimizations to prevent loss of GPS
-- Packages from SMART Desktop are now downloadable directly from Smart Connect to your mobile device.
-- Admin users can assign routes for the mobile data collectors
-- Check for package updates to data models, routes, etc automatically over the internet if configured to do so.
-- Multi-Select Attribute Type and a Conversion Tool
-- Support independent incidents
-- Independent Incidents - Allow alpha-numeric ID values
-- \"Tokenized\" IDs creation for patrol ID and Incident IDs
-- Conditional Data Entry
-- Signatures
-- Photos attached to specific observations w/in incident

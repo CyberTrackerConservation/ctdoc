@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Introduction
+title: 1. Introduction
 nav_order: 1000
 parent: User manual
 grand_parent: SMART

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Installation and setup
+title: 4. Data collection
 nav_order: 4000
 parent: User manual
 grand_parent: SMART

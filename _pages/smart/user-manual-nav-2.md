@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Information needs and sources of data
+title: 2. Information needs and sources of data
 nav_order: 2000
 parent: User manual
 grand_parent: SMART
