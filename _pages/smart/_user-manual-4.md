@@ -133,18 +133,18 @@ Manua](https://smartconservationtools.org/wp-content/uploads/2019/07/SMART%206%2
 For SMART 7 these configurations apply to both SMART Mobile and Cybertracker Classic. You will configure properties for both here.
 
   > ![]({{ site.baseurl }}/assets/smart/image8.png){: width="80%" } 
-  
+
   > ![]({{ site.baseurl }}/assets/smart/image5.png){: width="80%" }
 
 ### Additional Configurable Model Features
 
-#### Language
+**Language**
 
 SMART Mobile, unlike Classic CyberTracker, is capable of rendering any Unicode language as text on the device. In order to do this, you need to edit the text of your configurable model. Open a configurable model, select **Edit** and select all the categories and attributes, one-by-one, and simply type in whatever language you want displayed on the device. 
 
   > ![]({{ site.baseurl }}/assets/smart/image3.png){: width="75%" }
 
-#### Icons
+**Icons**
 
 Creating and exporting configurable models to SMART Mobile is much the
 same as for CyberTracker Classic. However, SMART Mobile enables the use
@@ -289,7 +289,8 @@ Now that you have created your configurable model that can be used to efficientl
 [There are two options, manual export via a USB connection, or download
 direct from SMART connect]
 
-### Manual export via USB connection
+**Manual export via USB connection**
+
 1. Open your SMART database.
 2. Connect your mobile device to your computer USB port using the device's download cable
 3. Make sure the device is connected for 'file transfer'
@@ -512,13 +513,28 @@ Sighting distance and direction can be set when:
 
   > ![]({{ site.baseurl }}/assets/smart/image134.png){: width="40%" }
 
-### Independent Incidents
+### Offline maps
+By default, the “SMART Basemap” feature generates an offline map based on the map in SMART. If this is not sufficient, custom offline maps can be added to the SMART Mobile Package.
+SMART Mobile supports MapBox (.mbtiles) and ArcGIS (.tpk, .vtpk) offline maps.
+To enable them, on the Package dialog, select the “Basemap Settings” tab, then add layers from your machine.
+
+![Image]({{ site.baseurl }}/assets/smart/offline-maps-1.png)
+
+During the next package upload, these files will be available via the Layers menu (bottom left):
+
+|:-------------|:-------------|
+| ![Image]({{ site.baseurl }}/assets/smart/offline-maps-2.png) | ![Image]({{ site.baseurl }}/assets/smart/offline-maps-3.png) |
+
+{: .note }
+Note that it can be helpful to disable the online layers by selecting “None”. This will enable only the offline layers.
+
+## Independent Incidents
 
 SMART Mobile allows you to collect data not associated with a patrol, on a handheld device. To use this feature, you will need to install the 'Independent Incident' plugin to your SMART database via the '**File \Install New Plugins**' menu. Once you have done this, you can re-export your patrol package and select a configurable model to be used for independent incidents which can differ from your chosen patrol model. For more information on independent incidents see: *[[SMART 6
 Technical Training
 Manua](https://smartconservationtools.org/wp-content/uploads/2019/07/SMART%206%20Technical%20Training%20Manual_2019_07_sm.pdf)l] Module 11: Independent Incident Plug-in.*
 
-### Mobile data export from device
+## Mobile data export from device
 
 To export data collected from SMART Mobile to your computer:
 
@@ -577,7 +593,7 @@ Compile the relevant details about the bug reported or your user experience feed
  
 You may be contacted with follow up questions or requests to retest to confirm the bug you reported has been successfully resolved.
 
-### Creating a bug report in SMART Mobile
+**Creating a bug report in SMART Mobile**
 
 1. In SMART Mobile, go to **Settings** and click **Report a Bug**
 2. Write a brief description of the bug and click the **Save check mark**

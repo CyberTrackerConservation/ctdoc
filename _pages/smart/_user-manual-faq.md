@@ -1,4 +1,4 @@
-## Frequently Asked Questions
+# Frequently Asked Questions
 
 ### On which types of patrols should there be data collection?
 ALL patrols should have data collected. Regardless of objective (e.g. law enforcement, surveillance, tourism) or transport types (e.g. foot, boat, motorbike, car, roadblock). 
@@ -9,7 +9,8 @@ data collection procedures relating directly to the needs at the site. 
 
 ### What handheld devices/smartphones should we buy for our protected area?
 
-#### General Considerations
+**General Considerations**
+
 Each site is unique and therefore it is difficult to prescribe a specific device to suit all needs. However, we recommend SMART users consider the following before selecting the device they wish to use and consulting the SMART Community Forum for advice from other users.
 **Tip:** *It is recommended that sites try to standardize the devices they are using, to avoid conflicting or variable results.*
 

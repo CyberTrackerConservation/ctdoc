@@ -58,7 +58,7 @@ Module 13: Connect Plug-in) in semi-automated processes.
 
 ### Features of SMART Mobile 
 
-#### Modern easy to use user interface
+**Modern easy to use user interface**
 SMART Mobile has a modern easy to use user interface:
 
 <table>
@@ -72,7 +72,7 @@ SMART Mobile has a modern easy to use user interface:
 </tr>
 </table>
 
-#### Support for more environments
+**Support for more environments**
 
 <table>
 <tr>
@@ -85,7 +85,7 @@ SMART Mobile has a modern easy to use user interface:
 </tr>
 </table>
 
-#### Modern state of the art mapping
+**Modern state of the art mapping**
 The state-of-the-art mapping in SMART Mobile, includes the ability to complement online base maps with offline maps generated directly from SMART desktop:
 
 <table>
@@ -99,7 +99,7 @@ The state-of-the-art mapping in SMART Mobile, includes the ability to complement
 </tr>
 </table>
 
-#### Navigation to previous observations
+**Navigation to previous observations**
 Includes detailed sighting history views. This feature turns SMART mobile into a functional navigation device:
 
 <table>
@@ -113,7 +113,7 @@ Includes detailed sighting history views. This feature turns SMART mobile into a
 </tr>
 </table>
 
-#### Other mapping features
+**Other mapping features**
 - Sightings, Incidents, Tracks are visible
 - Offline maps overlaid on base map
 - 10 online base maps: OpenStreetMap, National Geographic, Satellite, Oceans, etc.
@@ -130,7 +130,7 @@ Includes detailed sighting history views. This feature turns SMART mobile into a
 - Follow modes: user, follow, navigation
 - Co-ordinates in decimal degrees, degrees minutes seconds, degrees decimal minutes and UTM
 
-#### Multi-leg patrols
+**Multi-leg patrols**
 Patrol type can now be changed while the patrol is in progress. Also, patrols can now be easily paused and resumed. When paused the track timer is disconnected, ensuring that SMART delivers an even more accurate measure of effort:
 
 <table>
@@ -142,16 +142,16 @@ Patrol type can now be changed while the patrol is in progress. Also, patrols ca
 </tr>
 </table>
 
-#### Desktop demo version for training
+**Desktop demo version for training**
 SMART Mobile also has a desktop demo version for Windows which works exactly the same as the mobile version that can be used for training. The GPS simulation can be customized for your location as part of the training.
 
-#### Robust kiosk mode
+**Robust kiosk mode**
 SMART Mobile supports a robust kiosk mode that locks the device for use only by SMART Mobile. Kiosk mode can be exited with a preconfigured pin.
 
-#### Simple, Customizable, Themes
+**Simple, Customizable, Themes**
 Ability to customize the look and appearance of SMART Mobile from within SMART selecting theme colors and your own project icon.
 
-#### Independent incidents during patrols/surveys
+**Independent incidents during patrols/surveys**
 During or outside of a patrol or survey, observations can be recorded independently from a patrol or survey. These observations are recorded as independent incidents in SMART:
 
 <table>
