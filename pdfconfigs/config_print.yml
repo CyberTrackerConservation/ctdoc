@@ -1,0 +1,18 @@
+# bundle exec jekyll serve --config pdfconfigs/config_print.yml
+# Use Safari and File->Print to output as PDF
+
+title: SMART Mobile User Manual
+email: info@smartconservationsoftware.org
+logo: "/assets/logo.svg"
+
+baseurl: "" # the subpath for github pages
+
+# Build settings
+remote_theme: just-the-docs/just-the-docs
+
+# Include for processing.
+include: ["_pages"]
+
+heading_anchors: false
+back_to_top: false
+search_enabled: false

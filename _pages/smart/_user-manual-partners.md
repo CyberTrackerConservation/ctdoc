@@ -1,4 +1,4 @@
-## SMART Partners
+# SMART Partners
 
 <table>
 <tr>
