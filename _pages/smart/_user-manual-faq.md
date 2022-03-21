@@ -21,7 +21,7 @@ discussion focuses on devices that are similar in size to smartphones or PDAs, u
 4. **Battery life**: How long must the devices be used in between charging? This is highly dependent on how the devices are used, i.e., how many observations are recorded each day, what is the frequency of track log point collection, how detailed are the observations being recorded (lengthier entries require the screen to be on longer and using the screen is one of the major sources of power consumption). Also, especially at sites where power fluctuates, battery failure is one of
 the most common causes of device problems. Many mobile devices nowadays have built-in batteries that cannot be easily changed, meaning that when the battery goes bad, they have to be returned to the manufacturer for
 service or replaced.
-5. **Operating system**: SMART can be locked to run in kiosk mode using the installation process described above in section 3.4.2.
+5. **Operating system**: SMART can be locked to run in kiosk mode using the installation process described above.
 
 ### What should we do if SMART Mobile/CyberTracker device stops working during a patrol?
 It is best practice to always have a backup. Collect data using GPS and datasheets/notebooks as well whenever possible. Note down when the device stopped working. 

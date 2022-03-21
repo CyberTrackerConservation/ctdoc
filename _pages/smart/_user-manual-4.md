@@ -124,7 +124,7 @@ Manua](https://smartconservationtools.org/wp-content/uploads/2019/07/SMART%206%2
 1. From SMART Desktop Select **Conservation Area \> Configurable model \> *'Name of model'***.
 1. Click edit to inspect the categories and attributes associated with the model
 1. Check to make sure the SMART Mobile settings follow what you see below by selecting **'Field Data-\>CyberTracker Classic-\>CyberTracker Properties'** in SMART. 
-1. Kiosk Mode on or off as per choice made in Section 4.1 above
+1. Kiosk Mode on or off as per choice made above
 1. Track Timer can be between 3 and 10 secs
 1. Set GMT/UTC time offset for your location
 1. If you make any edits to the settings, make sure to select **Save**
@@ -395,7 +395,7 @@ You should select **Pause patrol** when the team is not actively engaged in sear
 patrol after it was paused.
 
 {: .note }
-The 'Pause Patrol' function must be enabled in the CyberTracker properties for it to be visible on patrol (See Section 4.2.5 -- above).
+The 'Pause Patrol' function must be enabled in the CyberTracker properties for it to be visible on patrol.
 
   > ![]({{ site.baseurl }}/assets/smart/image90.png){: width="40%" } ![]({{ site.baseurl }}/assets/smart/image86.png){: width="40%" }
 
@@ -418,35 +418,54 @@ During a patrol you can also access the following functions: 
 
 ## Detailed Steps for Recording Observations using SMART Mobile
 
-Select 'Make observation' at the top of the screen to record patrol observations (below a) relating to SMART data model categories (wildlife, human activities, features and patrol movements etc). In the example below an observation of human activity is recorded b) then details of people encountered is recorded c) along with a photo d).
-
-To finish entering data for an observation select the tick box at the top right of the screen (see red box in top-right of d below). Once the observation has been recorded, save the incident selecting the green button at the bottom right of the screen (below e).
-
-a) ![]({{ site.baseurl }}/assets/smart/image95.png){: width="30%" }
-b) ![]({{ site.baseurl }}/assets/smart/image88.png){: width="30%" }
-c) ![]({{ site.baseurl }}/assets/smart/image80.png){: width="30%" }
-d) ![]({{ site.baseurl }}/assets/smart/image82.png){: width="30%" }
-e) ![]({{ site.baseurl }}/assets/smart/image69.png){: width="30%" }
+<table>
+<tr>
+<td><img src="{{ site.baseurl }}/assets/smart/image95.png" /></td>
+<td><img src="{{ site.baseurl }}/assets/smart/image88.png" /></td>
+<td><img src="{{ site.baseurl }}/assets/smart/image80.png" /></td>
+</tr>
+<tr>
+<td><img src="{{ site.baseurl }}/assets/smart/image82.png" /></td>
+<td><img src="{{ site.baseurl }}/assets/smart/image69.png" /></td>
+</tr>
+<tr>
+<td colspan="3">Select 'Make observation' at the top of the screen to record patrol observations relating to SMART data model categories (wildlife, human activities, features and patrol movements etc). Then details of people encountered is recorded along with a photo. To finish entering data for an observation select the tick box at the top right of the screen (see red box in top-right of d below). Once the observation has been recorded, save the incident selecting the green button at the bottom right of the screen.
+</td>
+</tr>
+</table>
 
 **Multiple observations** can be made at each location (incident). Each time a new observation is added select 'Make Observation'.
 
-In the example below, a **[person]** was encountered at a **[camp]** with a **[wildlife carcass]**. This
-represents three unique pieces of data (observations) at one location/event (incident) that should be collected as part of the data model. To begin, the observer first enters the relevant details for the person (below a-d) and clicks on the white check in the top right of the screen (below d). This completes the data entry for Observation #1 (the person) at the incident. The observer would then go through the process again for both the camp (e-h) and the carcass (i-l), making sure that each time the relevant details of the observation are recorded. After entering all of the relevant data for each observation and ticking the white check at the top of the screen, the observation will appear in list of observations recorded at that incident (below m). Note, that below in (m), both 'Camp' and "Carcass" appear beneath
-"People -- direct observation". Once all observations have been recorded at the incident, save the incident selecting the green button at the bottom right of the screen (below m).
-
-a) ![]({{ site.baseurl }}/assets/smart/image71.png){: width="30%" }
-b) ![]({{ site.baseurl }}/assets/smart/image70.png){: width="30%" }
-c) ![]({{ site.baseurl }}/assets/smart/image74.png){: width="30%" }
-d) ![]({{ site.baseurl }}/assets/smart/image73.png){: width="30%" }
-e) ![]({{ site.baseurl }}/assets/smart/image77.png){: width="30%" }
-f) ![]({{ site.baseurl }}/assets/smart/image79.png){: width="30%" }
-g) ![]({{ site.baseurl }}/assets/smart/image65.png){: width="30%" }
-h) ![]({{ site.baseurl }}/assets/smart/image68.png){: width="30%" }
-i) ![]({{ site.baseurl }}/assets/smart/image92.png){: width="30%" }
-j) ![]({{ site.baseurl }}/assets/smart/image66.png){: width="30%" }
-k) ![]({{ site.baseurl }}/assets/smart/image119.png){: width="30%" }
-l) ![]({{ site.baseurl }}/assets/smart/image127.png){: width="30%" }
-m) ![]({{ site.baseurl }}/assets/smart/image125.png){: width="30%" }
+<table>
+<tr>
+<td><img src="{{ site.baseurl }}/assets/smart/image71.png" /></td>
+<td><img src="{{ site.baseurl }}/assets/smart/image70.png" /></td>
+<td><img src="{{ site.baseurl }}/assets/smart/image74.png" /></td>
+</tr>
+<tr>
+<td><img src="{{ site.baseurl }}/assets/smart/image73.png" /></td>
+<td><img src="{{ site.baseurl }}/assets/smart/image77.png" /></td>
+<td><img src="{{ site.baseurl }}/assets/smart/image79.png" /></td>
+</tr>
+<tr>
+<td><img src="{{ site.baseurl }}/assets/smart/image65.png" /></td>
+<td><img src="{{ site.baseurl }}/assets/smart/image68.png" /></td>
+<td><img src="{{ site.baseurl }}/assets/smart/image92.png" /></td>
+</tr>
+<tr>
+<td><img src="{{ site.baseurl }}/assets/smart/image66.png" /></td>
+<td><img src="{{ site.baseurl }}/assets/smart/image119.png" /></td>
+<td><img src="{{ site.baseurl }}/assets/smart/image127.png" /></td>
+</tr>
+<tr>
+<td><img src="{{ site.baseurl }}/assets/smart/image125.png" /></td>
+</tr>
+<tr>
+<td colspan="3">
+In the example above, a **[person]** was encountered at a **[camp]** with a **[wildlife carcass]**. This represents three unique pieces of data (observations) at one location/event (incident) that should be collected as part of the data model. To begin, the observer first enters the relevant details for the person (screen 1-4) and clicks on the white check in the top right of the screen. This completes the data entry for Observation #1 (the person) at the incident. The observer would then go through the process again for both the camp (5-8) and the carcass (8-12), making sure that each time the relevant details of the observation are recorded. After entering all of the relevant data for each observation and ticking the white check at the top of the screen, the observation will appear in list of observations recorded at that incident. Note, that below in, both 'Camp' and "Carcass" appear beneath "People -- direct observation". Once all observations have been recorded at the incident, save the incident selecting the green button at the bottom right of the screen.
+</td>
+</tr>
+</table>
 
 ## Groups
 

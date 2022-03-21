@@ -3,7 +3,7 @@ layout: page
 title: Download
 nav_order: 1
 parent: SMART
-permalink: /smart/offline-maps/
+permalink: /smart/download/
 ---
 # Download
 

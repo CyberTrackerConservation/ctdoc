@@ -1,7 +1,6 @@
 # Using SMART for adaptive management; tasks for the data collector
 
-As mentioned in [[Section 1]](#smart-mobile-setup), SMART is designed to help improve the protection of conservation areas through streamlining the conversion of field data collected by rangers into information on human activities and threats to wildlife that can be used for strategic planning. For this process to work, a SMART database should receive regular updates and be managed effectively. The data manager plays an important role in making sure that data and information
-flows happen. The key tasks are described below:
+As mentioned earlier, SMART is designed to help improve the protection of conservation areas through streamlining the conversion of field data collected by rangers into information on human activities and threats to wildlife that can be used for strategic planning. For this process to work, a SMART database should receive regular updates and be managed effectively. The data manager plays an important role in making sure that data and information flows happen. The key tasks are described below:
 
 1. **Ensure data are collected -** Patrols should be conducted on a regular basis to ensure protection and monitoring activities and associated data flows. Patrols can be scheduled for each team, station or planned by using the Planning Module in SMART (see: *[SMART Technical Training Manual](https://smartconservationtools.org/wp-content/uploads/2019/07/SMART%206%20Technical%20Training%20Manual_2019_07_sm.pdf): Module 6: Planning and Intelligence*).
 
