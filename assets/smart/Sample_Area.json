@@ -1,1 +1,6 @@
-{ "ctVersion": 4, "webUpdateUrl": "https://cybertrackerwiki.org/assets/smart/Sample_Area.zip", "projectVersion": 1 }
+{
+    "ctVersion": 4,
+    "webUpdateUrl": "https://cybertrackerwiki.org/assets/smart/Sample_Area.zip",
+    "projectVersion": 1,
+    "projectUid": "SMART_Sample_Area"
+}
