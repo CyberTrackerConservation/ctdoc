@@ -5,136 +5,236 @@ search_exclude: true
 ---
 <style type="text/css">
     * {
+        padding: 0;
+        margin: 0;
+        border: 0;
+    }
+
+    *,
+    *:before,
+    *:after {
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
         box-sizing: border-box;
     }
 
-    .col-1 {
-        width: 8.33%;
+    :focus,
+    :active {
+        outline: none;
     }
 
-    .col-2 {
-        width: 16.66%;
+    a:focus,
+    a:active {
+        outline: none;
     }
 
-    .col-3 {
-        width: 25%;
+    nav,
+    footer,
+    header,
+    aside {
+        display: block;
     }
 
-    .col-4 {
-        width: 33.33%;
+    input,
+    button,
+    textarea {
+        font-family: inherit;
     }
 
-    .col-5 {
-        width: 41.66%;
+    input::-ms-clear {
+        display: none;
     }
 
-    .col-6 {
-        width: 50%;
+    button {
+        cursor: pointer;
     }
 
-    .col-7 {
-        width: 58.33%;
+    button::-moz-focus-inner {
+        padding: 0;
+        border: 0;
     }
 
-    .col-8 {
-        width: 66.66%;
+    a,
+    a:visited {
+        text-decoration: none;
     }
 
-    .col-9 {
-        width: 75%;
+    a:hover {
+        text-decoration: none;
     }
 
-    .col-10 {
-        width: 83.33%;
+    ul li {
+        list-style: none;
     }
 
-    .col-11 {
-        width: 91.66%;
+    img {
+        vertical-align: top;
     }
 
-    .col-12 {
+    html,
+    body {
         width: 100%;
+        height: 100%;
+        font-size: 100%;
+        line-height: 1;
+        font-size: 14px;
+        -ms-text-size-adjust: 100%;
+        -moz-text-size-adjust: 100%;
+        -webkit-text-size-adjust: 100%;
+        background-color: #000000;
     }
 
-    [class*="col-"] {
-        float: left;
-        padding: 15px;
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-size: inherit;
+        font-weight: 500;
     }
 
-    .logo {
-        width: 25%;
-        border-radius: 50%;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
+    h1 span {
+        color: lightgray;
     }
 
-    html {
-        font-family: "Lucida Sans", sans-serif;
+    body{font-weight:300;font-size:calc(14px + 3 * ((100vw - 320px) / 960));overflow-x:hidden}h1,h2,h3,h4,h5,h6{font-weight:500;-webkit-transform:translateZ(0);transform:translateZ(0);font-size:calc(24px + 12 * ((100vw - 320px) / 960))}p{line-height:1.2em;margin:5px 0px;-webkit-transform:translateZ(0);transform:translateZ(0)}.wrapper{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;min-height:100vh}.main{-webkit-box-flex:1;-ms-flex:1 1 auto;flex:1 1 auto}.container{max-width:600px;margin:0px auto;padding:0px 15px}@media (max-width: 350px){.container{padding:0px 5px}}.header__logo{margin:0 auto;width:150px}.header__logo img{margin:20px 10px;max-width:100%}.header__title{font-size:calc(24px + 12 * ((100vw - 320px) / 960));padding-bottom:15px}.header__desc{padding-bottom:15px}.header__desc-title{padding-bottom:15px;font-weight:bold;font-size:calc(17px + 7 * ((100vw - 320px) / 960))}.header__buttons{display:-webkit-box;display:-ms-flexbox;display:flex}
+    .header__steps{margin-top:20px;padding:20px;font-weight:bold;font-size:calc(14px + 3 * ((100vw - 320px) / 960));background-color:#FCF7EF}
+    .header__steps-text{padding:20px;font-weight:normal}.header__steps-text li{line-height:1.2em}.ios__btn{max-width:300px}.ios__btn img{max-width:100%}.android__btn{max-width:350px}.android__btn img{max-width:100%}.btn-padding{padding:5px 5px}._hide{display:none}
+
+    body {
+        font-family: Arial, Helvetica, sans-serif;
     }
 
-    @media only screen and (max-width: 768px) {
-        [class*="col-"] {
-            width: 100%;
-        }
+    .header__title {
+        color: #ffffff;
     }
 
-    @media only screen and (orientation: portrait) {
-        [class*="col-"] {
-            width: 100%;
-        }
+    .header__desc {
+        color: #ffffff;
+        line-height: 1.2em;
     }
 
-    .instructions {
-        background-color: #ccc;
-        display: block;
-        padding: 1em;
+    .header__desc-title {
+        color: #ffffff;
     }
 
-    .row {
-        display: flex;
+    .ios__btn {
+        max-width: 300px;
+        border: 1px solid white;
+        border-radius: 10px;
+        margin-right: 10px;
     }
 
-    .column {
-        justify-content: space-between;
+    .ios__btn img {
+        max-width: 100%;
+    }
+
+    .android__btn {
+        max-width: 350px;
+        border: 1px solid white;
+        border-radius: 10px;
+    }
+
+    .android__btn img {
+        max-width: 100%;
+    }
+
+    .btn-padding {
+        padding: 5px 5px;
+    }
+
+    a {  
+        text-decoration: underline;
     }
 </style>
 
 <body>
-    <div class="col-3"></div> <!-- 25% -->
-    <div class="col-6">
-        <img class="logo" src="{{ site.baseurl }}/assets/logo.svg" alt="Logo" />
-        <h1>Install CyberTracker</h1>
-        <p>To use CyberTracker, first install the mobile application by clicking the link below or following the
-            instructions.</p>
-        <h2>Download CyberTracker</h2>
-        <div class="row">
-            <div class="column">
-                <a href="https://apps.apple.com/us/app/cybertracker/id1524186167" target="_blank">
-                    <img src="{{ site.baseurl }}/assets/button-app-store.png" alt="App Store" style="width:100%">
-                </a>
+    <div class="wrapper">
+        <!--------------------- header ---------------->
+        <header class="header">
+            <div class="container">
+                <div class="header__logo">
+                    <img src="{{ site.baseurl }}/assets/logoDark.svg" alt="logo">
+                </div>
+                <div class="header__title">
+                    Install CyberTracker
+                </div>
+                <div class="header__desc">
+                    To use CyberTracker, first install the mobile application by clicking the link below or following the instructions.
+                </div>
+                <div class="header__desc-title">
+                    Download CyberTracker
+                </div>
+                <div class="header__buttons">
+                    <div class="ios__btn btn-padding">
+                        <a href="https://apps.apple.com/us/app/cybertracker/id1524186167"><img src="{{ site.baseurl }}/assets/button-app-store.png" alt="App Store" style="width:100%"></a>
+                    </div>
+                    <div class="android__btn btn-padding">
+                        <a href="https://play.google.com/store/apps/details?id=org.cybertracker.mobile.ct"><img src="{{ site.baseurl }}/assets/button-google-play.png" alt="Google Play Store" style="width:100%"></a>
+                    </div>
+                </div>
+                <div class="header__steps">
+                    Steps:
+                    <div class="header__steps-text">
+                        <ul>
+                            <li>1. Install CyberTracker using the button above</li>
+                            <li>2. Click the link which opened this page</li>
+                            <li>3. Launch project</li>
+                        </ul>
+                    </div>
+                    Additional information on <a href="https://cybertrackerwiki.org">CyberTracker Wiki</a>.
+                </div>
             </div>
-            <div class="column" style="width:16px"></div>
-            <div class="column">
-                <a href="https://play.google.com/store/apps/details?id=org.cybertracker.mobile.ct" class="google-play"
-                    target="_blank">
-                    <img src="{{ site.baseurl }}/assets/button-google-play.png" alt="Google Play Store"
-                        style="width:100%">
-                </a>
-            </div>
-        </div>
-        <br />
-        <div class="instructions">
-            <span style="font-weight:bold">Steps:</span>
-            <ol>
-                <li>Open app store</li>
-                <li>Find CyberTracker</li>
-                <li>Download and install</li>
-                <li>Connect to a project</li>
-                <li>Launch project</li>
-            </ol>
-        </div>
+        </header>
+        <main class="main">
+        </main>
+        <footer class="footer">
+        </footer>
+    </div>
+    <script>
+        "use strict";
 
-    </div> <!-- 75% -->
-    <div class="col-3"></div> <!-- 25% -->
+        let isMobile = {
+            Android: function () {
+                return navigator.userAgent.match(/Android/i);
+            },
+            BlackBerry: function () {
+                return navigator.userAgent.match(/BlackBerry/i);
+            },
+            iOS: function () {
+                return navigator.userAgent.match(/iPhone|iPad|iPod/i);
+            },
+            iPhone: function () {
+                return navigator.userAgent.match(/iPhone/i);
+            },
+            iPad: function () {
+                return navigator.userAgent.match(/iPad/i);
+            },
+            Opera: function () {
+                return navigator.userAgent.match(/Opera Mini/i);
+            },
+            Windows: function () {
+                return navigator.userAgent.match(/IEMobile/i);
+            },
+            any: function () {
+                return (
+                    isMobile.Android() ||
+                    isMobile.BlackBerry() ||
+                    isMobile.iOS() ||
+                    isMobile.Opera() ||
+                    isMobile.Windows()
+                );
+            },
+        };
+
+        const androidBtn = document.querySelector(".android__btn");
+        const iosBtn = document.querySelector(".ios__btn");
+        if (isMobile.iPhone()) {
+            androidBtn.classList.add("_hide");
+        }
+        if (isMobile.Android()) {
+            iosBtn.classList.add("_hide");
+        }
+    </script>
 </body>
