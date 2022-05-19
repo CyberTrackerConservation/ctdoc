@@ -7,6 +7,16 @@ permalink: /classic/change-history/
 ---
 # Change History
 
+### 3.522: 05/19/2022
+
+New features:
+
+  - Element Lists in check box mode can output a semi-colon delimeted list of selected items into their "Radio element" property. 
+
+Bug fixes
+
+  - Element names on Filters should update
+
 ### 3.521: 02/21/2022
 
 Bug fixes
