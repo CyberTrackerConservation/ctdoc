@@ -1,143 +1,108 @@
-## How are field data collected for use with SMART?
+## 3. Installation
+SMART Mobile is a software application and therefore must be installed before use. There are several ways of doing this and the choice depends on the scenario and requirements. Each approach has advantages and limitations.
 
-There are two broad categories of data collection: manual data collection, involving filling in of paper forms together with a GPS
-device, and automated data collection, involving use of handheld electronic devices such as PDAs, tablets and smartphones (Fig. 3). Both
-are designed to help rangers collect information in a standardised way. This allows information collected over time, or by different observers,
-to be comparable, which is a critical factor in studies employing many field rangers or field staff. Each approach has its advantages and
-disadvantages that need to be evaluated when considering which particular method to employ in a conservation area. For the purposes of
-this handbook, we will focus instruction on automated data collection using SMART Mobile. (For further information about manual data collection using SMART please see: [SMART Technical Training
-Manual](https://smartconservationtools.org/wp-content/uploads/2019/07/SMART%206%20Technical%20Training%20Manual_2019_07_sm.pdf): Module 3: Patrols).
+### 3.1. Supported operating systems
+SMART Mobile is supported on Android, iOS and Windows Desktop. The latest version of each platform is recommended, but older versions are supported.
 
-![]({{ site.baseurl }}/assets/smart/image19.png)
-**Fig. 3. Field data collection methods using SMART**
+<span style="text-decoration:underline;">iOS requires version 14 or higher.</span>
 
-### Automated data collection using handheld devices
+<span style="text-decoration:underline;">Android requires version 6 (Marshmallow) or higher.</span> It is recommended that testing is conducted on a device prior to purchasing a larger number of devices. Strength of GPS signal, battery life and other attributes vary substantially from one manufacturer to the next.
 
-Handheld devices such as PDAs, tablets and smartphones may further simplify and speed up the process of data collection and transfer when
-used in conjunction with SMART Mobile or CyberTracker Classic, an application for the collection and visualization of field data. SMART
-Mobile and CyberTracker currently run off of the Android Operating System (OS), with plans for an Apple iOS version in the near future.
-CyberTracker Classic remains available on Windows Mobile.
+<span style="text-decoration:underline;">Windows Desktop running Windows 10 or higher.</span> This version is maintained for training purposes only and is not supported as a way to capture field data.
 
-Important: The desktop application of CyberTracker is only available for the Windows OS, meaning that the import or export of Patrol/Survey
-Configurable Models or data collected from the field cannot be currently done on a Mac OS or Apple computer not running Windows.
+### 3.2. Apple AppStore
+SMART Mobile is available on the Apple AppStore by searching for “SMART Mobile for Conservation” or the link:
+[https://apps.apple.com/us/app/smart-mobile-for-conservation/id1546455676?platform=iphone](https://apps.apple.com/us/app/smart-mobile-for-conservation/id1546455676?platform=iphone)
 
-SMART Mobile/CyberTracker are used to record observations based on a configured version of your SMART data model (see: [SMART Technical Training
-Manual](https://smartconservationtools.org/wp-content/uploads/2019/07/SMART%206%20Technical%20Training%20Manual_2019_07_sm.pdf):
-Module 9: CyberTracker Plug-In and Smart Mobile). GPS waypoint and tracklog and observation data are collected simultaneously and uploaded to SMART in a semi-automated  process (see details below).
+This version will be routinely updated to resolve issues and add new features.
 
-### SMART Mobile and CyberTracker Classic - what is the difference?
+Limitations:
+* SMART Connect is required as there is no support for USB cable transfer
+* Kiosk mode is not supported on iOS.
 
-SMART Mobile is powered by CyberTracker (CT), offering functionality and user experience enhancements specifically requested by the SMART user
-community, as well as much tighter integration with the SMART desktop software and SMART Connect. SMART Mobile uses a GPS-enabled mobile
-device to collect both observations (text and/or icon-based data entry and digital images) and GPS data in a single unit. Patrols and
-observations can then be transferred directly into SMART desktop by connecting the device, or remotely through SMART Connect (see: [SMART
-Technical Training Manual](https://smartconservationtools.org/wp-content/uploads/2019/07/SMART%206%20Technical%20Training%20Manual_2019_07_sm.pdf):
-Module 13: Connect Plug-in) in semi-automated processes.
+### 3.3. Android Play Store
+SMART Mobile is available on the Google Play Store by searching for “SMART Mobile for Conservation” or the link:
+[https://play.google.com/store/apps/details?id=org.cybertracker.mobile.sm&gl=US](https://play.google.com/store/apps/details?id=org.cybertracker.mobile.sm&gl=US)
 
-### Features of SMART Mobile 
+This version will be routinely updated to resolve issues and add new features. 
 
-**Modern easy to use user interface**
-SMART Mobile has a modern easy to use user interface:
+Limitations:
+* Kiosk mode is not supported on this version. Use the APK version if kiosk mode is required.
 
+### 3.4. Android APK
+SMART Mobile can be installed directly onto an Android using an APK. An APK is a single file that holds an Android application.
+
+The APK file for SMART Mobile is available for download from the Download option on the SMART Conservation Tools website: [https://smartconservationtools.org/](https://smartconservationtools.org/Download/SMART-7-Release). 
+
+Limitations:
+* Updates will not be automatic. 
+* Updates will require repeating the installation process with a new APK.
+
+To start, select **Install SMART Mobile on Device…** from the **Field Data** menu and **SMART Mobile** submenu:
 <table>
 <tr>
-<td><img src="{{ site.baseurl }}/assets/smart/image184.png" /></td>
-<td><img src="{{ site.baseurl }}/assets/smart/image180.png" /></td>
-<td><img src="{{ site.baseurl }}/assets/smart/image194.png" /></td>
-</tr>
-<tr>
-<td colspan="3">Fig. 4a. The user interface includes smooth scrolling, easy to use lists and high-resolution icons.</td>
+<td><img src="{{ site.baseurl }}/assets/smart/image82.png" /></td>
 </tr>
 </table>
 
-**Support for more environments**
-
+Use the ‘**…**’ button and select the APK file from the file system and click **Next**:
 <table>
 <tr>
-<td><img src="{{ site.baseurl }}/assets/smart/image185.png" /></td>
-<td><img src="{{ site.baseurl }}/assets/smart/image191.png" /></td>
-<td><img src="{{ site.baseurl }}/assets/smart/image191.png" /></td>
-</tr>
-<tr>
-<td colspan="3">Fig. 4b. Dark mode, multi-language support and large fonts.</td>
+<td><img src="{{ site.baseurl }}/assets/smart/image102.png" /></td>
 </tr>
 </table>
 
-**Modern state of the art mapping**
-The state-of-the-art mapping in SMART Mobile, includes the ability to complement online base maps with offline maps generated directly from SMART desktop:
-
+Then select **Copy SMART Mobile to device** and click **Next**:
 <table>
 <tr>
-<td><img src="{{ site.baseurl }}/assets/smart/image197.png" /></td>
-<td><img src="{{ site.baseurl }}/assets/smart/image192.png" /></td>
-<td><img src="{{ site.baseurl }}/assets/smart/image190.png" /></td>
-</tr>
-<tr>
-<td colspan="3">Fig. 5. Pinch-zoom, map rotation and navigation.</td>
+<td><img src="{{ site.baseurl }}/assets/smart/image31.png" /></td>
 </tr>
 </table>
 
-**Navigation to previous observations**
-Includes detailed sighting history views. This feature turns SMART mobile into a functional navigation device:
-
+Select the device to copy SMART Mobile to and then click **Copy application to selected devices**. Devices will have more than one entry if they have an additional SD card. There is no harm in selecting all of them.
 <table>
 <tr>
-<td><img src="{{ site.baseurl }}/assets/smart/image198.png" /></td>
-<td><img src="{{ site.baseurl }}/assets/smart/image196.png" /></td>
-<td><img src="{{ site.baseurl }}/assets/smart/image195.png" /></td>
-</tr>
-<tr>
-<td colspan="3">Fig. 6. View your sighting history in the field, individual sightings can be edited without disrupting patrols/surveys & supports users to navigate to previously visited locations.</td>
+<td><img src="{{ site.baseurl }}/assets/smart/image37.png" /></td>
 </tr>
 </table>
 
-**Other mapping features**
-- Sightings, Incidents, Tracks are visible
-- Offline maps overlaid on base map
-- 10 online base maps: OpenStreetMap, National Geographic, Satellite, Oceans, etc.
-- Offline mode where no basemap is required
-- Layers can be turned on and off
-- Inspect
-- Navigation with realtime pointer
-- Compass
-- Detailed data
-- Satellite view
-- Smooth panning, pinch-zoom and rotation
-- Rotate to north at top button
-- Zoom in, zoom out buttons
-- Follow modes: user, follow, navigation
-- Co-ordinates in decimal degrees, degrees minutes seconds, degrees decimal minutes and UTM
-
-**Multi-leg patrols**
-Patrol type can now be changed while the patrol is in progress. Also, patrols can now be easily paused and resumed. When paused the track timer is disconnected, ensuring that SMART delivers an even more accurate measure of effort:
-
+If the device does not show up in the list, make sure the USB cable is connected to your PC and that the USB mode on the device is set to **File Transfer**:
 <table>
 <tr>
-<td align="center"><img src="{{ site.baseurl }}/assets/smart/image183.png"/></td>
-</tr>
-<tr>
-<td colspan="3">Fig. 7. New functionality for multi-leg patrols allows changes to patrol metadata on the fly.</td>
+<td><img src="{{ site.baseurl }}/assets/smart/image173.png" /></td>
 </tr>
 </table>
 
-**Desktop demo version for training**
-SMART Mobile also has a desktop demo version for Windows which works exactly the same as the mobile version that can be used for training. The GPS simulation can be customized for your location as part of the training.
+Clicking **Refresh** will retry the connection.
 
-**Robust kiosk mode**
-SMART Mobile supports a robust kiosk mode that locks the device for use only by SMART Mobile. Kiosk mode can be exited with a preconfigured pin.
+Note that this can be used to copy to several devices, just plug in a new device and repeat the process (**Refresh** then **Copy**).
 
-**Simple, Customizable, Themes**
-Ability to customize the look and appearance of SMART Mobile from within SMART selecting theme colors and your own project icon.
+Next open the Files viewer application on the device and navigate to the Internal Storage folder and find the APK. Then tap on it to install it.
 
-**Independent incidents during patrols/surveys**
-During or outside of a patrol or survey, observations can be recorded independently from a patrol or survey. These observations are recorded as independent incidents in SMART:
-
+A prompt may appear to allow installation of apps from unknown sources. If so, choose **Settings** and then enable **Allow from this source**:
 <table>
 <tr>
-<td align="center"><img src="{{ site.baseurl }}/assets/smart/image193.png"/></td>
-<td align="center"><img src="{{ site.baseurl }}/assets/smart/image184.png"/></td>
+<td><img src="{{ site.baseurl }}/assets/smart/image204.png" /></td>
+<td><img src="{{ site.baseurl }}/assets/smart/image78.png" /></td>
+<td><img src="{{ site.baseurl }}/assets/smart/image186.png" /></td>
 </tr>
+</table>
+
+When running SMART Mobile for the first time, a prompt will appear to switch your Android home launcher app to SMART Mobile. Do not switch the launcher to SMART Mobile.
+
+### 3.5. Windows desktop
+SMART Mobile is available as a Windows desktop application. While data could be collected using this version, it is recommended only for testing and training purposes.
+
+A ZIP file for SMART Mobile is available for download from the Download option on the SMART Conservation Tools website: [https://smartconservationtools.org/](https://smartconservationtools.org/Download/SMART-7-Release). Once downloaded, open the file in Windows Explorer and drag **SM_Desktop** folder to the Windows desktop:
+<table>
 <tr>
-<td colspan="3">Fig. 8. If you are collecting ecological records data on a mission but have a protocol of recording human-wildlife conflict or poaching signs independently, b) you can now easily record these as independent incidents without interrupting your overall data collection</td>
+<td><img src="{{ site.baseurl }}/assets/smart/image256.png" /></td>
+</tr>
+</table>
+
+Now open the SM_Desktop folder from the Desktop and locate the SM file and double click it to launch:
+<table>
+<tr>
+<td><img src="{{ site.baseurl }}/assets/smart/image206.png" /></td>
 </tr>
 </table>

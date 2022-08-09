@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Frequently Asked Questions
-nav_order: 10000
+nav_order: 11000
 parent: User manual
 grand_parent: SMART
 permalink: /smart/user-manual/faq
@@ -9,7 +9,7 @@ permalink: /smart/user-manual/faq
 Table of Contents
 {: .no_toc .text-delta }
 
-1. TOC
+- TOC
 {:toc}
 
 {% include_relative _user-manual-faq.md %}

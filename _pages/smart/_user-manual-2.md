@@ -1,21 +1,51 @@
-## Information needs and sources of data
+## 2. Demo of SMART Mobile in action
+This section describes how to quickly see SMART Mobile in action. The idea is to try it out on an Android or iOS device and help to create an understanding of what it is by example.
 
-To ensure effective planning and management, managers need to be able to
-come up with answers for a range of questions about conservation areas:
+This is a disconnected example, so do not capture important data. This demo requires an iOS or Android device with internet access.
 
-- What are the threats?
-- Which species are currently at risk to threats, such as poaching?
-- Which species may be at risk in the near future?
-- Where are the problem areas?
-- What resources are available for protection activities?
-- Where have patrols happened and where are the gaps in patrol efforts?
-- Are threats increasing or decreasing over time?
-- Are patrols effective? Are we achieving the aim of protection?
+### 2.1. Get SMART Mobile
+Search for and install “SMART Mobile for Conservation”:
 
+iOS AppStore: [https://apps.apple.com/us/app/smart-mobile-for-conservation/id1546455676?platform=iphone](https://apps.apple.com/us/app/smart-mobile-for-conservation/id1546455676?platform=iphone)
 
-{: .note }
-> **Data useful for answering such questions will come from various sources. Including, but not limited to:**
-> * **Patrol data.** Field patrols conducted by law enforcement staff and community rangers produce data on human activities,especially those that pose a threat to the conservation area, data on area coverage and presence as well as data such as resource use (e.g. vehicles, stations) and workforce hours spent in the field. They may also collect vital information on the wildlife or other resources protected by the conservation area.
-> * **Intelligence.** Surveillance conducted by special monitoring and investigation teams, informants, and wildlife crime hotlines produce data useful for creating intelligence records and networks on wildlife crime and other illegal activity.
-> * **Incidental records.** Reports from other sources, such as community members, tourists and/or tour operators, produce data on observations of rare or endangered species and human activities, including marked animals or individuals of special interest.
-> * **Special events.** Data collected by camera-traps, acoustic devices and drones may produce useable records about human or wildlife activity and movement.
+Android Play Store:
+[https://play.google.com/store/apps/details?id=org.cybertracker.mobile.sm&gl=US](https://play.google.com/store/apps/details?id=org.cybertracker.mobile.sm&gl=US)
+
+### 2.2. Connect to a SMART Package
+Scan the following QR Code on your phone. It will download and install a sample package into SMART Mobile.
+<table>
+<tr>
+<td><img width="50%" src="{{ site.baseurl }}/assets/smart/image253.png" /></td>
+</tr>
+</table>
+
+### 2.3. Capture data
+Tap **REPORT INCIDENT**, **Make observation**, **Wildlife**
+<table>
+<tr>
+<td><img src="{{ site.baseurl }}/assets/smart/image236.png" /></td>
+<td><img src="{{ site.baseurl }}/assets/smart/image33.png" /></td>
+<td><img src="{{ site.baseurl }}/assets/smart/image97.png" /></td>
+</tr>
+</table>
+
+Tap **Wildlife - direct observation**, then try tapping on some of the options and entering data.
+<table>
+<tr>
+<td><img src="{{ site.baseurl }}/assets/smart/image150.png" /></td>
+<td><img src="{{ site.baseurl }}/assets/smart/image32.png" /></td>
+<td><img src="{{ site.baseurl }}/assets/smart/image160.png" /></td>
+</tr>
+</table>
+
+Tap the icon in the top right corner. Then tap the **Save** button at the bottom.
+<table>
+<tr>
+<td><img src="{{ site.baseurl }}/assets/smart/image139.png" /></td>
+<td><img src="{{ site.baseurl }}/assets/smart/image169.png" /></td>
+<td><img src="{{ site.baseurl }}/assets/smart/image205.png" /></td>
+</tr>
+</table>
+
+### 2.4. Summary
+The example shows how to acquire SMART Mobile and use it to capture a single observation. There are many options and configurations available and these will be explored in later sections.

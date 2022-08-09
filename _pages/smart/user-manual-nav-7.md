@@ -1,15 +1,16 @@
 ---
-# layout: page
-# title: T7
-# nav_order: 7000
-# parent: User manual
-# grand_parent: SMART
-# permalink: /smart/user-manual/7
+layout: page
+title: 7. General usage
+nav_order: 8000
+parent: User manual
+grand_parent: SMART
+permalink: /smart/user-manual/7
+has_toc: false
 ---
-<!-- Table of Contents
+Table of Contents
 {: .no_toc .text-delta }
 
-1. TOC
+- TOC
 {:toc}
 
-{% include_relative _user-manual-7.md %} -->
+{% include_relative _user-manual-7.md %}
