@@ -8,8 +8,7 @@ Search for and install “SMART Mobile for Conservation”:
 
 iOS AppStore: [https://apps.apple.com/us/app/smart-mobile-for-conservation/id1546455676?platform=iphone](https://apps.apple.com/us/app/smart-mobile-for-conservation/id1546455676?platform=iphone)
 
-Android Play Store:
-[https://play.google.com/store/apps/details?id=org.cybertracker.mobile.sm&gl=US](https://play.google.com/store/apps/details?id=org.cybertracker.mobile.sm&gl=US)
+Android Play Store: [https://play.google.com/store/apps/details?id=org.cybertracker.mobile.sm&gl=US](https://play.google.com/store/apps/details?id=org.cybertracker.mobile.sm&gl=US)
 
 ### 2.2. Connect to a SMART Package
 Scan the following QR Code on your phone. It will download and install a sample package into SMART Mobile.

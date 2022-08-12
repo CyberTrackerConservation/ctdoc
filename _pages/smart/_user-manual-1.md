@@ -29,5 +29,3 @@ When reporting an issue, it is very helpful to attach a [bug report]({{ site.bas
 Additional resources related to SMART Mobile may be found here:
 [https://cybertrackerwiki.org/smart/](https://cybertrackerwiki.org/smart/)
 
-### 1.3. Acknowledgements
-The training handbook was prepared by the SMART Training Taskforce, a group of dedicated SMART users who work broadly across geographic regions, sites and situations where SMART is being implemented, in terrestrial and marine environments. The Training Taskforce is one working group under the SMART Partnership which currently comprises the following organizations: Frankfurt Zoological, Global Wildlife Conservation, North Carolina Zoo, Panthera, Peace Parks, Wildlife Protection Solutions, WCS, WWF, and ZSL.

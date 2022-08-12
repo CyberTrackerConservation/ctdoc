@@ -5,7 +5,7 @@ This section covers the basic workings of SMART Mobile outside of the packages w
 After a package has been created in SMART Desktop, it must be installed by SMART Mobile. There are three ways to get a package to a device: USB cable, the internet or NFC (like Bluetooth).
 
 #### 7.1.1. USB cable
-SMART Mobile should already be [installed]({{ site.baseurl }}/smart/user-manual/#3-installation) on the device. Check out the section on installing SMART Mobile first.
+SMART Mobile should already be installed (see section 3) on the device. Check out the section on installing SMART Mobile first.
 
 Connect the device to the PC using a USB cable. Make sure the device is configured to Transfer files and shows up in Windows Explorer as a device. If this does not happen, consult the troubleshooting section.
 <table>
@@ -175,7 +175,7 @@ SMART packages are listed on the **SMART Mobile Packages dialog**:
 </tr>
 </table>
 
-They are installed on SMART Mobile using one of the package installation mechanisms (TODO: see Package installation). Long press (or press and hold) on a Project shows the **Project details** page.
+They are installed on SMART Mobile using one of the package installation mechanisms (see section 7.1). Long press (or press and hold) on a Project shows the **Project details** page.
 <table>
 <tr>
 <td><img src="{{ site.baseurl }}/assets/smart/image155.png" /></td>
@@ -201,10 +201,10 @@ For the **Connect** configuration, data will be sent directly to the server and 
 
 For the **USB cable** configuration, a data file will be created when tapping **Export data** or starting a new Patrol/Survey when the previous one has not been exported.
 
-Exported data is also visible from the Settings page inside the project (TODO link).
+Exported data is also visible from the Settings page inside the project (see section 8.6.5).
 
 #### 7.2.2. QR Code
-**QR Code** is a method to share Projects with other users. See the section on Package Installation. TODO link.
+**QR Code** is a method to share Projects with other users. See section 7.1.4.
 
 #### 7.2.3. Send package
 Send package is a method to send a Project to another user using the device sharing system. See the section on Package Installation.
@@ -350,9 +350,9 @@ A map is composed of layers and they can be configured on the **Layers page**. T
 
 **Tracks** are the line captured automatically by the location track timer.
 
-**Route Demo** is a route configured in the SMAET Desktop in [Routes]({{ site.baseurl }}/smart/user-manual/#64-routes). Routes can be deleted by swiping left on the route row and tapping **YES** to delete.
+**Route Demo** is a route configured in the SMART Desktop (see section 6.4.). Routes can be deleted by swiping left on the route row and tapping **YES** to delete.
 
-**SMART map** is an offline map configured in the Package settings (TODO link).
+**SMART map** is an offline map configured in the Package settings (see section 6.3.5).
 
 **OpenStreetMap**, **etc** are online layers which require an internet connection. **None** means that no online layer will be used. If no internet connection is available, the online map will not be used.
 
@@ -440,4 +440,4 @@ The desktop version supports a GPS simulator. This simulator can read locations 
 Uploading data to a server will incur cellular data costs. If sending pictures, audio or long patrols, this could be a significant amount of data. This feature prevents data upload until the connection being used is WiFi.
 
 #### 7.4.10. Bug reports
-TODO: See the section on Bug Reports in the Troubleshooting section.
+See section 9.1 on creating bug reports.

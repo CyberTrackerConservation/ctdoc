@@ -1,7 +1,7 @@
 ## 8. Project usage
 ### 8.1. Patrols and Surveys
 
-A Patrol or Survey is a group of observations. Along with observational data, the system tracks metadata, e.g. transport type, objective and employees. These properties can be configured on the desktop (TODO link to config). Patrols/Surveys can be started/stopped, paused/resumed and the metadata can be modified at any time.
+A Patrol or Survey is a group of observations. Along with observational data, the system tracks metadata, e.g. transport type, objective and employees. These properties can be configured on the desktop (see section 6). Patrols/Surveys can be started/stopped, paused/resumed and the metadata can be modified at any time.
 
 #### 8.1.1. Start patrol
 To start a new patrol, tap **START PATROL** on the project start page. The metadata page will appear. Fill in the metadata and tap the check mark in the top right corner. Note that attributes marked with a **'*'** are required. If the **Transport Type** is an air or water type, then a Pilot row will appear.
@@ -28,7 +28,7 @@ To end a patrol, tap the **Patrol** button on the toolbar at the bottom of the O
 #### 8.1.3. Pause patrol
 To pause a patrol, tap the **Patrol** button on the toolbar at the bottom of the Observation page. Then tap the **Pause patrol** option. A location will be taken and then the patrol will be paused. The START PATROL button is now labeled **RESUME PATROL**.
 
-Pausing a patrol can be disabled in the configuration (TODO: link). In this case, the **Pause patrol** option will not be available.
+Pausing a patrol can be disabled in the configuration (see section 6.5.1.4). In this case, the **Pause patrol** option will not be available.
 <table>
 <tr>
 <td><img src="{{ site.baseurl }}/assets/smart/image75.png" /></td>
@@ -108,12 +108,12 @@ To edit an observation, locate it using **Map identify** or via the **History pa
 </table>
 
 Editing is disabled when:
-* The device configuration specifically disables editing (TODO configuration link). 
+* The device configuration specifically disables editing. See section 6.5.1.5. 
 * The observation is a patrol/survey management observation, e.g. start, stop, pause, resume, change metadata.
 * The observation has already been exported.
 
 ### 8.5. Export data
-See **Retrieving device data**. TODO link.
+See section 5 on **Retrieving data**..
 
 ### 8.6. Settings page
 SMART Mobile has a Settings page for each Project. This provides configuration options and other features which are less commonly used.
@@ -147,7 +147,7 @@ In SMART Mobile, the current language can be selected from the available languag
 </table>
 
 #### 8.6.3. Routes
-TODO: section on routes
+See section 6.4 on routes.
 
 Routes are points and lines that are overlaid on the map. This option allows download of new routes from the SMART Connect server.
 <table>
@@ -158,7 +158,7 @@ Routes are points and lines that are overlaid on the map. This option allows dow
 </table>
 
 #### 8.6.4. Change project
-The **Change project** option provides a simple way to change the current project. Normally this would require exiting the project and returning to the main screen. However, by placing the option here as well, it works within Kiosk mode. TODO: see section on kiosk mode.
+The **Change project** option provides a simple way to change the current project. Normally this would require exiting the project and returning to the main screen. However, by placing the option here as well, it works within Kiosk mode. See section 4.
 <table>
 <tr>
 <td><img width="50%" src="{{ site.baseurl }}/assets/smart/image13.png" /></td>
@@ -166,7 +166,7 @@ The **Change project** option provides a simple way to change the current projec
 </table>
 
 #### 8.6.5. Exported data
-The **Exported data** option shows data files that have previously been exported using the **EXPORT DATA** option on the project page. The primary purpose of this view is to provide visibility into the export process and help troubleshoot and prevent data loss. See **Recovering Exported data** in Troubleshooting (TODO link).
+The **Exported data** option shows data files that have previously been exported using the **EXPORT DATA** option on the project page. The primary purpose of this view is to provide visibility into the export process and help troubleshoot and prevent data loss. See section 9.2 on **Recovering Exported data**.
 
 #### 8.6.6. Configuration view
 The **Configuration view** option shows the SMART desktop configuration settings. This is primarily useful for troubleshooting.
@@ -178,7 +178,7 @@ The **Configuration view** option shows the SMART desktop configuration settings
 </table>
 
 #### 8.6.7. Recover Connect data
-The **Recover Connect data** is designed to recover data when a Connect server is no longer working. See **Recovering Connect data** in Troubleshooting (TODO link).
+The **Recover Connect data** is designed to recover data when a Connect server is no longer working. See section 9.3 on **Recovering Connect data**.
 
 ### 8.7. Collecting data
 #### 8.7.1. Adding observations
@@ -191,7 +191,7 @@ An incident is composed of one or more observations. To create a new observation
 </table>
 
 #### 8.7.2. Adding observations with ‘Incident Group UI’
-If **Incident Group UI** is enabled in **Device Settings** (TODO: link), then the process of creating new observations is different. In this case, observations are organized into groups. Tapping the **'+'** sign will add a new observation to that group. Tapping **Create a new group** will add a group.
+If **Incident Group UI** is enabled in **Device Settings** (see section 6.5.1.1.), then the process of creating new observations is different. In this case, observations are organized into groups. Tapping the **'+'** sign will add a new observation to that group. Tapping **Create a new group** will add a group.
 <table>
 <tr>
 <td><img src="{{ site.baseurl }}/assets/smart/image149.png" /></td>
@@ -221,13 +221,13 @@ Removing an observation or group can be done by **swiping left** and tapping **Y
 
 #### 8.7.4. Setting attributes
 Attribute data is set according to the type.
-NUMERIC - TODO link
-TEXT - TODO link
-LIST - TODO link
-MULTI LIST - TODO link
-TREE - TODO link
-BOOLEAN - TODO link
-DATE - TODO
+NUMERIC - see section 6.1.2.1. 
+TEXT - see section 6.1.2.2.
+LIST - see section 6.1.2.3.
+MULTI LIST - see section 6.1.2.4.
+TREE - see section 6.1.2.5.
+BOOLEAN - see section 6.1.2.6.
+DATE - 6.1.2.7.
 
 #### 8.7.5. Reset attributes
 Reset of an attribute can be done by **swiping left** and tapping **YES** to confirm.

@@ -716,10 +716,10 @@ In order to remove a group (and all observations in it), swipe left on the group
 </table>
 
 ##### 6.5.1.2. Kiosk mode
-This option is described in the chapter on [Kiosk mode]({{ site.baseurl }}/smart/user-manual/#4-kiosk-mode).
+This option is described in section 4.
 
 ##### 6.5.1.3. Kiosk mode exit pin
-This option is described in the chapter on [Kiosk mode]({{ site.baseurl }}/smart/user-manual/#4-kiosk-mode).
+This option is described in section 4.
 
 ##### 6.5.1.4. Can pause
 Both Patrols and Surveys can be paused. This option appears on the Patrol popup menu if the **Can Pause** option is checked. Note that the icon in the bottom right of the home screen changes to **Resume Patrol**. 
