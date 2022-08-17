@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Frequently Asked Questions
+title: 10. Frequently Asked Questions
 nav_order: 11000
 parent: User manual
 grand_parent: SMART

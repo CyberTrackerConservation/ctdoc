@@ -221,13 +221,13 @@ Removing an observation or group can be done by **swiping left** and tapping **Y
 
 #### 8.7.4. Setting attributes
 Attribute data is set according to the type.
-NUMERIC - see section 6.1.2.1. 
-TEXT - see section 6.1.2.2.
-LIST - see section 6.1.2.3.
-MULTI LIST - see section 6.1.2.4.
-TREE - see section 6.1.2.5.
-BOOLEAN - see section 6.1.2.6.
-DATE - 6.1.2.7.
+- NUMERIC - see section 6.1.2.1. 
+- TEXT - see section 6.1.2.2.
+- LIST - see section 6.1.2.3.
+- MULTI LIST - see section 6.1.2.4.
+- TREE - see section 6.1.2.5.
+- BOOLEAN - see section 6.1.2.6.
+- DATE - 6.1.2.7.
 
 #### 8.7.5. Reset attributes
 Reset of an attribute can be done by **swiping left** and tapping **YES** to confirm.

@@ -55,7 +55,7 @@ After a few seconds, the package will be found and installed as a project. SMART
 </table>
 
 #### 7.1.2. Connect
-SMART Mobile should already be [installed]({{ site.baseurl }}/smart/user-manual/#3-installation) on the device. Check out the section on installing SMART Mobile first.
+SMART Mobile should already be on the device. Check out section 3 on installing SMART Mobile first.
 
 ##### 7.1.2.1. Uploading a package
 Open the **SMART Mobile Packages** dialog from the **Field Data** menu and click the **Export** button:

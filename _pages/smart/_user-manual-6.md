@@ -629,7 +629,7 @@ If **Automatically upload data every n minutes** is un_checked_, then data will 
 If **Send position updates every n minutes as type X** is checked, then SMART Mobile will send a location to the Connect server over the network at the specified interval. This is useful for tracking the last known location of the device.
 
 ##### 6.3.6.3. Package URL
-The **Package URL** is a link to the package on the Connect server. [See package installation]({{ site.baseurl }}/smart/user-manual/7#71-connect-tab).
+The **Package URL** is a link to the package on the Connect server. See section 7.1 on Package Installation.
 
 #### 6.3.7. Alerts
 **Alerts** are treated as data uploads and respect the **Upload requires WiFi** setting.
