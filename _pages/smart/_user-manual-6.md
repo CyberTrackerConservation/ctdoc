@@ -114,6 +114,8 @@ Attributes can also be validated with a regular expression. This is a test which
 
 Regular expressions are a well known term in computing and more about them can be found here: [https://en.wikipedia.org/wiki/Regular_expression](https://en.wikipedia.org/wiki/Regular_expression).
 
+A good online tool for creating regular expressions can be found here: [https://regex101.com](https://regex101.com). SMART Mobile requires the expression to be Perl Compatible ([PCRE2](https://en.wikipedia.org/wiki/Perl_Compatible_Regular_Expressions)), so ensure that is set as the Flavor.
+
 ### 6.2. Configurable data model
 The Configurable Data Model allows an additional layer of customization over the Data Model (see above). This is helpful when choosing which subset of data needs collecting using SMART Mobile.
 
