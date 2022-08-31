@@ -360,6 +360,14 @@ Checking **Track observer** shows an additional row on the main sighting page. T
 </tr>
 </table>
 
+##### 6.2.6.4. Distance and bearing, Track observer for Surveys
+For Surveys, the **Distance and bearing** and **Track observer** settings are on the **Survey Design** page. These settings override the settings specified on the **Field Data Options** page (see 6.2.6.):
+<table>
+<tr>
+<td><img src="{{ site.baseurl }}/assets/smart/image260.png" /></td>
+</tr>
+</table>
+
 ### 6.3. Packages
 SMART Desktop creates a Package to define how data should be collected by SMART Mobile. This package is installed on the device and collects data for the desktop.
 
