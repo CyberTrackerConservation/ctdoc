@@ -10,19 +10,19 @@ permalink: /classic/download/
 Click the links below to download the latest release of CyberTracker:
 
 [Download latest release (recommended): 3.523
-\~ 11MB](https://cybertrackerwiki.blob.core.windows.net/ctbuilds/ct3523u.msi)
+\~ 11MB](https://ctwiki.blob.core.windows.net/bin/ct3523u.msi)
 
 [Download latest release (admin install): 3.523
-\~ 11MB](https://cybertrackerwiki.blob.core.windows.net/ctbuilds/ct3523.msi)
+\~ 11MB](https://ctwiki.blob.core.windows.net/bin/ct3523.msi)
 
 ## Legacy downloads
 
 Click on the links below to get older versions of CyberTracker which are needed for some scenarios:
 
-[Download Android APK for Android 5.0 and earlier](https://cybertrackerwiki.blob.core.windows.net/ctbuilds/client.Android.APK)
+[Download Android APK for Android 5.0 and earlier](https://ctwiki.blob.core.windows.net/bin/client.Android.APK)
 This version is missing many of the newer features, but can be used on much older devices.
 
-[Download Android APK for Desktop version 3.518 and earlier](https://cybertrackerwiki.blob.core.windows.net/ctbuilds/CT-build-389.apk)
+[Download Android APK for Desktop version 3.518 and earlier](https://ctwiki.blob.core.windows.net/bin/CT-build-389.apk)
 This version is compatible with Desktop versions 3.518 and earlier. A policy change by Google means that the Play Store version of CyberTracker is not compatible with desktop versions 3.518 and below.
 
 ## How do I install CyberTracker?
