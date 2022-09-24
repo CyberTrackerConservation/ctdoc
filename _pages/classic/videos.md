@@ -273,3 +273,17 @@ the field.
   </video>
 </figure>
 </details>
+
+### Publishing
+
+*Publish* allows install and update of applications and data via the web. No more USB cables!
+<details markdown="block">
+  <summary>
+  Watch video
+  </summary>
+<figure class="video_container">
+  <video controls="true" allowfullscreen="true">
+    <source src="{{ site.baseurl }}/assets/classic/Publish.mp4" type="video/mp4">
+  </video>
+</figure>
+</details>

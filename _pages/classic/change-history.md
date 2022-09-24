@@ -7,6 +7,13 @@ permalink: /classic/change-history/
 ---
 # Change History
 
+### 3.525: 09/24/2022
+
+New features
+
+  - Publish to web
+  - Web download
+
 ### 3.523: 06/17/2022
 
 Bug fixes
