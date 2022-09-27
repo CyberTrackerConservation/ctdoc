@@ -8,7 +8,7 @@ permalink: /classic/publishing/
 
 # Publishing
 
-The Publish feature is a way to use the web to distribute CyberTracker applications and receive data without the need for USB cables.
+The Publish feature is a way to use the web to distribute CyberTracker applications and receive data without the need for USB cables or FTP servers.
 
 ![]({{ site.baseurl }}/assets/classic/Publish.png)
 

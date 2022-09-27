@@ -7,6 +7,13 @@ permalink: /classic/change-history/
 ---
 # Change History
 
+### 3.526: 09/27/2022
+
+Bug fixes
+
+  - Fine tuning of Publish feature
+  - Add send frequency to Publish dialog
+
 ### 3.525: 09/24/2022
 
 New features
