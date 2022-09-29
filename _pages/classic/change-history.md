@@ -7,6 +7,13 @@ permalink: /classic/change-history/
 ---
 # Change History
 
+### 3.527: 09/28/2022
+
+Bug fixes
+
+  - Disable Web Update when using Publishing
+  - Modify clear on update according to send frequency
+
 ### 3.526: 09/27/2022
 
 Bug fixes
