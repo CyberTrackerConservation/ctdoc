@@ -8,7 +8,7 @@ permalink: /earthranger/
 
 # EarthRanger
 
-<img src="{{ site.baseurl }}/assets/earthRanger/logo.svg" align="right" class="inline" style="width:25%;"/>
+<img src="{{ site.baseurl }}/assets/earthranger/logo.svg" align="right" class="inline" style="width:25%;"/>
 CyberTracker is the mobile data collector technology used by [EarthRanger](https://earthranger.com).
 
 ## [What is EarthRanger?](https://earthranger.com/Faqs.aspx)
