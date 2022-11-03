@@ -10,7 +10,7 @@ permalink: /trilliontrees/
 </div>
 # Trillion Trees 
 
-Trillion Trees is the united force of [Birdlife International](https://www.birdlife.org/), [Wildlife Conservation Society](https://www.wcs.org/) and [WWF](https://www.worldwildlife.org/). Together we protect and restore forests all over the world - for the benefit of people, nature, and the climate. To support this effort, the Trillion Trees application is available on CyberTracker to track reforestation efforts and measure our impact. The Trillion Trees app is linked to KoBoToolbox forms, and the results are available on the Trillion Trees [FORMAPP](https://formapp.trilliontrees.org/) platform. The process to collect data and visualize your results is detailed in the FORMAPP tutorials.
+[Trillion Trees](https://trilliontrees.org/) is the united force of [Birdlife International](https://www.birdlife.org/), [Wildlife Conservation Society](https://www.wcs.org/) and [WWF](https://www.worldwildlife.org/). Together we protect and restore forests all over the world - for the benefit of people, nature, and the climate. To support this effort, the Trillion Trees application is available on CyberTracker to track reforestation efforts and measure our impact. The Trillion Trees app is linked to KoBoToolbox forms, and the results are available on the Trillion Trees [FORMAPP](https://formapp.trilliontrees.org/) platform. The process to collect data and visualize your results is detailed in the FORMAPP tutorials.
 
 ## User Manual
 
