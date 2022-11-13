@@ -3,7 +3,7 @@ layout: page
 title: 2. Demo of SMART Mobile in action
 nav_order: 3000
 parent: User manual
-grand_parent: SMART
+grand_parent: SMART Mobile
 permalink: /smart/user-manual/2
 has_toc: false
 ---

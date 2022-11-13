@@ -3,7 +3,7 @@ layout: page
 title: 1. Introduction
 nav_order: 2000
 parent: User manual
-grand_parent: SMART
+grand_parent: SMART Mobile
 permalink: /smart/user-manual/1
 has_toc: false
 ---

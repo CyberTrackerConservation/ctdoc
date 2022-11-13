@@ -96,7 +96,7 @@ Kiosk mode is configured on a package using Device settings on the SMART Desktop
 **Kiosk Mode Exit Pin** controls the pin code needed to exit kiosk mode. When tapping **back** on the start page, the following popup will be displayed:
 <table>
 <tr>
-<td><img width="50%" src="{{ site.baseurl }}/assets/smart/image130.png" /></td>
+<td><img width="320" src="{{ site.baseurl }}/assets/smart/image130.png" /></td>
 </tr>
 </table>
 
@@ -106,7 +106,7 @@ Entering the selected code will disable kiosk mode and exit the project.
 While kiosk mode restricts general use of the device the active project can be changed from the **Settings Page** using **Change project**.
 <table>
 <tr>
-<td><img width="50%" src="{{ site.baseurl }}/assets/smart/image13.png" /></td>
+<td><img width="320" src="{{ site.baseurl }}/assets/smart/image13.png" /></td>
 </tr>
 </table>
 

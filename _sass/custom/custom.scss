@@ -1,25 +1,114 @@
-@if variable-exists(logo) {
-  .site-logo {
-    width: 100%;
-    height: 100%;
-    background-image: url($logo);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 70%;
-  }
+.table-wrapper {
+  border-radius: 0px;
+  width: fit-content;
+  height: fit-content;
 }
 
-.site-header {
-  display: flex;
-  min-height: $header-height * 3;
-  align-items: center;
-
-  @include mq(md) {
-    height: $header-height;
-    max-height: $header-height;
-    border-bottom: 0px solid $border-color;
-  }
+.table-wrapper .halfWidth {
+  width: fit-content;
+  height: fit-content;
 }
+
+.xlsTable {
+  border: solid #AFAFAF 1px;
+  border-collapse: collapse;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.halfWidth {
+  width: 50%;
+  min-width: 50%;
+  max-width: 50%;
+}
+
+.fullpage table {
+  max-width: 1600px;
+}
+
+.xlsTable tr th {
+  background: #EFEFEF;
+  font-size: 15px;
+}
+
+.xlsTable tr th,
+.xlsTable tr td {
+  border: 1px solid #AFAFAF;
+}
+
+.xlsTable tfoot tr {
+  border: 1px solid #AFAFAF;
+  background: #EFEFEF;
+}
+
+.xlsTable tfoot td.sheets {
+  min-width: 285px;
+}
+
+// Mimic Excel sheet navigation
+.xlsTable tfoot td.sheets span {
+  display: inline-block;
+  width: 65px;
+  text-align: center;
+  border-right: 1px solid #b9b9b9;
+}
+
+.xlsTable tfoot td.sheets span:first-of-type {
+  border-left: 1px solid #b9b9b9;
+}
+
+.xlsTable tfoot td.sheets::before {
+  content: "◄  ►";
+  margin: 0 10px 0 5px;
+  color: #ccc;
+}
+
+.xlsTable tfoot td.sheets::after {
+  content: "+";
+  font-weight: bold;
+  color: #AFAFAF;
+  display: inline-block;
+  margin-left: 15px;
+  width: 14px;
+  height: 14px;
+  line-height: 13px;
+  border-radius: 9px;
+  text-align: center;
+  vertical-align: middle;
+  border: 2px solid #ccc;
+}
+
+.xlsTable tfoot td.sheets span.active {
+  font-weight: bold;
+  color: black;
+  border-bottom: 2px solid gray;
+  background: white;
+}
+
+.xlsTable table tr td {
+  font-size: 14px;
+}
+
+.xlsTable .fullpage table tr th, 
+.xlsTable tr td {
+  padding: 0.1em 0.5em;
+}
+
+.xlsTable .fullpage table tr th, 
+.xlsTable .fullpage table tr td {
+  font-size: 11px;
+}
+
+.xlsTable .clearfix:before,
+.xlsTable .clearfix:after {
+  content: "";
+  display: table;
+}
+
+.xlsTable .clearfix:after {
+  clear: both;
+}
+
+//////////////////////////////////////////////////////////////
 
 .site-footer {
   visibility: hidden;
@@ -28,6 +117,7 @@
 
 // Remove extra stuff for print media.
 @media print {
+
   .site-footer,
   .site-button,
   .edit-this-page,
@@ -66,6 +156,13 @@
     max-width: none;
     margin-left: 0;
   }
+
+  .table-wrapper {
+    box-shadow: none;
+    border-style: solid;
+    border-width: 1px;
+    border-color:rgba(0, 0, 0, 0.12)
+  }  
 }
 
 // Callouts, a.k.a. block quotes.
@@ -76,90 +173,94 @@ $pink-200: #e94ee1;
 $pink-300: #dd2cd4;
 
 $callouts: (
-    admonition: ($grey-lt-300, rgba($grey-lt-000, .2), ''),
-    attention: ($purple-300, rgba($purple-000, .2), 'Attention'),
-    caution: ($yellow-300, rgba($yellow-000, .2), 'Caution'),
-    custom: ($pink-300, rgba($pink-000, .3), 'Custom'),
-    danger: ($red-300, rgba($red-000, .2), 'Danger'),
-    error: ($red-300, rgba($red-000, .2), 'Error'),
-    highlight: ($yellow-300, rgba($yellow-000, .5), ''),
-    hint: ($grey-dk-300, rgba($grey-dk-000, .2), 'Hint'),
-    important: ($green-300, rgba($green-000, .2), 'Important'),
-    note: ($blue-300, rgba($blue-000, .2), 'Note'),
-    tip: ($grey-dk-300, rgba($grey-dk-000, .2), 'Tip'),
-    warning: ($red-300, rgba($red-000, .2), 'Warning')
+  admonition: ($grey-lt-300, rgba($grey-lt-000, .2), ''),
+  attention: ($purple-300, rgba($purple-000, .2), 'Attention'),
+  caution: ($yellow-300, rgba($yellow-000, .2), 'Caution'),
+  custom: ($pink-300, rgba($pink-000, .3), 'Custom'),
+  danger: ($red-300, rgba($red-000, .2), 'Danger'),
+  error: ($red-300, rgba($red-000, .2), 'Error'),
+  highlight: ($yellow-300, rgba($yellow-000, .5), ''),
+  hint: ($grey-dk-300, rgba($grey-dk-000, .2), 'Hint'),
+  important: ($green-300, rgba($green-000, .2), 'Important'),
+  note: ($blue-300, rgba($blue-000, .2), 'Note'),
+  tip: ($grey-dk-300, rgba($grey-dk-000, .2), 'Tip'),
+  warning: ($red-300, rgba($red-000, .2), 'Warning')
 );
 
-@each $class, $props in $callouts {
+@each $class,
+$props in $callouts {
 
-p.#{$class}, blockquote.#{$class} {
-  background: nth($props, 2);
-  border-left: $border-radius solid nth($props, 1);  
-  border-radius: $border-radius;
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.12), 0 3px 10px rgba(0, 0, 0, 0.08);
-  padding: .8rem;
+  p.#{$class},
+  blockquote.#{$class} {
+    background: nth($props, 2);
+    border-left: $border-radius solid nth($props, 1);
+    border-radius: $border-radius;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.12), 0 3px 10px rgba(0, 0, 0, 0.08);
+    padding: .8rem;
 
-  &::before {
-    color: nth($props, 1);
-    content: nth($props, 3);
-    display: block;
-    font-weight: bold;
-    text-transform: uppercase;
-    font-size: .75em;
-    padding-bottom: .125rem;
-  }
-  
-  > .#{$class}-title {
-    color: nth($props, 1);
-    display: block;
-    font-weight: bold;
-    text-transform: uppercase;   
-    font-size: .75em;
-    padding-bottom: .125rem;
-  }
-}
+    &::before {
+      color: nth($props, 1);
+      content: nth($props, 3);
+      display: block;
+      font-weight: bold;
+      text-transform: uppercase;
+      font-size: .75em;
+      padding-bottom: .125rem;
+    }
 
-p.#{$class}-title, blockquote.#{$class}-title {
-  background: nth($props, 2);
-  border-left: $border-radius solid nth($props, 1);  
-  border-radius: $border-radius;
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.12), 0 3px 10px rgba(0, 0, 0, 0.08);
-  padding: .8rem;
-  > p:first-child {
-    margin-top: 0;
-    margin-bottom: 0;
-    color: nth($props, 1);
-    display: block;
-    font-weight: bold;
-    text-transform: uppercase;
-    font-size: .75em;
-    padding-bottom: .125rem;
+    >.#{$class}-title {
+      color: nth($props, 1);
+      display: block;
+      font-weight: bold;
+      text-transform: uppercase;
+      font-size: .75em;
+      padding-bottom: .125rem;
+    }
   }
-}
 
-blockquote.#{$class} {
-  margin-left: 0;
-  margin-right: 0;
+  p.#{$class}-title,
+  blockquote.#{$class}-title {
+    background: nth($props, 2);
+    border-left: $border-radius solid nth($props, 1);
+    border-radius: $border-radius;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.12), 0 3px 10px rgba(0, 0, 0, 0.08);
+    padding: .8rem;
 
-  > p:first-child {
-    margin-top: 0;
+    >p:first-child {
+      margin-top: 0;
+      margin-bottom: 0;
+      color: nth($props, 1);
+      display: block;
+      font-weight: bold;
+      text-transform: uppercase;
+      font-size: .75em;
+      padding-bottom: .125rem;
+    }
   }
-  
-  > p:last-child {
-    margin-bottom: 0;
-  }
-}
 
-blockquote.#{$class}-title {
-  margin-left: 0;
-  margin-right: 0;
+  blockquote.#{$class} {
+    margin-left: 0;
+    margin-right: 0;
 
-  > p:nth-child(2) {
-    margin-top: 0;
+    >p:first-child {
+      margin-top: 0;
+    }
+
+    >p:last-child {
+      margin-bottom: 0;
+    }
   }
-  
-  > p:last-child {
-    margin-bottom: 0;
+
+  blockquote.#{$class}-title {
+    margin-left: 0;
+    margin-right: 0;
+
+    >p:nth-child(2) {
+      margin-top: 0;
+    }
+
+    >p:last-child {
+      margin-bottom: 0;
+    }
   }
-}
 }

@@ -14,7 +14,7 @@ Android Play Store: [https://play.google.com/store/apps/details?id=org.cybertrac
 Scan the following QR Code on your phone. It will download and install a sample package into SMART Mobile.
 <table>
 <tr>
-<td><img width="50%" src="{{ site.baseurl }}/assets/smart/image253.png" /></td>
+<td><img width="320" src="{{ site.baseurl }}/assets/smart/image253.png" /></td>
 </tr>
 </table>
 

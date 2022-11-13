@@ -3,7 +3,7 @@ layout: page
 title: 5. Retrieving data
 nav_order: 6000
 parent: User manual
-grand_parent: SMART
+grand_parent: SMART Mobile
 permalink: /smart/user-manual/5
 has_toc: false
 ---

@@ -2,7 +2,7 @@
 layout: page
 title: Download
 nav_order: 1
-parent: SMART
+parent: SMART Mobile
 permalink: /smart/download/
 ---
 # Download

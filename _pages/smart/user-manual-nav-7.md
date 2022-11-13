@@ -3,7 +3,7 @@ layout: page
 title: 7. General usage
 nav_order: 8000
 parent: User manual
-grand_parent: SMART
+grand_parent: SMART Mobile
 permalink: /smart/user-manual/7
 has_toc: false
 ---

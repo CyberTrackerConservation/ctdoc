@@ -10,7 +10,7 @@ SMART Mobile should already be installed (see section 3) on the device. Check ou
 Connect the device to the PC using a USB cable. Make sure the device is configured to Transfer files and shows up in Windows Explorer as a device. If this does not happen, consult the troubleshooting section.
 <table>
 <tr>
-<td><img width="50%" src="{{ site.baseurl }}/assets/smart/image24.png" /></td>
+<td><img width="320" src="{{ site.baseurl }}/assets/smart/image24.png" /></td>
 </tr>
 </table>
 <table>
@@ -43,14 +43,14 @@ When the process succeeds, the following message will display:
 Now launch SMART Mobile on the device and go to the **Connect** tab and tap **SMART Desktop - Scan for desktop projects**:
 <table>
 <tr>
-<td><img width="50%" src="{{ site.baseurl }}/assets/smart/image48.png" /></td>
+<td><img width="320" src="{{ site.baseurl }}/assets/smart/image48.png" /></td>
 </tr>
 </table>
 
 After a few seconds, the package will be found and installed as a project. SMART Mobile will automatically navigate to the **Projects** tab:
 <table>
 <tr>
-<td><img width="50%" src="{{ site.baseurl }}/assets/smart/image151.png" /></td>
+<td><img width="320" src="{{ site.baseurl }}/assets/smart/image151.png" /></td>
 </tr>
 </table>
 
@@ -92,7 +92,7 @@ Now launch SMART Mobile on the device and go to the **Connect** tab and tap **SM
 After downloading the package, Patrol Demo will be installed. The **Projects** tab will automatically be selected:
 <table>
 <tr>
-<td><img width="50%" src="{{ site.baseurl }}/assets/smart/image151.png" /></td>
+<td><img width="320" src="{{ site.baseurl }}/assets/smart/image151.png" /></td>
 </tr>
 </table>
 
@@ -116,7 +116,7 @@ If SMART Mobile is not installed on the device when the user taps the link, the 
 The **Package URL** can be used directly on the SMART Mobile Desktop Simulator. First copy the Package URL to the clipboard, then click the **Connect using clipboard link** menu option.
 <table>
 <tr>
-<td><img width="50%" src="{{ site.baseurl }}/assets/smart/image187.png" /></td>
+<td><img width="320" src="{{ site.baseurl }}/assets/smart/image187.png" /></td>
 </tr>
 </table>
 
@@ -163,7 +163,7 @@ Collect packages can be discovered by publishing them to a central register. For
 If the device has its own QR code scanner, SMART Mobile will be automatically launched and the package will be downloaded and installed.
 <table>
 <tr>
-<td><img width="50%" src="{{ site.baseurl }}/assets/smart/image193.png" /></td>
+<td><img width="320" src="{{ site.baseurl }}/assets/smart/image193.png" /></td>
 </tr>
 </table>
 
@@ -230,7 +230,7 @@ When a newer version of a package is detected, SMART Mobile will prompt the user
 Before updating, all data must be exported. If it is not, then the **Unsent data** message will appear. To fix this, launch the project and tap **Export data**. Export data requires that a patrol is not running.
 <table>
 <tr>
-<td><img width="50%" src="{{ site.baseurl }}/assets/smart/image199.png" /></td>
+<td><img width="320" src="{{ site.baseurl }}/assets/smart/image199.png" /></td>
 </tr>
 </table>
 
@@ -299,7 +299,7 @@ The Map page has the following features:
 The **Data overlay** shows more detailed information about the state of the GPS. This includes the time, location, speed, heading and the state of the track recorder. This is purely informational.
 <table>
 <tr>
-<td><img width="50%" src="{{ site.baseurl }}/assets/smart/image92.png" /></td>
+<td><img width="320" src="{{ site.baseurl }}/assets/smart/image92.png" /></td>
 </tr>
 </table>
 
@@ -313,7 +313,7 @@ The shapes on the dial represent satellites. The color represents the signal str
 The different types are: circle (Navstar), triangle (Glonass), pentagon (Galileo), star (Beidou), square (Qzss), diamond (Sbas), ellipse (other):
 <table>
 <tr>
-<td><img width="50%" src="{{ site.baseurl }}/assets/smart/image177.png" /></td>
+<td><img width="320" src="{{ site.baseurl }}/assets/smart/image177.png" /></td>
 </tr>
 </table>
 
@@ -332,7 +332,7 @@ The Goto overlay provides a simple directional navigation system. First tap the 
 Tapping on the end points of a line route and tapping **Set goto** will configure the navigation system to target points along the line. Using **Back** and **Next** will move the target back and forward through the points on the line. If the device reaches one of the points, the system will automatically advance to the next point on the line. The direction of movement depends on which point was selected as the original target. Selecting the first point will move forward and selecting the last point will move backwards.
 <table>
 <tr>
-<td><img width="50%" src="{{ site.baseurl }}/assets/smart/image167.png" /></td>
+<td><img width="320" src="{{ site.baseurl }}/assets/smart/image167.png" /></td>
 </tr>
 </table>
 
@@ -368,7 +368,7 @@ If editing is allowed, the observation can be edited using the **Edit button** i
 The location of the point can be used as a navigation target using the **Set goto** button in the bottom left corner.
 <table>
 <tr>
-<td><img width="50%" src="{{ site.baseurl }}/assets/smart/image141.png" /></td>
+<td><img width="320" src="{{ site.baseurl }}/assets/smart/image141.png" /></td>
 </tr>
 </table>
 
@@ -376,7 +376,7 @@ The location of the point can be used as a navigation target using the **Set got
 SMART Mobile has a **Settings** tab on the main page. These settings are for the whole application and cannot be configured by SMART Desktop:
 <table>
 <tr>
-<td><img width="50%" src="{{ site.baseurl }}/assets/smart/image8.png" /></td>
+<td><img width="320" src="{{ site.baseurl }}/assets/smart/image8.png" /></td>
 </tr>
 </table>
 
@@ -394,7 +394,7 @@ If the language is set to **System**, then SMART Mobile will use the current lan
 **Light and dark themes** are useful for improving the visibility of screen data. Dark theme is typically used for night viewing. It can also be toggled from the Project settings page and the Patrol/Survey popup:
 <table>
 <tr>
-<td><img width="50%" src="{{ site.baseurl }}/assets/smart/image60.png" /></td>
+<td><img width="320" src="{{ site.baseurl }}/assets/smart/image60.png" /></td>
 </tr>
 </table>
 
@@ -421,7 +421,7 @@ If the language is set to **System**, then SMART Mobile will use the current lan
 Coordinates specifies the format used for GPS coordinates throughout the application. The options are: Decimal degrees, Degrees minutes seconds, Degrees decimal minutes and UTM (Universal Transverse Mercator):
 <table>
 <tr>
-<td><img width="50%" src="{{ site.baseurl }}/assets/smart/image89.png" /></td>
+<td><img width="320" src="{{ site.baseurl }}/assets/smart/image89.png" /></td>
 </tr>
 </table>
 
@@ -432,7 +432,7 @@ The device GPS estimates the uncertainty in the reading provided. High values ar
 The desktop version supports a GPS simulator. This simulator can read locations from an NMEA file. A new simulator path can be created using [https://nmeagen.org](https://nmeagen.org). Once a path has been defined, download the resulting nmea file into the Downloads folder. The next time SMART Mobile starts up, it can be selected as the **Source file** for locations.
 <table>
 <tr>
-<td><img width="50%" src="{{ site.baseurl }}/assets/smart/image230.png" /></td>
+<td><img width="320" src="{{ site.baseurl }}/assets/smart/image230.png" /></td>
 </tr>
 </table>
 

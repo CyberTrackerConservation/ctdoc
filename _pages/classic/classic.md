@@ -2,12 +2,12 @@
 layout: default
 title: CyberTracker Classic
 has_children: true
-nav_order: 3
+nav_order: 2000
 permalink: /classic/
 ---
 # CyberTracker Classic
 
-## What is CyberTracker Classic?
+## What is CyberTracker Classic ?
 
 CyberTracker Classic is a software application for mobile data capture and visualization. 
 The desktop (running on Microsoft Windows) application  handles form design and reporting. The mobile (running on Android & iOS) application is used for data capture.

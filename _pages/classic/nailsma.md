@@ -2,14 +2,15 @@
 layout: default
 title: NAILSMA
 has_children: false
-nav_order: 6
-permalink: /nailsma/
+nav_order: 1000
+parent: CyberTracker Classic
+permalink: /classic/nailsma
 ---
 
 # NAILSMA
 
 <img src="{{ site.baseurl }}/assets/nailsma/logo.svg" align="right" class="inline" style="width:25%;"/>
-CyberTracker is the mobile data collector technology used by [NAILSMA](https://nailsma.org.au/). This is distributed under the [I-Tracker](https://nailsma.org.au/projects/i-tracker/) name.
+CyberTracker Classic is the mobile data collector technology used by [NAILSMA](https://nailsma.org.au/). This is distributed under the [I-Tracker](https://nailsma.org.au/projects/i-tracker/) name.
 
 ## Training portal
 NAILSMA has developed an online easy to follow [CyberTracker Training and Technical Support Portal](https://cybertrackertraining.com/get-started).

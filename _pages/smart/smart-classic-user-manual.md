@@ -2,7 +2,7 @@
 layout: page
 title: Classic User Manual
 nav_order: 40
-parent: SMART
+parent: SMART Mobile
 permalink: /smart/classic-user-manual/
 ---
 

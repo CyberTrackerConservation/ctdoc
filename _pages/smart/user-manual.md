@@ -2,7 +2,7 @@
 layout: page
 title: User manual
 nav_order: 5
-parent: SMART
+parent: SMART Mobile
 permalink: /smart/user-manual/
 has_children: true
 has_toc: false

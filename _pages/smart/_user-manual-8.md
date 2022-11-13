@@ -119,7 +119,7 @@ See section 5 on **Retrieving data**..
 SMART Mobile has a Settings page for each Project. This provides configuration options and other features which are less commonly used.
 <table>
 <tr>
-<td><img width="50%" src="{{ site.baseurl }}/assets/smart/image243.png" /></td>
+<td><img width="320" src="{{ site.baseurl }}/assets/smart/image243.png" /></td>
 </tr>
 </table>
 
@@ -134,7 +134,7 @@ The language here is defined in the **Conservation Area Properties** dialog, off
 In SMART Mobile, the current language can be selected from the available languages in the Conservation Area.
 <table>
 <tr>
-<td><img width="50%" src="{{ site.baseurl }}/assets/smart/image203.png" /></td>
+<td><img width="320" src="{{ site.baseurl }}/assets/smart/image203.png" /></td>
 </tr>
 </table>
 
@@ -142,7 +142,7 @@ In SMART Mobile, the current language can be selected from the available languag
 **Light and dark themes** are useful for improving the visibility of screen data. Dark theme is typically used for night viewing. It can also be toggled from the main settings page and the Patrol/Survey popup:
 <table>
 <tr>
-<td><img width="50%" src="{{ site.baseurl }}/assets/smart/image156.png" /></td>
+<td><img width="320" src="{{ site.baseurl }}/assets/smart/image156.png" /></td>
 </tr>
 </table>
 
@@ -161,7 +161,7 @@ Routes are points and lines that are overlaid on the map. This option allows dow
 The **Change project** option provides a simple way to change the current project. Normally this would require exiting the project and returning to the main screen. However, by placing the option here as well, it works within Kiosk mode. See section 4.
 <table>
 <tr>
-<td><img width="50%" src="{{ site.baseurl }}/assets/smart/image13.png" /></td>
+<td><img width="320" src="{{ site.baseurl }}/assets/smart/image13.png" /></td>
 </tr>
 </table>
 

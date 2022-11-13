@@ -31,7 +31,7 @@ own use and these then become available for everyone.
 ### Where can I get the latest version of CyberTracker?
 
 The most recent version is available on this web
-[here](/_pages/classic/download.md). The version numbers are always
+[here]({{ site.baseurl }}/classic/download). The version numbers are always
 incrementing, so 3.200 is more recent than 3.195. If the version is a
 test version (not well tested), then it will have "(BETA)" after the
 build number.
@@ -51,19 +51,15 @@ Email justin@steventon.com with your feature request.
 
 ### Which desktop operating system does CyberTracker run on?
 
-CyberTracker runs on all versions of Microsoft Windows, excluding
-Windows RT.
+CyberTracker runs on all versions of Microsoft Windows, including Windows 11.
 
 ### What mobile devices does CyberTracker support?
 
-CyberTracker supports Windows Mobile, Android and iOS devices. If you bought
-a device in the last 5 years that runs Android or iOS then it will probably work. 
-Smart phones without touch screens are not supported.
+CyberTracker supports Android and iOS devices. If you bought a device in the last 5 years that runs Android or iOS then it will probably work. 
 
 ### Can I collect data with both iOS and Android devices at the same time?
 
-Yes. You won't be able to tell which data came from which device (unless
-you want to).
+Yes. 
 
 ### How do I change the screen type, e.g. from radio list to check list?
 
@@ -72,17 +68,6 @@ you want to).
 3.  Change the "List mode" property - options are "Single select",
     "Multi select", etc
 4.  Click the "Layout" toolbar button again
-
-### How can I install CyberTracker on my Windows Mobile SD card?
-
-When you install the application for this first time, CyberTracker will
-install itself onto your device using ActiveSync. At this time, you will
-receive message dialog like: "Install CyberTracker Client using the
-default application install directory?". Click "No" and you will be
-given the option to choose an install location, e.g. Main Memory, SD
-Card, etc. If you missed this dialog the first time, just uninstall
-CyberTracker from your device (Start-\>Settings-\>System Tab-\>Remove
-Programs) and click "Synchronize" again.
 
 ### Does CyberTracker support collection of sightings on a laptop or desktop computer?
 
@@ -194,6 +179,8 @@ at 80 seconds.
 
 ### How can I get my RangeFinder and my GPS to both auto-detect without conflict?
 
+RangerFinder support is limited to Windows Mobile devices.
+
 If your RangeFinder is Bluetooth, then you cannot also have a Bluetooth
 GPS. The way to do this is to turn on your GPS and get it to detect
 first. Once CyberTracker has detected the GPS at a particular port, it
@@ -201,6 +188,8 @@ will remember that for all future tries. Then do the same for the
 RangeFinder.
 
 ### What RangeFinders does CyberTracker support?
+
+RangerFinder support is limited to Windows Mobile devices.
 
 CyberTracker supports RangeFinders that output the Laser Atlanta NMEA
 sentences LA1KA, LA1KC and LA1KD. RangeFinders are not currently

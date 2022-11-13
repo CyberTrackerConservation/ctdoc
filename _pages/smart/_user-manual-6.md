@@ -87,7 +87,7 @@ Tree attributes allow selection of a single option from within a categorized tre
 Boolean attributes allow selection of an on/off or yes/no type of value:
 <table>
 <tr>
-<td><img width="50%" src="{{ site.baseurl }}/assets/smart/image184.png" /></td>
+<td><img width="320" src="{{ site.baseurl }}/assets/smart/image184.png" /></td>
 </tr>
 </table>
 
@@ -347,7 +347,7 @@ In SMART Mobile, the signature can be entered by drawing on a canvas. The trash 
 Checking **Record distance and bearing** shows two additional rows on the main sighting screen. These options will be interpreted by SMART desktop and relocate the position to a new location. In the example below, the fire is 125 meters away at a bearing of 45 degrees from North.
 <table>
 <tr>
-<td><img width="50%" src="{{ site.baseurl }}/assets/smart/image115.png" /></td>
+<td><img width="320" src="{{ site.baseurl }}/assets/smart/image115.png" /></td>
 </tr>
 </table>
 
@@ -384,7 +384,7 @@ SMART Mobile supports a logo in PNG, JPG or SVG format. SVG format is recommende
 When viewed on the device, the logo will display alongside the Project title.
 <table>
 <tr>
-<td><img width="50%" src="{{ site.baseurl }}/assets/smart/image94.png" /></td>
+<td><img width="320" src="{{ site.baseurl }}/assets/smart/image94.png" /></td>
 </tr>
 </table>
 Note that all packages in a conservation area will share the same logo. 
@@ -535,7 +535,7 @@ Employees may also belong to one or more teams. This can be specified on the **E
 When specifying employees, teams will be listed first. This is primarily used to help find team members quickly:
 <table>
 <tr>
-<td><img width="50%" src="{{ site.baseurl }}/assets/smart/image95.png" /></td>
+<td><img width="320" src="{{ site.baseurl }}/assets/smart/image95.png" /></td>
 </tr>
 </table>
 
@@ -543,7 +543,7 @@ When specifying employees, teams will be listed first. This is primarily used to
 After the employees have been specified, the **Patrol Leader** attribute can be set. Note that the leader must be one of the employees in the employee list. If the leader is set and then that employee is removed from the list of employees, they will be removed from the leader attribute.
 <table>
 <tr>
-<td><img width="50%" src="{{ site.baseurl }}/assets/smart/image111.png" /></td>
+<td><img width="320" src="{{ site.baseurl }}/assets/smart/image111.png" /></td>
 </tr>
 </table>
 
@@ -551,7 +551,7 @@ After the employees have been specified, the **Patrol Leader** attribute can be 
 If the Patrol Transport Type attribute is set to Water or Air, then a **Patrol Pilot** attribute will become visible. Similar to the Leader attribute above, the pilot must be a member of the selected employees.
 <table>
 <tr>
-<td><img width="50%" src="{{ site.baseurl }}/assets/smart/image100.png" /></td>
+<td><img width="320" src="{{ site.baseurl }}/assets/smart/image100.png" /></td>
 </tr>
 </table>
 
@@ -629,7 +629,7 @@ If **Automatically upload data every n minutes** is un_checked_, then data will 
 
 <table>
 <tr>
-<td><img width="50%" src="{{ site.baseurl }}/assets/smart/image127.png" /></td>
+<td><img width="320" src="{{ site.baseurl }}/assets/smart/image127.png" /></td>
 </tr>
 </table>
 
@@ -785,7 +785,7 @@ To disable the Skip button altogether, set the timeout to 0.
 
 <table>
 <tr>
-<td><img width="50%" src="{{ site.baseurl }}/assets/smart/image170.png" /></td>
+<td><img width="320" src="{{ site.baseurl }}/assets/smart/image170.png" /></td>
 </tr>
 </table>
 

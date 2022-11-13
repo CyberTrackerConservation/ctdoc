@@ -3,7 +3,7 @@ layout: page
 title: 10. Frequently Asked Questions
 nav_order: 11000
 parent: User manual
-grand_parent: SMART
+grand_parent: SMART Mobile
 permalink: /smart/user-manual/faq
 ---
 Table of Contents
