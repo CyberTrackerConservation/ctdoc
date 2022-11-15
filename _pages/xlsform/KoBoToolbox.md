@@ -2,8 +2,9 @@
 layout: default
 title: KoBoToolbox
 has_children: false
-nav_order: 2000
-parent: XlsForm
+nav_order: 100
+parent: Integrations
+grand_parent: XlsForm
 permalink: /xlsform/kobo
 ---
 

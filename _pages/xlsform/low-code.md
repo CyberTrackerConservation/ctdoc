@@ -1,13 +1,12 @@
 ---
 layout: default
-title: Custom code
-nav_order: 200
-parent: Features
-grand_parent: XlsForm
+title: Low-code
+nav_order: 300
+parent: XlsForm
 permalink: /xlsform/low-code
 has_toc: true
 ---
 
-# Custom code
+# Low-code
 
 Coming soon...

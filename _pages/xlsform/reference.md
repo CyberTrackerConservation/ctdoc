@@ -1,14 +1,17 @@
 ---
 layout: default
 title: Reference
-nav_order: 100
-parent: Features
-grand_parent: XlsForm
-permalink: /xlsform/setup
+nav_order: 200
+parent: XlsForm
+permalink: /xlsform/reference
 has_toc: false
 ---
 # Reference
 {: .no_toc }
+
+[XlsForm](https://xlsform.org) supports an [extension system](https://xlsform.org/#advanced-use-and-extensibility). CyberTracker leverages this system to provide customizations. These extensions are invisible to XlsForm tools, so they only affect the behavior of CyberTracker.
+
+[Download a simple example]({{ site.baseurl }}/assets/xlsform/simple_form.xlsx)
 
 Table of Contents
 {: .no_toc .text-delta }
