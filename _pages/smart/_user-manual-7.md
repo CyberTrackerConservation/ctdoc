@@ -97,7 +97,7 @@ After downloading the package, Patrol Demo will be installed. The **Projects** t
 </table>
 
 ##### 7.1.2.3. Installing from a Package URL
-Once a package has been uploaded to Connect, it can be installed on a device either a **Package URL**. This URL is sent to a device using WhatsApp, SMS, Email or another system. The user taps on the link and SMART Mobile will be launched and install the package.
+Once a package has been uploaded to Connect, it can be installed on a device using a **Package URL**. This URL is sent to a device using WhatsApp, SMS, Email or another system. The user taps on the link and SMART Mobile will be launched and install the package.
 
 Click the button to the right of the Package URL to copy the link to the clipboard. Then paste it into an email and send it to users. Tapping on the link on a phone with SMART Mobile installed will trigger the install.
 <table>
