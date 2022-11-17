@@ -1,12 +1,12 @@
 ---
 layout: default
-title: Low-code features
-has_children: false
-nav_order: 1500
+title: Low-code
+nav_order: 300
 parent: XlsForm
 permalink: /xlsform/low-code
+has_toc: true
 ---
 
-# Low-code features
+# Low-code
 
 Coming soon...

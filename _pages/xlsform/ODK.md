@@ -2,8 +2,9 @@
 layout: default
 title: ODK
 has_children: false
-nav_order: 3000
-parent: XlsForm
+nav_order: 200
+parent: Integrations
+grand_parent: XlsForm
 permalink: /xlsform/odk
 ---
 

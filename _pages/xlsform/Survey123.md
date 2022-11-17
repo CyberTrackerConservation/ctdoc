@@ -2,8 +2,9 @@
 layout: default
 title: Survey123
 has_children: false
-nav_order: 4000
-parent: XlsForm
+nav_order: 300
+parent: Integrations
+grand_parent: XlsForm
 permalink: /xlsform/survey123
 ---
 

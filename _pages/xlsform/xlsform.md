@@ -17,13 +17,11 @@ CyberTracker works like other mobile XlsForm data collection tools, but adds a l
 
 CyberTracker only affects how data is collected, not what is collected. It is transparent to the chosen backend and the form will continue to work in other tools.
 
-## What is the workflow?
-1. Design an XlsForm in Excel
-1. Add `ct="http://cybertracker.org/"` to the namespaces column in the **settings** sheet
-1. Add a column titled `bind::ct:parameters` to the **settings**, **survey** and **choices** sheets
-1. Create JSON and place it in this column to activate the desired behavior
-1. Upload the form to the desired backend and publish it
-1. Connect with CyberTracker, download the form and collect data
+## How does it work?
+1. Create or acquire an XlsForm
+1. Add CyberTracker columns and customize the behavior
+1. Upload and publish the form to the desired backend
+1. Connect with CyberTracker and collect data
 1. Tap 'Submit' to upload data
 
 ## When should CyberTracker _not_ be used?
