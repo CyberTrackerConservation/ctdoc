@@ -2,8 +2,9 @@
 layout: default
 title: EarthRanger
 has_children: false
-nav_order: 5000
-permalink: /earthranger/
+nav_order: 50
+parent: Connectors
+permalink: /earthranger
 ---
 # EarthRanger
 CyberTracker is the mobile data collector technology used by [EarthRanger](https://earthranger.com).

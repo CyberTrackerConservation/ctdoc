@@ -1,26 +1,26 @@
 ---
 layout: default
-title: XlsForm
+title: XlsForm extensions
 has_children: true
 nav_order: 6000
 permalink: /xlsform/
 ---
 # XlsForm
 
-## What is 'XlsForm'?
-[XlsForm](https://xlsform.org) is a form standard created to help simplify the authoring of forms in Excel. Authoring is done in a human readable format using a familiar tool that almost everyone knows - Excel. XLSForms provide a practical standard for sharing and collaborating on authoring forms. They are simple to get started with but allow for the authoring of complex forms.
+## What is XlsForm?
+[XlsForm](https://xlsform.org) is a form standard created to help simplify the authoring of forms. Authoring is done in a human readable format using a familiar tool that almost everyone knows - Excel. XLSForms provide a practical standard for sharing and collaborating on authoring forms. They are simple to get started with but allow for complex behavior.
 
 ## How does it relate to CyberTracker?
-CyberTracker supports the XlsForm form standard and connects to popular backends: [ODK Central](https://getodk.org/), [KoBoToolbox](https://kobotoolbox.org) and [Survey123](https://survey123.arcgis.com). CyberTracker Online will also use XlsForm.
+CyberTracker supports the XlsForm form standard and connects to popular backends: [ODK Central](https://getodk.org/), [KoBoToolbox](https://kobotoolbox.org) and [Survey123](https://survey123.arcgis.com). 
 
-CyberTracker works like other mobile XlsForm data collection tools, but adds a layer of customization. This layer makes it easy to add new appearances and behaviors. For example: save targets, location tracks, theme colors, grid styles and more. Entirely custom layouts and workflows can be created without modifying CyberTracker. 
+CyberTracker works like other mobile XlsForm data collection tools, but adds a layer of customization. This layer makes it easy to add new appearances and behaviors. For example: save targets, location tracks, theme colors, grid styles and more. Entirely custom layouts and widgets can be created within the form without modifying CyberTracker.
 
 CyberTracker only affects how data is collected, not what is collected. It is transparent to the chosen backend and the form will continue to work in other tools.
 
 ## How does it work?
 1. Create or acquire an XlsForm
 1. Add CyberTracker columns and customize the behavior
-1. Upload and publish the form to the desired backend
+1. Upload and publish the form to the desired backend (ODK Central, KoBoToolbox, Survey123)
 1. Connect with CyberTracker and collect data
 1. Tap 'Submit' to upload data
 

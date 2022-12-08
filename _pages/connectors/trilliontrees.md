@@ -3,9 +3,8 @@ layout: default
 title: Trillion Trees
 has_children: false
 nav_order: 400
-parent: Integrations
-grand_parent: XlsForm
-permalink: /xlsform/trilliontrees/
+parent: Connectors
+permalink: /trilliontrees/
 ---
 # Trillion Trees 
 

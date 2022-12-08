@@ -1,12 +1,12 @@
 ---
 layout: default
-title: Tutorials
-nav_order: 3000
+title: Demo
+nav_order: 2000
 parent: XlsForm extensions
-permalink: /xlsform/tutorials
+permalink: /xlsform/demo
 has_toc: true
 ---
 
-# Tutorials
+# Demo
 
 Coming soon...
