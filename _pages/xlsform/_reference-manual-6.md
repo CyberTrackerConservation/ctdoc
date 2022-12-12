@@ -78,7 +78,7 @@ In the example below, the user will be presented with a popup containing the cho
   </tbody>
   <tfoot>
     <tr>
-      <td class="sheets" colspan="3"><span class="active">choices</span><span>choices</span><span>survey</span></td>
+      <td class="sheets" colspan="3"><span>survey</span><span class="active">choices</span><span>survey</span></td>
     </tr>
   </tfoot>
 </table>
