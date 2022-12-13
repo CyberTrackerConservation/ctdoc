@@ -13,9 +13,9 @@ Custom header text.
   </thead>
   <tbody>
     <tr>
-      <td>integer</td>
-      <td>animal_count</td>
-      <td>Custom title</td>
+      <td>select_one animal</td>
+      <td>Animal</td>
+      <td>Custom question text</td>
     </tr>
   </tbody>
   <tfoot>
@@ -25,8 +25,14 @@ Custom header text.
   </tfoot>
 </table>
 
+<table>
+<tr>
+<td><img width="320" src="{{ site.baseurl }}/assets/xlsform/refman-header-text.png" /></td>
+</tr>
+</table>
+
 ### topText
-Custom smaller text above maintitle
+Custom smaller text above main title.
 <table class="xlsTable">
   <thead>
     <tr>
@@ -37,9 +43,9 @@ Custom smaller text above maintitle
   </thead>
   <tbody>
     <tr>
-      <td>integer</td>
-      <td>animal_count</td>
-      <td>Custom top header</td>
+      <td>select_one animal</td>
+      <td>animal</td>
+      <td>Custom top text</td>
     </tr>
   </tbody>
   <tfoot>
@@ -49,8 +55,15 @@ Custom smaller text above maintitle
   </tfoot>
 </table>
 
+<table>
+<tr>
+<td><img width="320" src="{{ site.baseurl }}/assets/xlsform/refman-header-topText.png" /></td>
+</tr>
+</table>
+
 ### button
 Type of the button in the top-right corner. Valid values are:
+- empty - by default no button is shown
 - `track` - the current state of the GPS track system
 - `battery` - the current state and level of the battery 
 
@@ -64,8 +77,8 @@ Type of the button in the top-right corner. Valid values are:
   </thead>
   <tbody>
     <tr>
-      <td>integer</td>
-      <td>animal_count</td>
+      <td>select_one animal</td>
+      <td>animal</td>
       <td>track</td>
     </tr>
   </tbody>
@@ -74,6 +87,15 @@ Type of the button in the top-right corner. Valid values are:
       <td class="sheets" colspan="3"><span class="active">survey</span><span>choices</span><span>survey</span></td>
     </tr>
   </tfoot>
+</table>
+
+Tapping on the button will provide more information, e.g. the track frequency or the battery level.
+<table>
+<tr>
+<td><img src="{{ site.baseurl }}/assets/xlsform/refman-header-button-1.png" /></td>
+<td><img src="{{ site.baseurl }}/assets/xlsform/refman-header-button-2.png" /></td>
+<td><img src="{{ site.baseurl }}/assets/xlsform/refman-header-button-3.png" /></td>
+</tr>
 </table>
 
 ### hidden
@@ -89,8 +111,8 @@ If `true` then the header is hidden. Default is `false`.
   </thead>
   <tbody>
     <tr>
-      <td>integer</td>
-      <td>animal_count</td>
+      <td>select_one animal</td>
+      <td>animal</td>
       <td>false</td>
     </tr>
   </tbody>
@@ -99,6 +121,12 @@ If `true` then the header is hidden. Default is `false`.
       <td class="sheets" colspan="3"><span class="active">survey</span><span>choices</span><span>survey</span></td>
     </tr>
   </tfoot>
+</table>
+
+<table>
+<tr>
+<td><img width="320" src="{{ site.baseurl }}/assets/xlsform/refman-header-hidden.png" /></td>
+</tr>
 </table>
 
 ### qml
@@ -114,8 +142,8 @@ A [QML](https://wikipedia.org/wiki/QML) fragment to use instead of the built-in 
   </thead>
   <tbody>
     <tr>
-      <td>integer</td>
-      <td>animal_count</td>
+      <td>select_one animal</td>
+      <td>animal</td>
       <td>qml fragment</td>
     </tr>
   </tbody>
@@ -135,6 +163,12 @@ Rectangle {
     height: 64
 }
 ```
+
+<table>
+<tr>
+<td><img width="320" src="{{ site.baseurl }}/assets/xlsform/refman-header-qml.png" /></td>
+</tr>
+</table>
 
 ### qmlBase64
 Base64 encoded QML (see **qml** above).

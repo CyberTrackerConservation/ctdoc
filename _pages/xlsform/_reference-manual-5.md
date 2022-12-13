@@ -1,22 +1,22 @@
 ## Footer
 The footer object supports custom control buttons, e.g. back, next, save, etc. If no footer object is specified, then the default control is used.
 
-### options
-Show **options** button in immersive mode. Show **index** button in non-immersive mode. Default is true.
+### buttons
+`buttons` is text which specifies which buttons should be shown on the footer toolbar.
 
 <table class="xlsTable">
   <thead>
     <tr>
       <th>type</th>
       <th>name</th>
-      <th>bind::ct:footer.options</th>
+      <th>bind::ct:footer.buttons</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>integer</td>
-      <td>animal_count</td>
-      <td>true</td>
+      <td>select_one</td>
+      <td>animal</td>
+      <td>back next index save map</td>
     </tr>
   </tbody>
   <tfoot>
@@ -26,79 +26,55 @@ Show **options** button in immersive mode. Show **index** button in non-immersiv
   </tfoot>
 </table>
 
-### map
-Show **map** button. Default is true.
-
-<table class="xlsTable">
-  <thead>
-    <tr>
-      <th>type</th>
-      <th>name</th>
-      <th>bind::ct:footer.map</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>integer</td>
-      <td>animal_count</td>
-      <td>false</td>
-    </tr>
-  </tbody>
-  <tfoot>
-    <tr>
-      <td class="sheets" colspan="3"><span class="active">survey</span><span>choices</span><span>survey</span></td>
-    </tr>
-  </tfoot>
+<table>
+<tr>
+<td><img width="240" src="{{ site.baseurl }}/assets/xlsform/refman-footer-buttons-1.png" /></td>
+</tr>
 </table>
 
-### save
-Show save button. Default is false.
+### back button
+The `back` button navigates to the prior question on the form. If the wizard is at the start of the form, the back button is hidden.
 
-<table class="xlsTable">
-  <thead>
-    <tr>
-      <th>type</th>
-      <th>name</th>
-      <th>bind::ct:footer.save</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>integer</td>
-      <td>animal_count</td>
-      <td>true</td>
-    </tr>
-  </tbody>
-  <tfoot>
-    <tr>
-      <td class="sheets" colspan="3"><span class="active">survey</span><span>choices</span><span>survey</span></td>
-    </tr>
-  </tfoot>
+### next button
+The `next` button navigates to the next question on the form. If there is no next question, then the next button is hidden.
+
+### save button
+The `save` button will attempt to save the current sighting. If the sighting has invalid data, then the **Index page** will be shown with invalid fields highlighted.
+
+### nextOrSave button
+The `nextOrSave` button will show as a `next` button unless there are no more questions, in which case it will become a `save` button.
+
+### index button
+The `index` button displays a list of all the form questions. Selecting a question will navigate the wizard to it directly. A jump-to-last button on the top right of the header will jump to the next required question. If all required questions are filled in, then it jumps to the last question.
+
+<table>
+<tr>
+<td><img width="240" src="{{ site.baseurl }}/assets/xlsform/refman-footer-index-1.png" /></td>
+<td><img width="240" src="{{ site.baseurl }}/assets/xlsform/refman-footer-index-2.png" /></td>
+</tr>
 </table>
 
-### next
-Show next button. Default is true, if there is a next page.
+### options button
+The `options` button is only available in `immersive` mode. In non-immersive mode, it becomes the `index` button (see above).
 
-<table class="xlsTable">
-  <thead>
-    <tr>
-      <th>type</th>
-      <th>name</th>
-      <th>bind::ct:footer.next</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>integer</td>
-      <td>animal_count</td>
-      <td>false</td>
-    </tr>
-  </tbody>
-  <tfoot>
-    <tr>
-      <td class="sheets" colspan="3"><span class="active">survey</span><span>choices</span><span>survey</span></td>
-    </tr>
-  </tfoot>
+The `options` button shows an options page with two tabs: current sighting and saved sightings:
+
+<table>
+<tr>
+<td><img src="{{ site.baseurl }}/assets/xlsform/refman-footer-options-1.png" /></td>
+<td><img src="{{ site.baseurl }}/assets/xlsform/refman-footer-options-2.png" /></td>
+<td><img src="{{ site.baseurl }}/assets/xlsform/refman-footer-options-3.png" /></td>
+</tr>
+</table>
+
+### map button
+The `map` button opens the map dialog.
+
+<table>
+<tr>
+<td><img width="240" src="{{ site.baseurl }}/assets/xlsform/refman-footer-map-1.png" /></td>
+<td><img width="240" src="{{ site.baseurl }}/assets/xlsform/refman-footer-map-2.png" /></td>
+</tr>
 </table>
 
 ### hidden
@@ -114,8 +90,8 @@ If `true` then the footer is hidden. Default is `false`.
   </thead>
   <tbody>
     <tr>
-      <td>integer</td>
-      <td>animal_count</td>
+      <td>select_one animal</td>
+      <td>animal</td>
       <td>false</td>
     </tr>
   </tbody>
@@ -134,7 +110,7 @@ A [QML](https://wikipedia.org/wiki/QML) fragment to use instead of the built-in 
     <tr>
       <th>type</th>
       <th>name</th>
-      <th>bind::ct:header.qml</th>
+      <th>bind::ct:footer.qml</th>
     </tr>
   </thead>
   <tbody>
@@ -160,6 +136,12 @@ Rectangle {
     height: 64
 }
 ```
+
+<table>
+<tr>
+<td><img width="240" src="{{ site.baseurl }}/assets/xlsform/refman-footer-qml.png" /></td>
+</tr>
+</table>
 
 ### qmlBase64
 Base64 encoded QML (see **qml** above).
