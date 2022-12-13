@@ -1,4 +1,4 @@
----
+#---
 layout: page
 title: Grid styles
 nav_order: 2000
@@ -17,21 +17,16 @@ Table of Contents
 - TOC
 {:toc}
 
-## Purpose
-CyberTracker has a few built-in grid styles which can be customized for lists. This tutorial demonstrates how this works.
+## Goal
+This tutorial demonstrates various built-in grid styles for select_one, select_multiple and range lists.
 
 ## Requirements
 - CyberTracker running on a Windows or Mac
 - Excel or other XlsForm editor 
 
-## Form
-[Download XlsForm]({{ site.baseurl }}/assets/xlsform/tutorial-2.xlsx)<br/>
-
-## Demo
-
-
 ## Steps
-Follow the getting started instructions.
+Follow the [Getting started]({{ site.baseurl }}/xlsform/tutorial/0) tutorial for set up.
+
 ### 1. Open the form
 Open the `form.xlsx` file for the project.
 
@@ -120,3 +115,7 @@ It is worth trying out other properties and even modifying the question type to 
 </tr>
 </table>
 
+## Form
+[Download XlsForm]({{ site.baseurl }}/assets/xlsform/tutorial-2.xlsx)<br/>
+
+## Demo

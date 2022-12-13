@@ -17,13 +17,13 @@ Table of Contents
 - TOC
 {:toc}
 
-## Purpose
-This tutorial shows how to start working with CyberTracker XlsForm extensions. While they can be added to a form without going through this process, it is easier to test and validate them on a desktop before deploying to a mobile device.
+## Goal
+This tutorial shows how to start working with CyberTracker XlsForm extensions. By the end, you will be able to quickly make and test form changes within a desktop environment. This is generally much quicker and easier than deploying to a mobile device.
 
 ## Requirements
-- Windows PC (64-bit) or Mac
-- XlsForm editor
-- Account on a backend provider, e.g. KoboToolbox, ODK Central, Survey123
+- Windows (64-bit) or Mac
+- Excel or other XlsForm editor
+- Account on KoboToolbox, ODK Central or Survey123
 
 ## Form template
 [Download XlsForm]({{ site.baseurl }}/assets/xlsform/simple-form.xlsx)
@@ -37,7 +37,7 @@ This tutorial shows how to start working with CyberTracker XlsForm extensions. W
 Visit the [Download page]({{ site.baseurl }}/xlsform/download) and follow the instructions to install and launch CyberTracker. 
 
 ### 3. Install a project 
-Connect to the form in CyberTracker and try it out. This is the flow in KoBoToolbox, but it is similar for other providers.
+Download the form in CyberTracker by using the **Connect** page. The following is the flow using KoBoToolbox, but it is very similar for other providers.
 <table>
 <tr>
 <td><img src="{{ site.baseurl }}/assets/xlsform/tutorial-0a.png" /></td>
@@ -51,8 +51,8 @@ Connect to the form in CyberTracker and try it out. This is the flow in KoBoTool
 </tr>
 </table>
 
-### 4. Navigate to the `CTProjects` folder on the desktop
-CyberTracker creates a folder on the desktop called `CTProjects`. Open this folder and navigate to the `Projects` folder inside it. You will see a folder for the project you have just created. Open it and notice that it contains a file called `form.xlsx`.
+### 4. Open the `CTProjects` folder on the desktop
+CyberTracker creates a folder on the desktop called `CTProjects`. Open this folder and navigate to the `Projects` sub-folder inside it. You will then see a folder for the Project you have just created. Open it and notice that it contains a file called `form.xlsx`.
 <table>
 <tr>
 <td><img src="{{ site.baseurl }}/assets/xlsform/tutorial-0g.png" /></td>
@@ -63,7 +63,7 @@ CyberTracker creates a folder on the desktop called `CTProjects`. Open this fold
 - Open `form.xlsx` and make a change. For example, add a new animal in the `choices` sheet, or a new question in the `survey` sheet. 
 - Save the form
 
-### 6. Exit back to the Projects page in CyberTracker and then tap on your again to launch
+### 6. Reload the Project in CyberTracker
 Verify that the change that was made.
 
 {: .warning }
