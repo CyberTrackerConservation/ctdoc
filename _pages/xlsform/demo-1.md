@@ -27,7 +27,7 @@ Android Play Store: [https://play.google.com/store/apps/details?id=org.cybertrac
 Scan the following QR Code on your phone. It will download and install the project. <br/>From the desktop, copy this [link](https://cybertrackerwiki.org/applink?AhUEAP9wcm9qZWN0VWlkAP8iWGxzRm9ybV9EZW1vX0dyaWRfU3R5bGVzIgAG_yJ3aWtpOi94bHNmb3JtL2RlbW8tZ3JpZC1zdHlsZXMuanNvbiIA) to the clipboard and then use the **File->Connect using clipboard link** option on the CyberTracker app.
 <table>
 <tr>
-<td><img width="320" src="{{ site.baseurl }}/assets/xlsform/demo-grid-styles-qrcode.png" /></td>
+<td><img width="240" src="{{ site.baseurl }}/assets/xlsform/demo-grid-styles-qrcode.png" /></td>
 </tr>
 </table>
 
