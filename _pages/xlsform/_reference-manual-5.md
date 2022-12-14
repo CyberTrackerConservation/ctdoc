@@ -1,5 +1,5 @@
 ## Footer
-The footer object supports custom control buttons, e.g. back, next, save, etc. If no footer object is specified, then the default control is used.
+The footer object supports custom control buttons, e.g. home, back, next, save, etc. If no footer object is specified, then the default control is used.
 
 ### buttons
 `buttons` is text which specifies which buttons should be shown on the footer toolbar.
@@ -31,6 +31,9 @@ The footer object supports custom control buttons, e.g. back, next, save, etc. I
 <td><img width="240" src="{{ site.baseurl }}/assets/xlsform/refman-footer-buttons-1.png" /></td>
 </tr>
 </table>
+
+### home button
+The `home` button returns to the **Home** page. In `immersive` mode, this returns to the Projects page, otherwise it returns to the project home page.
 
 ### back button
 The `back` button navigates to the prior question on the form. If the wizard is at the start of the form, the back button is hidden.

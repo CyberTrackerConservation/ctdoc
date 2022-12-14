@@ -1,6 +1,6 @@
 ## Initial setup
 
-These columns on the `settings` sheet are needed to begin using the CyberTracker extensions. 
+The following columns on the `settings` sheet are needed to begin using the CyberTracker extensions. 
 
 ### namespace (required)
 The `ct` namespace tells other XlsForm tools to ignore columns starting with `bind::ct:`.
@@ -27,4 +27,4 @@ The `ct` namespace tells other XlsForm tools to ignore columns starting with `bi
 </table>
 
 ### version (recommended)
-The version field is used to track form versions as they change over time. While it is not required, it is a best practice to keep this field up to date. The [XlsForm specification](https://xlsform.org/#settings-worksheet) recommends the convention like 'yyyymmddrr'. For example, 2022021501 is the 1st revision from Feb 15th, 2022.
+The version field is used to track form versions over time. While not strictly required, it is a best practice to keep this field up to date. The [XlsForm specification](https://xlsform.org/#settings-worksheet) recommends the convention of 'yyyymmddrr'. For example, 2022021501 is the 1st revision from Feb 15th, 2022.

@@ -1,7 +1,7 @@
 ## Miscellaneous
 
 ### fixCount
-For `geopoint` question types, the number of skipped readings before a fix is taken. The default value is 4.
+For `geopoint` question types, the number of skipped readings before a fix is taken. The default value is 4. Some GPS devices return a cached readings before real readings. This requires a few good readings before the final location is taken. 
 
 <table class="xlsTable">
   <thead>
@@ -28,9 +28,9 @@ For `geopoint` question types, the number of skipped readings before a fix is ta
 ### trackFileFormat
 When the user presses **Save** and creates a track file, it is stored in a `file` field which has the `trackFileFormat` value set.
 
-Supported values are `kmz` (not supported on Survey123) and `geojson` (inside a zip). 
+Supported values are `kmz` (not supported on Survey123) and `geojson`. For GeoJSON, the JSON file will appear zipped as an attachment.
 
-Survey123 users should prefer to use a location service - see `esriLocationServiceUrl` in the `settings` sheet. If a location service is specified, this question should be removed.
+Survey123 users should prefer to use a location service - see [feature service]({{ site.baseurl }}/xlsform/reference-manual/2#esrilocationserviceurl). If a location service is specified, this question should be removed.
 
 <table class="xlsTable">
   <thead>

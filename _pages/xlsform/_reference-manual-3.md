@@ -27,7 +27,7 @@ Custom header text.
 
 <table>
 <tr>
-<td><img width="320" src="{{ site.baseurl }}/assets/xlsform/refman-header-text.png" /></td>
+<td><img width="240" src="{{ site.baseurl }}/assets/xlsform/refman-header-text.png" /></td>
 </tr>
 </table>
 
@@ -57,7 +57,7 @@ Custom smaller text above main title.
 
 <table>
 <tr>
-<td><img width="320" src="{{ site.baseurl }}/assets/xlsform/refman-header-topText.png" /></td>
+<td><img width="240" src="{{ site.baseurl }}/assets/xlsform/refman-header-topText.png" /></td>
 </tr>
 </table>
 
@@ -125,7 +125,7 @@ If `true` then the header is hidden. Default is `false`.
 
 <table>
 <tr>
-<td><img width="320" src="{{ site.baseurl }}/assets/xlsform/refman-header-hidden.png" /></td>
+<td><img width="240" src="{{ site.baseurl }}/assets/xlsform/refman-header-hidden.png" /></td>
 </tr>
 </table>
 
@@ -166,7 +166,7 @@ Rectangle {
 
 <table>
 <tr>
-<td><img width="320" src="{{ site.baseurl }}/assets/xlsform/refman-header-qml.png" /></td>
+<td><img width="240" src="{{ site.baseurl }}/assets/xlsform/refman-header-qml.png" /></td>
 </tr>
 </table>
 

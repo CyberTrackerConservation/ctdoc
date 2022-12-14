@@ -60,6 +60,8 @@ In the example below, the user will be presented with a popup containing the cho
 
 `question` is the name of the targetted question in the `survey` table. If the question is not relevant, then this choice will be hidden.
 
+If `immersive` is set to false, then the target list will automatically contain the **home** button. This option will save and return to the **Home** page without automatically creating a new sighting.
+
 <table class="xlsTable">
   <thead>
     <tr>
@@ -194,7 +196,9 @@ In the example below, there is a `select_one` question called `track` with choic
 
 `distanceFilterMeters` is the minimum distance between readings in meters. This is optional and by default no distance filter is used.
 
-`snapTrack` causes the system to snapshot all the track points (since prior snap). If using Survey123 and  `bind::ct:esriLocationServiceUrl` is specified, then the track data will be sent to the feature service. Otherwise, a track file will be created and added to a `file` type question in the form. The question selected must be of type `file` and should have a `trackFileFormat` column specified. 
+`snapTrack` causes the system to snapshot all the track points (since prior snap). 
+
+If using Survey123 and `esriLocationServiceUrl` is specified, then the track data will be sent to the [feature service]({{ site.baseurl }}/xlsform/reference-manual/2#esrilocationserviceurl). Otherwise, a track file will be created and added to a `file` type question in the form. The question selected must be of type `file` and should have a `trackFileFormat` column specified. 
 
 <table>
 <tr>

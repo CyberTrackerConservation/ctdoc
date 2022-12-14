@@ -300,7 +300,7 @@ borderWidth value is `2` and `4`.
 </table>
 
 ### fontSize
-Size text font size. Requires `style` to be set. Defaults to 16.
+Size text font size. Requires `style` to be set. Defaults to 16. Note that the font is subject to scaling according to the **Font size** in the main Settings page.
 
 <table class="xlsTable">
   <thead>

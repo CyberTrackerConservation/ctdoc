@@ -1,7 +1,7 @@
 ## Settings
 
 ### immersive
-Setting this to `true` causes the form UI to use the wizard exclusively, i.e. this is more like CyberTracker Classic. Default is `false`. `TRUE` and `FALSE` values also work.
+Setting this to `true` causes the UI to use the wizard exclusively, i.e. there is no **Home** page. Default is `false`. `TRUE` and `FALSE` values also work.
 <table class="xlsTable">
   <thead>
     <tr>
@@ -22,7 +22,7 @@ Setting this to `true` causes the form UI to use the wizard exclusively, i.e. th
   </tfoot>
 </table>
 
-In the flow below, the user context is always within a sighting and each page typically holds one question. Pressing the **options** button navigates to a new page which shows the content of the current sighting on one tab and all sightings on the other. The user can edit previous sightings, but when editing is complete, the wizard will revert to the original sighting.
+In the table below, the user context is always within a sighting and each page typically holds one question. Pressing the **options** button (highlighted in the first image) navigates to a new page which shows the current sighting on one tab and all sightings on the other. The user can edit previous sightings, but when editing is complete, the wizard will revert to the original sighting.
 <table>
 <tr>
 <td><img src="{{ site.baseurl }}/assets/xlsform/refman-immersive-1.png" /></td>
@@ -32,7 +32,7 @@ In the flow below, the user context is always within a sighting and each page ty
 </table>
 
 ### wizardMode
-If the `immersive` column is missing or set to `false`, then the UI reverts to *non-immersive* mode. In this case, there is a **Home** page which shows all sightings. The user returns to this screen after saving a sighting. 
+If the `immersive` column is missing or set to `false`, then the UI reverts to *non-immersive* mode. In this case, there is a **Home** page which shows all sightings. The user returns to this page after saving a sighting. 
 
 <table class="xlsTable">
   <thead>
@@ -136,7 +136,7 @@ Colors can also be provided as a JSON object:
 
 ### esriLocationServiceUrl
 
-When using Survey123, CyberTracker supports uploading locations and tracks to a hosted feature service. In this case, the feature service is specified in the esriLocationServiceUrl column:
+When using Survey123, CyberTracker supports uploading locations and tracks to a hosted feature service. In this case, the feature service is specified in the `bind::ct:esriLocationServiceUrl` column:
 
 <table class="xlsTable">
   <thead>
@@ -158,13 +158,28 @@ When using Survey123, CyberTracker supports uploading locations and tracks to a 
   </tfoot>
 </table>
 
-The feature service contains three layers: Tracks (point layer), Last Known Locations (point layer) and Track Lines (Polyline layer). 
+The feature service should be created using the CyberTracker Desktop Simulator (see [Download page]({{ site.baseurl }}/xlsform/download)). There is an option off the **Tools** menu called **Create ArcGIS location service**. This tool will automatically create and configure a hosted service which is compatible with CyberTracker:
 
-If this service is not specified, then tracks are placed in a `file` type question of the sighting which specifies `snapTrack` in the `save` section of the `survey` question. 
+<table>
+<tr>
+<td><img src="{{ site.baseurl }}/assets/xlsform/refman-esri-1.png" /></td>
+</tr>
+</table>
+
+After clicking **Start**, the tool will display the following:
+<table>
+<tr>
+<td><img src="{{ site.baseurl }}/assets/xlsform/refman-esri-2.png" /></td>
+</tr>
+</table>
+
+The feature service contains three layers: **Tracks** (point layer), **Last Known Locations** (point layer) and **Track Lines** (Polyline layer). 
+
+If this service is not specified, then tracks are placed in a `file` type question of the sighting which specifies `snapTrack` in the `save` section of the `survey` question. See [Tracks]({{ site.baseurl }}/xlsform/reference-manual/6#track).
 
 ### sendLocationInterval
 
-CyberTracker can send the current location at regular intervals, separately from a the track system. This value is in seconds and is user configurable - this specifies the default value. For Survey123, `esriLocationServiceUrl` must be configured.
+If using Survey123, CyberTracker can send the current location at regular intervals - separately from tracks. The value is in seconds and is user configurable via the form Settings menu on the device. This specifies the default value. `bind::ct:esriLocationServiceUrl` must be configured.
 
 <table class="xlsTable">
   <thead>
