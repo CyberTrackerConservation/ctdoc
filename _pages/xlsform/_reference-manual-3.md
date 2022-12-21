@@ -20,7 +20,7 @@ Custom header text.
   </tbody>
   <tfoot>
     <tr>
-      <td class="sheets" colspan="3"><span class="active">survey</span><span>choices</span><span>survey</span></td>
+      <td class="sheets" colspan="3"><span class="active">survey</span><span>choices</span><span>settings</span></td>
     </tr>
   </tfoot>
 </table>
@@ -50,7 +50,7 @@ Custom smaller text above main title.
   </tbody>
   <tfoot>
     <tr>
-      <td class="sheets" colspan="3"><span class="active">survey</span><span>choices</span><span>survey</span></td>
+      <td class="sheets" colspan="3"><span class="active">survey</span><span>choices</span><span>settings</span></td>
     </tr>
   </tfoot>
 </table>
@@ -84,7 +84,7 @@ Type of the button in the top-right corner. Valid values are:
   </tbody>
   <tfoot>
     <tr>
-      <td class="sheets" colspan="3"><span class="active">survey</span><span>choices</span><span>survey</span></td>
+      <td class="sheets" colspan="3"><span class="active">survey</span><span>choices</span><span>settings</span></td>
     </tr>
   </tfoot>
 </table>
@@ -99,7 +99,7 @@ Tapping on the button will provide more information, e.g. the track frequency or
 </table>
 
 ### hidden
-If `true` then the header is hidden. Default is `false`.
+If `yes` then the header is hidden. Default is `no`.
 
 <table class="xlsTable">
   <thead>
@@ -118,7 +118,7 @@ If `true` then the header is hidden. Default is `false`.
   </tbody>
   <tfoot>
     <tr>
-      <td class="sheets" colspan="3"><span class="active">survey</span><span>choices</span><span>survey</span></td>
+      <td class="sheets" colspan="3"><span class="active">survey</span><span>choices</span><span>settings</span></td>
     </tr>
   </tfoot>
 </table>
@@ -149,7 +149,7 @@ A [QML](https://wikipedia.org/wiki/QML) fragment to use instead of the built-in 
   </tbody>
   <tfoot>
     <tr>
-      <td class="sheets" colspan="3"><span class="active">survey</span><span>choices</span><span>survey</span></td>
+      <td class="sheets" colspan="3"><span class="active">survey</span><span>choices</span><span>settings</span></td>
     </tr>
   </tfoot>
 </table>

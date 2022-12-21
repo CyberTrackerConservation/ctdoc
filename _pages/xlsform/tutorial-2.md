@@ -1,6 +1,6 @@
 #---
 layout: page
-title: Grid styles
+title: Using Survey123
 nav_order: 2000
 parent: Tutorials
 grand_parent: XlsForm extensions
@@ -75,7 +75,7 @@ Unzip the icons (see above) into the project folder (under CTProjects/Projects/p
   </tbody>
   <tfoot>
     <tr>
-      <td class="sheets" colspan="3"><span>survey</span><span class="active">choices</span><span>survey</span></td>
+      <td class="sheets" colspan="3"><span>survey</span><span class="active">choices</span><span>settings</span></td>
     </tr>
   </tfoot>
 </table>
@@ -99,7 +99,7 @@ Check out possible values for `style` in the [reference manual]({{ site.baseurl 
   </tbody>
   <tfoot>
     <tr>
-      <td class="sheets" colspan="3"><span class="active">survey</span><span>choices</span><span>survey</span></td>
+      <td class="sheets" colspan="3"><span class="active">survey</span><span>choices</span><span>settings</span></td>
     </tr>
   </tfoot>
 </table>

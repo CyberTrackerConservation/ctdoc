@@ -3,7 +3,7 @@ When the user presses the **Save** button, this triggers the save behavior.
 
 ### snapLocation
 
-Setting `snapLocation` to true will create a popup to acquire the GPS location. The location will be set in the first `geopoint` type question on the form. It is recommended to set appearance to `hidden` on this question, so that the user is not asked for the location beforehand.
+Setting `snapLocation` to the name of a `geopoint` question will create a popup to acquire the GPS location. This feature is only active when `wizardMode` is enabled.
 
 <table class="xlsTable">
   <thead>
@@ -11,35 +11,48 @@ Setting `snapLocation` to true will create a popup to acquire the GPS location. 
       <th>type</th>
       <th>name</th>
       <th>label</th>
-      <th>appearance</th>
-      <th>bind::ct:save.snapLocation</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td>geopoint</td>
-      <td>my_location</td>
+      <td>f_location</td>
       <td>Location</td>
-      <td>hidden</td>
     </tr>
     <tr>
       <td>select_one animal</td>
-      <td>animal</td>
+      <td>f_animal</td>
       <td>Animal</td>
-      <td></td>
-      <td></td>
     </tr>
     <tr>
       <td>text</td>
-      <td>note</td>
-      <td>Field note</td>
-      <td>multiline</td>
-      <td>true</td>
+      <td>f_note</td>
+      <td>Note</td>
     </tr>
   </tbody>
   <tfoot>
     <tr>
-      <td class="sheets" colspan="3"><span class="active">survey</span><span>choices</span><span>survey</span></td>
+      <td class="sheets" colspan="3"><span class="active">survey</span><span>choices</span><span>settings</span></td>
+    </tr>
+  </tfoot>
+</table>
+
+<table class="xlsTable">
+  <thead>
+    <tr>
+      <th>title</th>
+      <th>bind::ct:save.snapLocation</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>My form</td>
+      <td>f_location</td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr>
+      <td class="sheets" colspan="3"><span class="active">survey</span><span>choices</span><span>settings</span></td>
     </tr>
   </tfoot>
 </table>
@@ -54,35 +67,43 @@ In this example, the user flow will be:
 </table>
 
 ### targets
-In the example below, the user will be presented with a popup containing the choices **Restart** or **Another**. After the sighting is saved, a new sighting will be created starting at the targetted question. All prior question data will be replicated into the new sighting.
+In the example below, the user will be presented with a popup containing the choices **Restart** or **Another**. After the sighting is saved, a new sighting will be created starting at the targeted question. All prior question data will be replicated into the new sighting.
 
-`restart` and `another` are taken from the `choices` sheet in the `saveTargets` list name.
-
-`question` is the name of the targetted question in the `survey` table. If the question is not relevant, then this choice will be hidden.
-
-If `immersive` is set to false, then the target list will automatically contain the **home** button. This option will save and return to the **Home** page without automatically creating a new sighting.
+This value must be a valid JSON array.
 
 <table class="xlsTable">
   <thead>
     <tr>
       <th>type</th>
       <th>name</th>
-      <th>bind::ct:save.targets</th>
+      <th>label</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>integer</td>
-      <td>animal_count</td>
-      <td>[{ "choice": "restart", "question": "animal"}, { "choice": "another", "question": "behavior"}]</td>
+      <td>select_one animal</td>
+      <td>f_animal</td>
+      <td>Animal</td>
     </tr>
+    <tr>
+      <td>select_multiple behavior</td>
+      <td>f_behavior</td>
+      <td>Behavior</td>
+    </tr>
+    <tr>
+      <td>text</td>
+      <td>f_note</td>
+      <td>Note</td>
+    </tr>        
   </tbody>
   <tfoot>
     <tr>
-      <td class="sheets" colspan="3"><span class="active">survey</span><span>choices</span><span>survey</span></td>
+      <td class="sheets" colspan="3"><span class="active">survey</span><span>choices</span><span>settings</span></td>
     </tr>
   </tfoot>
 </table>
+
+`restart` and `another` are taken from the `choices` sheet in the `saveTargets` list name.
 
 <table class="xlsTable">
   <thead>
@@ -106,10 +127,34 @@ If `immersive` is set to false, then the target list will automatically contain 
   </tbody>
   <tfoot>
     <tr>
-      <td class="sheets" colspan="3"><span>survey</span><span class="active">choices</span><span>survey</span></td>
+      <td class="sheets" colspan="3"><span>survey</span><span class="active">choices</span><span>settings</span></td>
     </tr>
   </tfoot>
 </table>
+
+Note that `question` is the name of the targeted question in the `survey` table. If the question is not relevant, then this choice will be hidden.
+
+<table class="xlsTable">
+  <thead>
+    <tr>
+      <th>title</th>
+      <th>bind::ct:save.targets</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>My form</td>
+      <td>[{ "choice": "restart", "question": "f_animal"}, { "choice": "another", "question": "f_behavior"}]</td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr>
+      <td class="sheets" colspan="3"><span>survey</span><span>choices</span><span class="active">settings</span></td>
+    </tr>
+  </tfoot>
+</table>
+
+Note that if `immersive` is set to false, then the target list will automatically contain the **home** button. This option will save and return to the **Home** page without automatically creating a new sighting.
 
 <table>
 <tr>
@@ -120,40 +165,38 @@ If `immersive` is set to false, then the target list will automatically contain 
 </table>
 
 ### track
-In the example below, there is a `select_one` question called `track` with choices `start`, `stop` and `nochange`. When the user presses **Save**, the track timer is adjusted depending on which choice was selected. The values in `updateIntervalSeconds` and `distanceFilterMeters` are the new track settings.
+In the example below, there is a `select_one` question called `f_track` with choices `start`, `stop` and `nochange`. When the user presses **Save**, the track timer is adjusted depending on which choice was selected. The values in `updateIntervalSeconds` and `distanceFilterMeters` are the new track settings.
+
+This value must be a valid JSON array.
 
 <table class="xlsTable">
   <thead>
     <tr>
       <th>type</th>
       <th>name</th>
-      <th>bind::ct:trackFileFormat</th>
-      <th>bind::ct:save.track</th>
+      <th>label</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td>file</td>
-      <td>trackFile</td>
-      <td>geojson</td>
+      <td>f_track_file</td>
       <td></td>
     </tr>
     <tr>
-      <td>select_one track</td>
-      <td>track</td>
-      <td></td>
-      <td></td>
+      <td>select_one track_items</td>
+      <td>f_track</td>
+      <td>Configure track</td>
     </tr>
     <tr>
       <td>text</td>
+      <td>f_note</td>
       <td>Note</td>
-      <td></td>
-      <td>[{ "condition": "selected(${track}, 'start')", "updateIntervalSeconds": 5, "distanceFilterMeters": 10 }, { "condition": "selected(${track},'stop')", "updateIntervalSeconds": 0, "snapTrack": true }]</td>
     </tr>
   </tbody>
   <tfoot>
     <tr>
-      <td class="sheets" colspan="3"><span class="active">survey</span><span>choices</span><span>survey</span></td>
+      <td class="sheets" colspan="3"><span class="active">survey</span><span>choices</span><span>settings</span></td>
     </tr>
   </tfoot>
 </table>
@@ -168,27 +211,50 @@ In the example below, there is a `select_one` question called `track` with choic
   </thead>
   <tbody>
     <tr>
-      <td>track</td>
+      <td>track_items</td>
       <td>start</td>
       <td>Start</td>
     </tr>
     <tr>
-      <td>track</td>
+      <td>track_items</td>
       <td>stop</td>
       <td>Stop</td>
     </tr>
     <tr>
-      <td>track</td>
+      <td>track_items</td>
       <td>nochange</td>
       <td>No change</td>
     </tr>
   </tbody>
   <tfoot>
     <tr>
-      <td class="sheets" colspan="3"><span>survey</span><span class="active">choices</span><span>survey</span></td>
+      <td class="sheets" colspan="3"><span>survey</span><span class="active">choices</span><span>settings</span></td>
     </tr>
   </tfoot>
 </table>
+
+<table class="xlsTable">
+  <thead>
+    <tr>
+      <th>title</th>
+      <th>bind::ct:save.trackFile</th>
+      <th>bind::ct:save.track</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>My form</td>
+      <td>f_track_file</td>
+      <td>[{ "condition": "selected(${f_track}, 'start')", "updateIntervalSeconds": 5, "distanceFilterMeters": 10 }, { "condition": "selected(${f_track},'stop')", "updateIntervalSeconds": 0, "snapTrack": true }]</td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr>
+      <td class="sheets" colspan="3"><span>survey</span><span>choices</span><span class="active">settings</span></td>
+    </tr>
+  </tfoot>
+</table>
+
 
 `condition` is an XlsForm expression which activates this option if matched, e.g. ${start_stop}='start'. Check out the [ODK Form Logic documentation](https://docs.getodk.org/form-logic/).
 

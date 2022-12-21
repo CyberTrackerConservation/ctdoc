@@ -1,14 +1,14 @@
-#---
+---
 layout: page
-title: Snap location
+title: Using KoBoToolbox
 nav_order: 1000
 parent: Tutorials
 grand_parent: XlsForm extensions
 permalink: /xlsform/tutorial/1
 has_toc: false
 ---
-Snap location
-=============
+Using KoBoToolbox
+========================
 {: .no_toc }
 
 Table of Contents
@@ -18,89 +18,95 @@ Table of Contents
 {:toc}
 
 ## Goal
-This tutorial demonstrates configuring the **snapLocation** feature described in the [reference manual]({{ site.baseurl }}/xlsform/reference-manual/6#snaplocation).
+This tutorial shows how to use CyberTracker with KoBoToolbox. By the end, you will be able to use CyberTracker to capture data and view it on the KoBoToolbox backend.
 
 ## Requirements
-- CyberTracker running on a Windows or Mac
+- Windows (64-bit) or Mac
 - Excel or other XlsForm editor
+- Account on KoBoToolbox
 
 ## Steps
-Follow the [Getting started]({{ site.baseurl }}/xlsform/tutorial/0) tutorial for set up.
-
-### 1. Open the form
-Open the `form.xlsx` file for the project.
-
-### 2. Mark the `geopoint` question as `hidden` in the `appearance` column
-<table class="xlsTable">
-  <thead>
-    <tr>
-      <th>type</th>
-      <th>name</th>
-      <th>appearance</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>geopoint</td>
-      <td>my_location</td>
-      <td>hidden</td>
-    </tr>
-  </tbody>
-  <tfoot>
-    <tr>
-      <td class="sheets" colspan="3"><span class="active">survey</span><span>choices</span><span>survey</span></td>
-    </tr>
-  </tfoot>
-</table>
-
-### 3. Set the `bind::ct:save.snapLocation` column to `true`
-CyberTracker also works with `TRUE`.
-<table class="xlsTable">
-  <thead>
-    <tr>
-      <th>type</th>
-      <th>name</th>
-      <th>bind::ct:save.snapLocation</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>text</td>
-      <td>note</td>
-      <td>true</td>
-    </tr>
-  </tbody>
-  <tfoot>
-    <tr>
-      <td class="sheets" colspan="3"><span class="active">survey</span><span>choices</span><span>survey</span></td>
-    </tr>
-  </tfoot>
-</table> 
-
-### 4. Verify
-In the example below, when the user presses **Save** then the location is taken automatically. 
+### 1. Create an account
+Create an account on KoBoToolbox using the [sign-up flow](https://www.kobotoolbox.org/sign-up/).
 <table>
 <tr>
-<td><img src="{{ site.baseurl }}/assets/xlsform/tutorial-1a.png" /></td>
-<td><img src="{{ site.baseurl }}/assets/xlsform/tutorial-1b.png" /></td>
-<td><img src="{{ site.baseurl }}/assets/xlsform/tutorial-1c.png" /></td>
-</tr>
-<tr>
-<td><img src="{{ site.baseurl }}/assets/xlsform/tutorial-1d.png" /></td>
-<td><img src="{{ site.baseurl }}/assets/xlsform/tutorial-1e.png" /></td>
-<td></td>
+<td><img src="{{ site.baseurl }}/assets/xlsform/tutorial-kobo-1.png" /></td>
 </tr>
 </table>
 
-## Form
-[Download XlsForm]({{ site.baseurl }}/assets/xlsform/tutorial-1.xlsx)
-
-## Demo
-On desktop, copy this [link](https://cybertrackerwiki.org/applink?AhUEAP9wcm9qZWN0VWlkAP8ieGxzZm9ybV90dXRvcmlhbF8xIgAG_yJ3aWtpOi94bHNmb3JtL3R1dG9yaWFsLTEuanNvbiIA) to the clipboard and use the `File->Connect using clipboard link` option in CyberTracker.
-
-On mobile, scan the QR Code below after installing CyberTracker. It will download and install the project.
+### 2. Create a new Project
+Create a new project using the **New** button. For more information, check out the [quick start guide](https://support.kobotoolbox.org/quick_start.html).
 <table>
 <tr>
-<td><img width="320" src="{{ site.baseurl }}/assets/xlsform/tutorial-1-qrcode.png" /></td>
+<td><img src="{{ site.baseurl }}/assets/xlsform/tutorial-kobo-2.png" /></td>
+<td><img src="{{ site.baseurl }}/assets/xlsform/tutorial-kobo-3.png" /></td>
 </tr>
 </table>
+
+### 3. Adding questions
+Create questions on the form using the **+** button. When done click **Save** and then **Deploy**. 
+<table>
+<tr>
+<td><img src="{{ site.baseurl }}/assets/xlsform/tutorial-kobo-4.png" /></td>
+<td><img src="{{ site.baseurl }}/assets/xlsform/tutorial-kobo-5.png" /></td>
+</tr>
+</table>
+
+### 4. Download, install and launch CyberTracker
+Visit the [Download page]({{ site.baseurl }}/xlsform/download) and follow the instructions to install and launch CyberTracker. 
+
+### 5. Connecting to the form
+Download the form in CyberTracker by using the **Connect** page.
+<table>
+<tr>
+<td><img src="{{ site.baseurl }}/assets/xlsform/tutorial-kobo-6a.png" /></td>
+<td><img src="{{ site.baseurl }}/assets/xlsform/tutorial-kobo-6b.png" /></td>
+<td><img src="{{ site.baseurl }}/assets/xlsform/tutorial-kobo-6c.png" /></td>
+</tr>
+</table>
+
+### 6. Entering data
+Tap on the Project name ('Tutorial') and then use the **+** button in the bottom right corner to add new data.
+<table>
+<tr>
+<td><img src="{{ site.baseurl }}/assets/xlsform/tutorial-kobo-6d.png" /></td>
+<td><img src="{{ site.baseurl }}/assets/xlsform/tutorial-kobo-6e.png" /></td>
+<td><img src="{{ site.baseurl }}/assets/xlsform/tutorial-kobo-6f.png" /></td>
+</tr>
+</table>
+
+### 7. Submitting data
+Tap on the **Submit** button in the bottom left corner. A confirmation dialog will popup. **Press and hold** the **Yes** button to confirm.
+<table>
+<tr>
+<td><img width="240" src="{{ site.baseurl }}/assets/xlsform/tutorial-kobo-7a.png" /></td>
+</tr>
+</table>
+
+### 8. Viewing collected data
+Return to the KoBo web application and navigate to the **Data** tab. If it is disabled, refresh the page. Notice the submitted data is displayed. 
+<table>
+<tr>
+<td><img src="{{ site.baseurl }}/assets/xlsform/tutorial-kobo-8.png" /></td>
+</tr>
+</table>
+
+### 9. Open the `CTProjects` folder on the desktop
+CyberTracker creates a folder on the desktop called `CTProjects`. Open this folder and navigate to the `Projects` sub-folder inside it. You will then see a folder for the Project you have just created. Open it and notice that it contains a file called `form.xlsx`.
+<table>
+<tr>
+<td><img src="{{ site.baseurl }}/assets/xlsform/tutorial-kobo-9.png" /></td>
+</tr>
+</table>
+
+### 10. Open the form, make a change and save it
+- Open `form.xlsx` and make a change. For example, add a new entry in the `choices` sheet, or a new question in the `survey` sheet. 
+- Save the form
+
+### 11. Reload the Project in CyberTracker
+- Exit the Project by pressing the **Back** button in the top left corner
+- Relaunch the Project by tapping on it
+- Verify that the change that was made.
+
+{: .warning }
+Changes made to the form are not automatically uploaded to KoBo. You must re-upload the form to the backend when done.

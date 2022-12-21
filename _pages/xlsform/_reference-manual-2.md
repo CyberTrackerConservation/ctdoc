@@ -1,7 +1,7 @@
 ## Settings
 
 ### immersive
-Setting this to `true` causes the UI to use the wizard exclusively, i.e. there is no **Home** page. Default is `false`. `TRUE` and `FALSE` values also work.
+Setting this to `yes` causes the UI to use the wizard exclusively, i.e. there is no **Home** page. Default is `no`.
 <table class="xlsTable">
   <thead>
     <tr>
@@ -32,20 +32,18 @@ In the table below, the user context is always within a sighting and each page t
 </table>
 
 ### wizardMode
-If the `immersive` column is missing or set to `false`, then the UI reverts to *non-immersive* mode. In this case, there is a **Home** page which shows all sightings. The user returns to this page after saving a sighting. 
+If the `immersive` column is missing or set to `no`, then the UI reverts to *non-immersive* mode. In this case, there is a **Home** page which shows all sightings. The user returns to this page after saving a sighting. 
 
 <table class="xlsTable">
   <thead>
     <tr>
       <th>title</th>
-      <th>bind::ct:immersive</th>
       <th>bind::ct:wizardMode</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td>My Form</td>
-      <td>false</td>
       <td>true</td>
     </tr>
   </tbody>
@@ -56,7 +54,7 @@ If the `immersive` column is missing or set to `false`, then the UI reverts to *
   </tfoot>
 </table>
 
-If `wizardMode` is set to `false`, then all questions show on a single page. This mode is recommended when wanting to show all sighting data at once and is the most conventional. 
+If `wizardMode` is set to `no`, then all questions show on a single page. This mode is recommended when wanting to show all sighting data at once and is the most conventional. 
 <table>
 <tr>
 <td><img src="{{ site.baseurl }}/assets/xlsform/refman-wizardMode-1.png" /></td>
@@ -65,12 +63,79 @@ If `wizardMode` is set to `false`, then all questions show on a single page. Thi
 </tr>
 </table>
 
-If `wizardMode` is set to `true`, then each question will appear on its own page with **Back** and **Next** toolbar buttons to navigate between questions. The user will still return to the **Home** page between sightings. wizardMode appears on the **Settings** page as **Page mode**.
+If `wizardMode` is set to `yes`, then each question will appear on its own page with **Back** and **Next** toolbar buttons to navigate between questions. The user will still return to the **Home** page between sightings. wizardMode appears on the **Settings** page as **Page mode**.
 <table>
 <tr>
 <td><img src="{{ site.baseurl }}/assets/xlsform/refman-wizardMode-4.png" /></td>
 <td><img src="{{ site.baseurl }}/assets/xlsform/refman-wizardMode-5.png" /></td>
 <td><img src="{{ site.baseurl }}/assets/xlsform/refman-wizardMode-6.png" /></td>
+</tr>
+</table>
+
+### summary
+The summary attribute specifies which fields to use as the summary of a sighting on the **Home** page. For example:
+
+<table class="xlsTable">
+  <thead>
+    <tr>
+      <th>type</th>
+      <th>name</th>
+      <th>label</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>text</td>
+      <td>f_initial_text</td>
+      <td>Initial note</td>
+    </tr>
+    <tr>
+      <td>select_one animal</td>
+      <td>f_animal</td>
+      <td>Animal</td>
+    </tr>
+    <tr>
+      <td>select_multiple behavior</td>
+      <td>f_behavior</td>
+      <td>Behavior</td>
+    </tr>
+    <tr>
+      <td>text</td>
+      <td>f_final_text</td>
+      <td>Final note</td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr>
+      <td class="sheets" colspan="3"><span>survey</span><span>choices</span><span class="active">settings</span></td>      
+    </tr>
+  </tfoot>
+</table>
+
+The following setting will ensure that the summary only uses the `f_animal` and `f_behavior` questions.
+<table class="xlsTable">
+  <thead>
+    <tr>
+      <th>title</th>
+      <th>bind::ct:summary</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>My Form</td>
+      <td>f_animal f_behavior</td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr>
+      <td class="sheets" colspan="3"><span>survey</span><span>choices</span><span class="active">settings</span></td>      
+    </tr>
+  </tfoot>
+</table>
+
+<table>
+<tr>
+<td><img width="240" src="{{ site.baseurl }}/assets/xlsform/refman-setting-summary-1.png" /></td>
 </tr>
 </table>
 
@@ -175,7 +240,7 @@ After clicking **Start**, the tool will display the following:
 
 The feature service contains three layers: **Tracks** (point layer), **Last Known Locations** (point layer) and **Track Lines** (Polyline layer). 
 
-If this service is not specified, then tracks are placed in a `file` type question of the sighting which specifies `snapTrack` in the `save` section of the `survey` question. See [Tracks]({{ site.baseurl }}/xlsform/reference-manual/6#track).
+If this service is not specified, then tracks are placed in a `file` type question of the sighting. See [Tracks]({{ site.baseurl }}/xlsform/reference-manual/6#track).
 
 ### sendLocationInterval
 

@@ -20,7 +20,7 @@ Frame width around the content area of the page. Default is 16.
   </tbody>
   <tfoot>
     <tr>
-      <td class="sheets" colspan="3"><span class="active">survey</span><span>choices</span><span>survey</span></td>
+      <td class="sheets" colspan="3"><span class="active">survey</span><span>choices</span><span>settings</span></td>
     </tr>
   </tfoot>
 </table>
@@ -53,7 +53,7 @@ The visual appearance of the question.
   </tbody>
   <tfoot>
     <tr>
-      <td class="sheets" colspan="3"><span class="active">survey</span><span>choices</span><span>survey</span></td>
+      <td class="sheets" colspan="3"><span class="active">survey</span><span>choices</span><span>settings</span></td>
     </tr>
   </tfoot>
 </table>
@@ -112,14 +112,14 @@ For **range** questions:
     <tr>
       <td>range</td>
       <td>animal_count</td>
-      <td>start=1 end=50 step=1</td>
+      <td>start=1 end=100 step=1</td>
       <td>Grid</td>
       <td>5</td>
     </tr>
   </tbody>
   <tfoot>
     <tr>
-      <td class="sheets" colspan="3"><span class="active">survey</span><span>choices</span><span>survey</span></td>
+      <td class="sheets" colspan="3"><span class="active">survey</span><span>choices</span><span>settings</span></td>
     </tr>
   </tfoot>
 </table>
@@ -152,7 +152,7 @@ The padding space between grid items. Requires `style` to be set.
   </tbody>
   <tfoot>
     <tr>
-      <td class="sheets" colspan="3"><span class="active">survey</span><span>choices</span><span>survey</span></td>
+      <td class="sheets" colspan="3"><span class="active">survey</span><span>choices</span><span>settings</span></td>
     </tr>
   </tfoot>
 </table>
@@ -174,6 +174,7 @@ Number of columns for grids. Requires `style` to be set. Defaults to 2.
     <tr>
       <th>type</th>
       <th>name</th>
+      <th>bind::ct:content.style</th>
       <th>bind::ct:content.columns</th>
     </tr>
   </thead>
@@ -181,17 +182,18 @@ Number of columns for grids. Requires `style` to be set. Defaults to 2.
     <tr>
       <td>select_one animal</td>
       <td>animal</td>
+      <td>Grid</td>
       <td>4</td>
     </tr>
   </tbody>
   <tfoot>
     <tr>
-      <td class="sheets" colspan="3"><span class="active">survey</span><span>choices</span><span>survey</span></td>
+      <td class="sheets" colspan="3"><span class="active">survey</span><span>choices</span><span>settings</span></td>
     </tr>
   </tfoot>
 </table>
 
-Column values are `3`, `5` and `10`.
+For example, column values below are `3`, `5` and `10`.
 <table>
 <tr>
 <td><img src="{{ site.baseurl }}/assets/xlsform/refman-content-columns-1.png" /></td>
@@ -208,6 +210,7 @@ Show lines between cells for grids. Requires `style` to be set. Defaults to true
     <tr>
       <th>type</th>
       <th>name</th>
+      <th>bind::ct:content.style</th>
       <th>bind::ct:content.lines</th>
     </tr>
   </thead>
@@ -215,17 +218,18 @@ Show lines between cells for grids. Requires `style` to be set. Defaults to true
     <tr>
       <td>select_one animal</td>
       <td>animal</td>
+      <td>IconOnly</td>
       <td>false</td>
     </tr>
   </tbody>
   <tfoot>
     <tr>
-      <td class="sheets" colspan="3"><span class="active">survey</span><span>choices</span><span>survey</span></td>
+      <td class="sheets" colspan="3"><span class="active">survey</span><span>choices</span><span>settings</span></td>
     </tr>
   </tfoot>
 </table>
 
-Lines value is `true` and `false`.
+`lines` value below is `yes` and `no`.
 <table>
 <tr>
 <td><img width="240" src="{{ site.baseurl }}/assets/xlsform/refman-content-lines-1.png" /></td>
@@ -234,13 +238,14 @@ Lines value is `true` and `false`.
 </table>
 
 ### border
-Show border around the outside of a grid. Requires `style` to be set. Defaults to `false` if frameWidth is 0, `true` otherwise.
+Show border around the outside of a grid. Requires `style` to be set. Defaults to `no` if frameWidth is 0, `yes` otherwise.
 
 <table class="xlsTable">
   <thead>
     <tr>
       <th>type</th>
       <th>name</th>
+      <th>bind::ct:content.style</th>
       <th>bind::ct:content.border</th>
     </tr>
   </thead>
@@ -248,17 +253,18 @@ Show border around the outside of a grid. Requires `style` to be set. Defaults t
     <tr>
       <td>select_one animal</td>
       <td>animal</td>
+      <td>IconOnly</td>
       <td>true</td>
     </tr>
   </tbody>
   <tfoot>
     <tr>
-      <td class="sheets" colspan="3"><span class="active">survey</span><span>choices</span><span>survey</span></td>
+      <td class="sheets" colspan="3"><span class="active">survey</span><span>choices</span><span>settings</span></td>
     </tr>
   </tfoot>
 </table>
 
-Border value is `true` and `false`.
+Border value is `yes` and `no`.
 <table>
 <tr>
 <td><img width="240" src="{{ site.baseurl }}/assets/xlsform/refman-content-border-1.png" /></td>
@@ -274,6 +280,7 @@ Border width for grid lines. Requires `style` to be set. Defaults to 2.
     <tr>
       <th>type</th>
       <th>name</th>
+      <th>bind::ct:content.style</th>
       <th>bind::ct:content.borderWidth</th>
     </tr>
   </thead>
@@ -281,12 +288,13 @@ Border width for grid lines. Requires `style` to be set. Defaults to 2.
     <tr>
       <td>select_one animal</td>
       <td>animal</td>
+      <td>IconOnly</td>
       <td>2</td>
     </tr>
   </tbody>
   <tfoot>
     <tr>
-      <td class="sheets" colspan="3"><span class="active">survey</span><span>choices</span><span>survey</span></td>
+      <td class="sheets" colspan="3"><span class="active">survey</span><span>choices</span><span>settings</span></td>
     </tr>
   </tfoot>
 </table>
@@ -307,6 +315,7 @@ Size text font size. Requires `style` to be set. Defaults to 16. Note that the f
     <tr>
       <th>type</th>
       <th>name</th>
+      <th>bind::ct:content.style</th>
       <th>bind::ct:content.fontSize</th>
     </tr>
   </thead>
@@ -314,12 +323,13 @@ Size text font size. Requires `style` to be set. Defaults to 16. Note that the f
     <tr>
       <td>select_one animal</td>
       <td>animal</td>
+      <td>IconOnly</td>
       <td>14</td>
     </tr>
   </tbody>
   <tfoot>
     <tr>
-      <td class="sheets" colspan="3"><span class="active">survey</span><span>choices</span><span>survey</span></td>
+      <td class="sheets" colspan="3"><span class="active">survey</span><span>choices</span><span>settings</span></td>
     </tr>
   </tfoot>
 </table>
@@ -341,6 +351,7 @@ Set font to bold. Requires `style` to be set. Defaults to false.
     <tr>
       <th>type</th>
       <th>name</th>
+      <th>bind::ct:content.style</th>
       <th>bind::ct:content.fontBold</th>
     </tr>
   </thead>
@@ -348,12 +359,13 @@ Set font to bold. Requires `style` to be set. Defaults to false.
     <tr>
       <td>select_one animal</td>
       <td>animal</td>
+      <td>IconOnly</td>
       <td>true</td>
     </tr>
   </tbody>
   <tfoot>
     <tr>
-      <td class="sheets" colspan="3"><span class="active">survey</span><span>choices</span><span>survey</span></td>
+      <td class="sheets" colspan="3"><span class="active">survey</span><span>choices</span><span>settings</span></td>
     </tr>
   </tfoot>
 </table>
@@ -366,6 +378,7 @@ Set height of individual items. Requires `style` to be set. Defaults to 48.
     <tr>
       <th>type</th>
       <th>name</th>
+      <th>bind::ct:content.style</th>
       <th>bind::ct:content.itemHeight</th>
     </tr>
   </thead>
@@ -373,12 +386,13 @@ Set height of individual items. Requires `style` to be set. Defaults to 48.
     <tr>
       <td>select_one animal</td>
       <td>animal</td>
+      <td>IconOnly</td>
       <td>48</td>
     </tr>
   </tbody>
   <tfoot>
     <tr>
-      <td class="sheets" colspan="3"><span class="active">survey</span><span>choices</span><span>survey</span></td>
+      <td class="sheets" colspan="3"><span class="active">survey</span><span>choices</span><span>settings</span></td>
     </tr>
   </tfoot>
 </table>
@@ -412,7 +426,7 @@ A [QML](https://wikipedia.org/wiki/QML) fragment to use instead of the built-in 
   </tbody>
   <tfoot>
     <tr>
-      <td class="sheets" colspan="3"><span class="active">survey</span><span>choices</span><span>survey</span></td>
+      <td class="sheets" colspan="3"><span class="active">survey</span><span>choices</span><span>settings</span></td>
     </tr>
   </tfoot>
 </table>

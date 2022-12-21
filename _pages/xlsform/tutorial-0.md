@@ -23,31 +23,22 @@ This tutorial shows how to start working with CyberTracker XlsForm extensions. B
 ## Requirements
 - Windows (64-bit) or Mac
 - Excel or other XlsForm editor
-- Account on KoboToolbox, ODK Central or Survey123
-
-## Form template
-[Download XlsForm]({{ site.baseurl }}/assets/xlsform/simple-form.xlsx)
 
 ## Steps
-### 1. Create an account
-- Create an account on your chosen provider. After signing up, you will have a username and password. 
-- Create a new form or upload an existing form (see above for a sample).
-
-### 2. Download, install and launch CyberTracker
+### 1. Download, install and launch CyberTracker
 Visit the [Download page]({{ site.baseurl }}/xlsform/download) and follow the instructions to install and launch CyberTracker. 
 
-### 3. Install a project 
-Download the form in CyberTracker by using the **Connect** page. The following is the flow using KoBoToolbox, but it is very similar for other providers.
+### 2. Download the project package 
+Download the [package]({{ site.baseurl }}/assets/xlsform/tutorial-getting-started.zip).
+
+### 3. Install the package in CyberTracker
+Use the `File->Install package` menu option and navigate to the file that was downloaded.
+
 <table>
 <tr>
-<td><img src="{{ site.baseurl }}/assets/xlsform/tutorial-0a.png" /></td>
-<td><img src="{{ site.baseurl }}/assets/xlsform/tutorial-0b.png" /></td>
-<td><img src="{{ site.baseurl }}/assets/xlsform/tutorial-0c.png" /></td>
-</tr>
-<tr>
-<td><img src="{{ site.baseurl }}/assets/xlsform/tutorial-0d.png" /></td>
-<td><img src="{{ site.baseurl }}/assets/xlsform/tutorial-0e.png" /></td>
-<td><img src="{{ site.baseurl }}/assets/xlsform/tutorial-0f.png" /></td>
+<td><img src="{{ site.baseurl }}/assets/xlsform/tutorial-x1.png" /></td>
+<td><img src="{{ site.baseurl }}/assets/xlsform/tutorial-x2.png" /></td>
+<td><img src="{{ site.baseurl }}/assets/xlsform/tutorial-x3.png" /></td>
 </tr>
 </table>
 
@@ -55,16 +46,27 @@ Download the form in CyberTracker by using the **Connect** page. The following i
 CyberTracker creates a folder on the desktop called `CTProjects`. Open this folder and navigate to the `Projects` sub-folder inside it. You will then see a folder for the Project you have just created. Open it and notice that it contains a file called `form.xlsx`.
 <table>
 <tr>
-<td><img src="{{ site.baseurl }}/assets/xlsform/tutorial-0g.png" /></td>
+<td><img src="{{ site.baseurl }}/assets/xlsform/tutorial-x4.png" /></td>
 </tr>
 </table>
 
 ### 5. Open the form, make a change and save it
 - Open `form.xlsx` and make a change. For example, add a new animal in the `choices` sheet, or a new question in the `survey` sheet. 
 - Save the form
+<table>
+<tr>
+<td><img src="{{ site.baseurl }}/assets/xlsform/tutorial-x5.png" /></td>
+</tr>
+</table>
 
-### 6. Reload the Project in CyberTracker
-Verify that the change that was made.
-
-{: .warning }
-Changes made to the form are not automatically uploaded to the provider. You must re-upload the form to the backend when done. If the form is updated, your changes will be overwritten. 
+### 6. Reload the Project
+- Exit the Project by pressing the **Back** button in the top left corner
+- Relaunch the project by tapping on it
+- Verify that the changes were made
+<table>
+<tr>
+<td><img src="{{ site.baseurl }}/assets/xlsform/tutorial-x6.png" /></td>
+<td><img src="{{ site.baseurl }}/assets/xlsform/tutorial-x7.png" /></td>
+<td><img src="{{ site.baseurl }}/assets/xlsform/tutorial-x8.png" /></td>
+</tr>
+</table>
