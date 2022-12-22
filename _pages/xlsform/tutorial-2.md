@@ -90,4 +90,4 @@ Return to Excel and update the `settings` sheet with the `namespaces`, `esriLoca
 </table>
 
 ### 6. Create a track control question
-Create a question in the form which controls the state of the 
+Create a question in the form which controls the state of the track timer.  
