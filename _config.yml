@@ -31,8 +31,8 @@ github_username: justinsteventon
 color_scheme: ctcolors
 
 # Build settings
-remote_theme: just-the-docs/just-the-docs
-#theme: just-the-docs
+#remote_theme: just-the-docs/just-the-docs
+theme: just-the-docs
 
 # Include for processing.
 include: ["_pages", ".well-known"]
