@@ -255,7 +255,6 @@ This value must be a valid JSON array.
   </tfoot>
 </table>
 
-
 `condition` is an XlsForm expression which activates this option if matched, e.g. ${start_stop}='start'. Check out the [ODK Form Logic documentation](https://docs.getodk.org/form-logic/).
 
 `updateIntervalSeconds` is the number of seconds between GPS readings. Set to 0 to disable the track timer.

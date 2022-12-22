@@ -15,4 +15,4 @@ The tutorials are designed to provide an understanding of the process of working
 
 - [Getting started]({{ site.baseurl }}/xlsform/tutorial/0)
 - [Using KoboToolbox]({{ site.baseurl }}/xlsform/tutorial/1)
-- [Using Survey123]({{ site.baseurl }}/xlsform/tutorial/2)
+- [Using Survey123 tracks]({{ site.baseurl }}/xlsform/tutorial/2)
