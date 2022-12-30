@@ -219,7 +219,7 @@ Show lines between cells for grids. Requires `style` to be set. Defaults to true
       <td>select_one animal</td>
       <td>animal</td>
       <td>IconOnly</td>
-      <td>false</td>
+      <td>no</td>
     </tr>
   </tbody>
   <tfoot>
@@ -254,7 +254,7 @@ Show border around the outside of a grid. Requires `style` to be set. Defaults t
       <td>select_one animal</td>
       <td>animal</td>
       <td>IconOnly</td>
-      <td>true</td>
+      <td>yes</td>
     </tr>
   </tbody>
   <tfoot>
@@ -360,7 +360,7 @@ Set font to bold. Requires `style` to be set. Defaults to false.
       <td>select_one animal</td>
       <td>animal</td>
       <td>IconOnly</td>
-      <td>true</td>
+      <td>yes</td>
     </tr>
   </tbody>
   <tfoot>

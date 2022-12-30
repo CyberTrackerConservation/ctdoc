@@ -12,7 +12,7 @@ Setting this to `yes` causes the UI to use the wizard exclusively, i.e. there is
   <tbody>
     <tr>
       <td>My Form</td>
-      <td>true</td>
+      <td>yes</td>
     </tr>
   </tbody>
   <tfoot>
@@ -44,7 +44,7 @@ If the `immersive` column is missing or set to `no`, then the UI reverts to *non
   <tbody>
     <tr>
       <td>My Form</td>
-      <td>true</td>
+      <td>yes</td>
     </tr>
   </tbody>
   <tfoot>

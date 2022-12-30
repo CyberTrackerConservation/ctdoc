@@ -98,6 +98,31 @@ Tapping on the button will provide more information, e.g. the track frequency or
 </tr>
 </table>
 
+### hideHome
+If `yes` then the home button is hidden. Default is `no`.
+
+<table class="xlsTable">
+  <thead>
+    <tr>
+      <th>type</th>
+      <th>name</th>
+      <th>bind::ct:header.hideHome</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>select_one animal</td>
+      <td>animal</td>
+      <td>yes</td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr>
+      <td class="sheets" colspan="3"><span class="active">survey</span><span>choices</span><span>settings</span></td>
+    </tr>
+  </tfoot>
+</table>
+
 ### hidden
 If `yes` then the header is hidden. Default is `no`.
 
@@ -113,7 +138,7 @@ If `yes` then the header is hidden. Default is `no`.
     <tr>
       <td>select_one animal</td>
       <td>animal</td>
-      <td>false</td>
+      <td>no</td>
     </tr>
   </tbody>
   <tfoot>

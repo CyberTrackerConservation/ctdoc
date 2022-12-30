@@ -95,7 +95,7 @@ If `yes` then the footer is hidden. Default is `no`.
     <tr>
       <td>select_one animal</td>
       <td>animal</td>
-      <td>false</td>
+      <td>no</td>
     </tr>
   </tbody>
   <tfoot>
