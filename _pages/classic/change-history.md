@@ -7,6 +7,17 @@ permalink: /classic/change-history/
 ---
 # Change History
 
+### 3.528: 12/31/2022
+
+New features
+
+  - Share data to CSV file
+
+Bug fixes
+
+  - ESRI export should export new compressed check lists properly
+
+
 ### 3.527: 09/28/2022
 
 Bug fixes

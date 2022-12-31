@@ -287,3 +287,17 @@ the field.
   </video>
 </figure>
 </details>
+
+### Share data
+
+*Share data* allows data to be shared directly from the field in a CSV format.
+<details markdown="block">
+  <summary>
+  Watch video
+  </summary>
+<figure class="video_container">
+  <video controls="true" allowfullscreen="true">
+    <source src="{{ site.baseurl }}/assets/classic/ShareData.mp4" type="video/mp4">
+  </video>
+</figure>
+</details>
