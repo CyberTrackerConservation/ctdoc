@@ -80,6 +80,38 @@ The `map` button opens the map dialog.
 </tr>
 </table>
 
+### Custom button icons
+The button icons can be overridden with custom ones. To do this, create columns with the name of the button followed by `Icon`. For example:
+- homeIcon
+- backIcon
+- nextIcon
+- saveIcon
+- indexIcon
+- optionsIcon
+- mapIcon
+
+<table class="xlsTable">
+  <thead>
+    <tr>
+      <th>type</th>
+      <th>name</th>
+      <th>bind::ct:footer.mapIcon</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>select_one</td>
+      <td>animal</td>
+      <td>my_custom_map_icon.svg</td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr>
+      <td class="sheets" colspan="3"><span class="active">survey</span><span>choices</span><span>settings</span></td>
+    </tr>
+  </tfoot>
+</table>
+
 ### hidden
 If `yes` then the footer is hidden. Default is `no`.
 
