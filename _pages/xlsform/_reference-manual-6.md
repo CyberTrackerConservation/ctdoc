@@ -52,7 +52,7 @@ Setting `snapLocation` to the name of a `geopoint` question will create a popup 
   </tbody>
   <tfoot>
     <tr>
-      <td class="sheets" colspan="3"><span class="active">survey</span><span>choices</span><span>settings</span></td>
+      <td class="sheets" colspan="3"><span>survey</span><span>choices</span><span class="active">settings</span></td>
     </tr>
   </tfoot>
 </table>
