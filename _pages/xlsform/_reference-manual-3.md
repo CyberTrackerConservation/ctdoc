@@ -98,6 +98,99 @@ Tapping on the button will provide more information, e.g. the track frequency or
 </tr>
 </table>
 
+### homeIcon
+Override the home icon with a custom icon.  
+
+<table class="xlsTable">
+  <thead>
+    <tr>
+      <th>type</th>
+      <th>name</th>
+      <th>bind::ct:header.homeIcon</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>select_one animal</td>
+      <td>animal</td>
+      <td>my_home_icon.svg</td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr>
+      <td class="sheets" colspan="3"><span class="active">survey</span><span>choices</span><span>settings</span></td>
+    </tr>
+  </tfoot>
+</table>
+
+<table>
+<tr>
+<td><img width="240" src="{{ site.baseurl }}/assets/xlsform/refman-header-homeIcon.png" /></td>
+</tr>
+</table>
+
+### cancelIcon
+When editing a sighting in `immersive` mode, the system puts a **Cancel** button in the top left corner. Clicking this button will discard any edits. This property overrides the default icon used.
+
+<table class="xlsTable">
+  <thead>
+    <tr>
+      <th>type</th>
+      <th>name</th>
+      <th>bind::ct:header.cancelIcon</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>select_one animal</td>
+      <td>animal</td>
+      <td>my_edit_cancel_icon.svg</td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr>
+      <td class="sheets" colspan="3"><span class="active">survey</span><span>choices</span><span>settings</span></td>
+    </tr>
+  </tfoot>
+</table>
+
+<table>
+<tr>
+<td><img width="240" src="{{ site.baseurl }}/assets/xlsform/refman-header-cancelIcon.png" /></td>
+</tr>
+</table>
+
+### confirmIcon
+When editing a sighting in `immersive` mode, the system puts a **Confirm** button in the top right corner. Clicking this button will accept edits made to the sighting. This property overrides the default icon used.
+
+<table class="xlsTable">
+  <thead>
+    <tr>
+      <th>type</th>
+      <th>name</th>
+      <th>bind::ct:header.confirmIcon</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>select_one animal</td>
+      <td>animal</td>
+      <td>my_edit_confirm_icon.svg</td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr>
+      <td class="sheets" colspan="3"><span class="active">survey</span><span>choices</span><span>settings</span></td>
+    </tr>
+  </tfoot>
+</table>
+
+<table>
+<tr>
+<td><img width="240" src="{{ site.baseurl }}/assets/xlsform/refman-header-confirmIcon.png" /></td>
+</tr>
+</table>
+
 ### hideHome
 If `yes` then the home button is hidden. Default is `no`.
 
