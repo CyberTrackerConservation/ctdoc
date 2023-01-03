@@ -112,6 +112,31 @@ The button icons can be overridden with custom ones. To do this, create columns 
   </tfoot>
 </table>
 
+### buttonColor
+Override the default button color with a custom one. This applies to all buttons.
+
+<table class="xlsTable">
+  <thead>
+    <tr>
+      <th>type</th>
+      <th>name</th>
+      <th>bind::ct:footer.buttonColor</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>select_one animal</td>
+      <td>animal</td>
+      <td>#6200EE</td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr>
+      <td class="sheets" colspan="3"><span class="active">survey</span><span>choices</span><span>settings</span></td>
+    </tr>
+  </tfoot>
+</table>
+
 ### hidden
 If `yes` then the footer is hidden. Default is `no`.
 
