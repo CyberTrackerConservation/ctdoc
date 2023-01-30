@@ -259,51 +259,7 @@ The `offlineMapUrl` attribute specifies a url to a downloadable zip file contain
   </tfoot>
 </table>
 
-If the zip contains layer files, then CyberTracker will discover and install them. While this is often acceptable, when there are multiple layers, it is useful to specify the order and opacity of each. To do this, add a `layers.json` file to the zip and specify each of the layers:
-
-```json
-[
-    {
-        "filename": "Gabon.mbtiles",
-        "name": "Gabon",
-        "opacity": 1.0
-    },
-    {
-        "filename": "Country.shp",
-        "name": "World countries",
-        "opacity": 0.5
-    }
-]
-```
-See the [sample]({{ site.baseurl }}/assets/xlsform/offlinemap.zip) file. Note that the layers are rendered bottom to top, so in the case above, the 'Gabon' layer will be above the 'Country' layer.
-
-The following layer formats are supported:
-- ESRI formats: shapefile (shp), tile package (tpk), vector tiles package (vtpk)
-- ASRP/USRP
-- CIB1, 5, 10
-- DTED0, 1, 2
-- GeoTIFF
-- HFA
-- HRE
-- IMG
-- JPEG
-- JPEG 2000
-- NITF
-- PNG
-- RPF
-- SRTM1, 2
-- Mosaic Dataset in SQLite (read-only)
-- MapBox: mbtiles 
-- Google: KML
-- GeoJSON
-
-<table>
-<tr>
-<td><img src="{{ site.baseurl }}/assets/xlsform/refman-setting-offlinemap-1.png" /></td>
-<td><img src="{{ site.baseurl }}/assets/xlsform/refman-setting-offlinemap-2.png" /></td>
-<td><img src="{{ site.baseurl }}/assets/xlsform/refman-setting-offlinemap-3.png" /></td>
-</tr>
-</table>
+See the section on [Offline maps]({{ site.baseurl }}/xlsform/reference-manual/maps) for more information.
 
 ### esriLocationServiceUrl
 
