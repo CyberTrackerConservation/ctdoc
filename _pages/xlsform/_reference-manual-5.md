@@ -112,22 +112,22 @@ The button icons can be overridden with custom ones. To do this, create columns 
   </tfoot>
 </table>
 
-### buttonColor
-Override the default button color with a custom one. This applies to all buttons.
+### color and colorDark
+By default, the footer background color is taken from the `settings` sheet. However, it is possible to override it on an individual page.
 
 <table class="xlsTable">
   <thead>
     <tr>
       <th>type</th>
-      <th>name</th>
-      <th>bind::ct:footer.buttonColor</th>
+      <th>bind::ct:footer.color</th>
+      <th>bind::ct:footer.colorDark</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>select_one animal</td>
-      <td>animal</td>
-      <td>#6200EE</td>
+      <td>select_one...</td>
+      <td>#0000ff</td>
+      <td>#000080</td>
     </tr>
   </tbody>
   <tfoot>
@@ -135,6 +135,74 @@ Override the default button color with a custom one. This applies to all buttons
       <td class="sheets" colspan="3"><span class="active">survey</span><span>choices</span><span>settings</span></td>
     </tr>
   </tfoot>
+</table>
+
+<table>
+<tr>
+<td><img width="240" src="{{ site.baseurl }}/assets/xlsform/refman-footer-color-1.png" /></td>
+<td><img width="240" src="{{ site.baseurl }}/assets/xlsform/refman-footer-color-2.png" /></td>
+</tr>
+</table>
+
+### buttonColor and buttonColorDark
+Override the default button color with a custom one. This applies to all buttons.
+
+<table class="xlsTable">
+  <thead>
+    <tr>
+      <th>type</th>
+      <th>bind::ct:footer.buttonColor</th>
+      <th>bind::ct:footer.buttonColorDark</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>select_one...</td>
+      <td>#00a000</td>
+      <td>#20f020</td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr>
+      <td class="sheets" colspan="3"><span class="active">survey</span><span>choices</span><span>settings</span></td>
+    </tr>
+  </tfoot>
+</table>
+
+<table>
+<tr>
+<td><img width="240" src="{{ site.baseurl }}/assets/xlsform/refman-footer-buttonColor-1.png" /></td>
+<td><img width="240" src="{{ site.baseurl }}/assets/xlsform/refman-footer-buttonColor-2.png" /></td>
+</tr>
+</table>
+
+### buttonScale
+An additional scaling factor to apply to the button size. This is typically useful for increasing the size of footer buttons. The scaling factor will be capped to allow at least 6 buttons to fit in the footer.
+
+<table class="xlsTable">
+  <thead>
+    <tr>
+      <th>type</th>
+      <th>bind::ct:footer.buttonScale</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>select_one...</td>
+      <td>3.5</td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr>
+      <td class="sheets" colspan="3"><span class="active">survey</span><span>choices</span><span>settings</span></td>
+    </tr>
+  </tfoot>
+</table>
+
+<table>
+<tr>
+<td><img width="240" src="{{ site.baseurl }}/assets/xlsform/refman-footer-buttonScale.png" /></td>
+</tr>
 </table>
 
 ### hidden

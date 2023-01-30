@@ -1,6 +1,38 @@
 ## Header
 The header object supports custom header attributes. If no header object is specified, then the default header is used. By default, the header title is taken from the question label.
 
+### color and colorDark
+By default, the header background color is taken from the `settings` sheet. However, it is possible to override it on an individual page.
+
+<table class="xlsTable">
+  <thead>
+    <tr>
+      <th>type</th>
+      <th>bind::ct:header.color</th>
+      <th>bind::ct:header.colorDark</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>select_one...</td>
+      <td>#ff0000</td>
+      <td>#800000</td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr>
+      <td class="sheets" colspan="3"><span class="active">survey</span><span>choices</span><span>settings</span></td>
+    </tr>
+  </tfoot>
+</table>
+
+<table>
+<tr>
+<td><img width="240" src="{{ site.baseurl }}/assets/xlsform/refman-header-color-1.png" /></td>
+<td><img width="240" src="{{ site.baseurl }}/assets/xlsform/refman-header-color-2.png" /></td>
+</tr>
+</table>
+
 ### text
 Custom header text.
 <table class="xlsTable">
