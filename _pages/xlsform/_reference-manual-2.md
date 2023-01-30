@@ -166,16 +166,12 @@ The colors attribute specifies the color scheme used on the form. It follows the
 </table>
 
 The following color fields are supported:
-- primary
-- accent
-- foreground
-- background
-- darkPrimary
-- darkAccent
-- darkForeground
-- darkBackground
+- primary & primaryDark
+- accent & accentDark
+- foreground & foregroundDark
+- background & backgroundDark
 
-Colors prefixed with 'dark' will be used when dark mode is activated. If dark colors are not provided, then 'primary' and 'accent' colors will be used, but 'foreground' and 'background' colors will be ignored.
+Colors suffixed with 'dark' will be used when dark mode is activated. If dark colors are not provided, then 'primary' and 'accent' colors will be used, but 'foreground' and 'background' colors will be ignored.
 
 Colors can also be provided as a JSON object:
 
@@ -197,6 +193,116 @@ Colors can also be provided as a JSON object:
       <td class="sheets" colspan="3"><span>survey</span><span>choices</span><span class="active">settings</span></td>      
     </tr>
   </tfoot>
+</table>
+
+### icon, iconDark and subtitle
+The `icon` attribute specifies the icon used to display the project. `iconDark` is optional and will used when dark mode is enabled.
+
+The `subtitle` attribute specifies the text just below the form name. 
+
+<table>
+<tr>
+<td><img width="240" src="{{ site.baseurl }}/assets/xlsform/refman-setting-icon-subtitle.png" /></td>
+</tr>
+</table>
+
+<table class="xlsTable">
+  <thead>
+    <tr>
+      <th>title</th>
+      <th>bind::ct:icon</th>
+      <th>bind::ct:subtitle</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>My Form</td>
+      <td>gorilla.png</td>
+      <td>Custom subtitle</td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr>
+      <td class="sheets" colspan="3"><span>survey</span><span>choices</span><span class="active">settings</span></td>      
+    </tr>
+  </tfoot>
+</table>
+
+The icon image should be added to the form as an attached media file. In KoBoToolbox, this is done under the form settings option:
+<table>
+<tr>
+<td><img src="{{ site.baseurl }}/assets/xlsform/refman-setting-icon-kobo.png" /></td>
+</tr>
+</table>
+
+### offlineMapUrl
+
+The `offlineMapUrl` attribute specifies a url to a downloadable zip file containing map layers. Offline maps can be added manually using the mobile app, but this provides a way to specify them with the form. The map will be downloaded, installed and updated as part of the form.
+
+<table class="xlsTable">
+  <thead>
+    <tr>
+      <th>title</th>
+      <th>bind::ct:offlineMapUrl</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>My Form</td>
+      <td>https://cybertrackerwiki.org/assets/xlsform/offlinemap.zip</td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr>
+      <td class="sheets" colspan="3"><span>survey</span><span>choices</span><span class="active">settings</span></td>      
+    </tr>
+  </tfoot>
+</table>
+
+If the zip contains layer files, then CyberTracker will discover and install them. While this is often acceptable, when there are multiple layers, it is useful to specify the order and opacity of each. To do this, add a `layers.json` file to the zip and specify each of the layers:
+
+```json
+[
+    {
+        "filename": "Gabon.mbtiles",
+        "name": "Gabon",
+        "opacity": 1.0
+    },
+    {
+        "filename": "Country.shp",
+        "name": "World countries",
+        "opacity": 0.5
+    }
+]
+```
+See the [sample]({{ site.baseurl }}/assets/xlsform/offlinemap.zip) file. Note that the layers are rendered bottom to top, so in the case above, the 'Gabon' layer will be above the 'Country' layer.
+
+The following layer formats are supported:
+- ESRI formats: shapefile (shp), tile package (tpk), vector tiles package (vtpk)
+- ASRP/USRP
+- CIB1, 5, 10
+- DTED0, 1, 2
+- GeoTIFF
+- HFA
+- HRE
+- IMG
+- JPEG
+- JPEG 2000
+- NITF
+- PNG
+- RPF
+- SRTM1, 2
+- Mosaic Dataset in SQLite (read-only)
+- MapBox: mbtiles 
+- Google: KML
+- GeoJSON
+
+<table>
+<tr>
+<td><img src="{{ site.baseurl }}/assets/xlsform/refman-setting-offlinemap-1.png" /></td>
+<td><img src="{{ site.baseurl }}/assets/xlsform/refman-setting-offlinemap-2.png" /></td>
+<td><img src="{{ site.baseurl }}/assets/xlsform/refman-setting-offlinemap-3.png" /></td>
+</tr>
 </table>
 
 ### esriLocationServiceUrl
