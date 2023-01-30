@@ -64,7 +64,13 @@ Table of Contents
 {% include_relative _reference-manual-6.md %}
 
 <div style="page-break-after: always;"></div>
+{% include_relative _reference-manual-maps.md %}
+
+<div style="page-break-after: always;"></div>
 {% include_relative _reference-manual-7.md %}
+
+<div style="page-break-after: always;"></div>
+{% include_relative _reference-manual-8.md %}
 
 <div style="page-break-after: always;"></div>
 {% include_relative _reference-manual-faq.md %}
