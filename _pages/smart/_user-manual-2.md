@@ -17,6 +17,7 @@ Scan the following QR Code on your phone. It will download and install a sample 
 <td><img width="320" src="{{ site.baseurl }}/assets/smart/image253.png" /></td>
 </tr>
 </table>
+Or click the [applink](https://cybertrackerwiki.org/applink?BAAG_yJ3aWtpOi9zbWFydC9TYW1wbGVfQXJlYS5qc29uIgA=).
 
 ### 2.3. Capture data
 Tap **REPORT INCIDENT**, **Make observation**, **Wildlife**

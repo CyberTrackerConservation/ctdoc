@@ -22,19 +22,22 @@ Desktop: [Download page]({{ site.baseurl }}/xlsform/download)<br/>
 AppStore: [https://apps.apple.com/us/app/cybertracker/id1524186167?platform=iphone](https://apps.apple.com/us/app/cybertracker/id1524186167?platform=iphone)<br/>
 Play Store: [https://play.google.com/store/apps/details?id=org.cybertracker.mobile.ct](https://play.google.com/store/apps/details?id=org.cybertracker.mobile.ct)<br/>
 
-### Download the package
-Download the packages below. On iOS and Android choose to open the ZIP file with CyberTracker when prompted.
-On desktop, use the `File->Install package` menu option.
+### Install the package
+On desktop, copy the applink to the clipboard and use the `File->Connect using clipboard link` menu option.
+On mobile, open the link and it will automatically install and launch the demo.
 
 ### Demos
-1. [Field types]({{ site.baseurl }}/assets/xlsform/demo-field-types.zip)<br/>
+1. [Field types](https://cybertrackerwiki.org/applink?BAAG_yJ3aWtpOi94bHNmb3JtL2RlbW8tZmllbGQtdHlwZXMuanNvbiIA)<br/>
 Demo of the various field types. Many of these can be customized further. Check out the [XlsForm documentation](https://xlsform.org) for more information.
 
-1. [Snap location]({{ site.baseurl }}/assets/xlsform/demo-snap-location.zip)<br/>
+1. [Grid styles](https://cybertrackerwiki.org/applink?BAAG_yJ3aWtpOi94bHNmb3JtL2RlbW8tZ3JpZC1zdHlsZXMuanNvbiIA)<br/>
+Check out the [content documentation]({{ site.baseurl }}/xlsform/reference-manual/4#style).
+
+1. [Snap location](https://cybertrackerwiki.org/applink?BAAG_yJ3aWtpOi94bHNmb3JtL2RlbW8tc25hcC1sb2NhdGlvbi5qc29uIgA=)<br/>
 Check out the [snapLocation documentation]({{ site.baseurl }}/xlsform/reference-manual/6#snaplocation).
 
-1. [Save targets]({{ site.baseurl }}/assets/xlsform/demo-save-targets.zip)<br/>
+1. [Save targets](https://cybertrackerwiki.org/applink?BAAG_yJ3aWtpOi94bHNmb3JtL2RlbW8tc2F2ZS10YXJnZXRzLmpzb24iAA==)<br/>
 Check out the [save targets documentation]({{ site.baseurl }}/xlsform/reference-manual/6#targets).
 
-1. [Track file]({{ site.baseurl }}/assets/xlsform/demo-track-file.zip)<br/>
+1. [Track file](https://cybertrackerwiki.org/applink?BAAG_yJ3aWtpOi94bHNmb3JtL2RlbW8tdHJhY2stZmlsZS5qc29uIgA=)<br/>
 Check out the [track file documentation]({{ site.baseurl }}/xlsform/reference-manual/6#track).
