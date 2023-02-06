@@ -23,8 +23,9 @@ AppStore: [https://apps.apple.com/us/app/cybertracker/id1524186167?platform=ipho
 Play Store: [https://play.google.com/store/apps/details?id=org.cybertracker.mobile.ct](https://play.google.com/store/apps/details?id=org.cybertracker.mobile.ct)<br/>
 
 ### Install the package
-On desktop, copy the applink to the clipboard and use the `File->Connect using clipboard link` menu option.
-On mobile, open the link and it will automatically install and launch the demo.
+**Desktop** - copy the applink to the clipboard and use the `File->Connect using clipboard link` menu option.<br/>
+**Android** - tap the link and it will automatically install and launch the demo.<br/>
+**iOS** - long press on the link and select `Open in "CyberTracker"`.<br/>
 
 ### Demos
 1. [Field types](https://cybertrackerwiki.org/applink?BAAG_yJ3aWtpOi94bHNmb3JtL2RlbW8tZmllbGQtdHlwZXMuanNvbiIA)<br/>

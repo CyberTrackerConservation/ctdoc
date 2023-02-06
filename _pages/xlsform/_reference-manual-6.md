@@ -175,23 +175,27 @@ This value must be a valid JSON array.
       <th>type</th>
       <th>name</th>
       <th>label</th>
+      <th>appearance</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td>file</td>
       <td>f_track_file</td>
-      <td></td>
+      <td>Track file</td>
+      <td>hidden</td>
     </tr>
     <tr>
       <td>select_one track_items</td>
       <td>f_track</td>
       <td>Configure track</td>
+      <td></td>
     </tr>
     <tr>
       <td>text</td>
       <td>f_note</td>
       <td>Note</td>
+      <td></td>
     </tr>
   </tbody>
   <tfoot>
@@ -263,7 +267,7 @@ This value must be a valid JSON array.
 
 `snapTrack` causes the system to snapshot all the track points (since prior snap). 
 
-If using Survey123 and `esriLocationServiceUrl` is specified, then the track data will be sent to the [feature service]({{ site.baseurl }}/xlsform/reference-manual/2#esrilocationserviceurl). Otherwise, a track file will be created and added to a `file` type question in the form. The question selected must be of type `file` and should have a `trackFileFormat` column specified. 
+If using Survey123 and `esriLocationServiceUrl` is specified, then the track data will be sent to the [feature service]({{ site.baseurl }}/xlsform/reference-manual/2#esrilocationserviceurl). Otherwise, a track file will be created and added to a `file` type question in the form. See the section on the track file [here]({{ site.baseurl }}/xlsform/reference-manual/#track-file-format).
 
 <table>
 <tr>
