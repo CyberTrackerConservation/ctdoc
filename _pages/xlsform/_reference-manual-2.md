@@ -306,7 +306,7 @@ If this service is not specified, then tracks are placed in a `file` type questi
 
 ### sendLocationInterval
 
-If using Survey123, CyberTracker can send the current location at regular intervals - separately from tracks. The value is in seconds and is user configurable via the form Settings menu on the device. This specifies the default value. `bind::ct:esriLocationServiceUrl` must be configured.
+If using Survey123, CyberTracker can send the current location at regular intervals - separately from tracks. The value is in seconds and is user configurable via the form Settings page on the device. This specifies the default value. `bind::ct:esriLocationServiceUrl` must be configured.
 
 <table class="xlsTable">
   <thead>
@@ -324,6 +324,30 @@ If using Survey123, CyberTracker can send the current location at regular interv
   <tfoot>
     <tr>
       <td class="sheets" colspan="3"><span>survey</span><span>choices</span><span class="active">settings</span></td>      
+    </tr>
+  </tfoot>
+</table>
+
+### submitInterval
+
+Auto-submit at a timer interval. The value is in seconds and is user configurable via the form Settings page on the device. It is equivalent to manually pressing the Submit button.
+
+<table class="xlsTable">
+  <thead>
+    <tr>
+      <th>title</th>
+      <th>bind::ct:submitInterval</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>My Form</td>
+      <td>300</td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr>
+      <td class="sheets" colspan="3"><span>survey</span><span>choices</span><span class="active">settings</span></td>
     </tr>
   </tfoot>
 </table>
