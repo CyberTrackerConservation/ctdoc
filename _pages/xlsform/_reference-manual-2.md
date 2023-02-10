@@ -330,7 +330,7 @@ If using Survey123, CyberTracker can send the current location at regular interv
 
 ### submitInterval
 
-Auto-submit at a timer interval. The value is in seconds and is user configurable via the form Settings page on the device. It is equivalent to manually pressing the Submit button.
+Auto-submit at a timer interval. The value is in seconds and is user configurable via the form Settings page on the device. It is equivalent to manually pressing the Submit button. The default value is `0` meaning auto-submission is disabled. A value of `1` means that submit is combined with the save operation.
 
 <table class="xlsTable">
   <thead>
