@@ -9,11 +9,11 @@ permalink: /smart/download/
 
 ### SMART 7.5+
 
-Build 448 of the Android APK:<br/>
-[Download Build 448](https://ctwiki.blob.core.windows.net/bin/SMK-build-448.apk)
+Android APK:<br/>
+[Download Build 450](https://ctwiki.blob.core.windows.net/bin/SMK-build-450.apk)
 
-Build 448 of the Windows Desktop Simulator:<br/>
-[Download Desktop Simulator Build 448](https://ctwiki.blob.core.windows.net/bin/SM-build-448-win64.zip)
+Windows Desktop Simulator:<br/>
+[Download Desktop Simulator Build 450](https://ctwiki.blob.core.windows.net/bin/SM-build-450-win64.zip)
 
 User manual as a PDF:<br/>
 [Download User Manual]({{ site.baseurl }}/assets/smart/smart-mobile-user-manual.pdf)
