@@ -7,6 +7,18 @@ permalink: /classic/change-history/
 ---
 # Change History
 
+### 3.529: 03/03/2023
+
+New features
+
+  - Reset button on Publish dialog
+
+Bug fixes
+
+  - Crash on publish with no fields
+  - Crash on publish with custom timeout
+  - Improve memory efficiency for tracks
+
 ### 3.528: 12/31/2022
 
 New features
