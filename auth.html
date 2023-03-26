@@ -10,7 +10,7 @@ title: Authorize
         let url = new URL(window.location.href);
         let code = url.searchParams.get("code");
         if (code !== "") {
-            window.location.href = "https://cybertrackerwiki.org/applink?auth=" + code;
+            window.location.href = "https://cybertrackerwiki.org/applink/?auth=" + code;
         }
     </script>
 </body>
