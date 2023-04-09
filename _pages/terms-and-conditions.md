@@ -1,11 +1,10 @@
 ---
 permalink: /terms-and-conditions/
-layout: page
+layout: default
 search_exclude: true
-title: Terms and Conditions
+nav_exclude: true
 ---
 # Terms and Conditions
-Last updated: April 09, 2023
 Please read these terms and conditions carefully before using Our Service.
 
 ## Interpretation and Definitions

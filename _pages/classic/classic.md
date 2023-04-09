@@ -21,3 +21,8 @@ moving to new platforms and the web.
 
 CyberTracker Classic will continue to work indefinitely and bugs will be fixed as soon as they are found. New features may only be supported in other
 systems (like SMART).
+
+## How can I get technical support?
+
+CyberTracker is supported by a [Forum](https://support.cybertracker.org/). The group is
+monitored by the CyberTracker team and has many knowledgeable folks asking and answering questions.

@@ -16,5 +16,5 @@ CyberTracker is freeware and is supported through donors and community funded fe
 
 ## How can I get technical support?
 
-CyberTracker is supported by a [Google group](https://groups.google.com/g/cybertrackerwiki/). The group is
+CyberTracker is supported by a [Forum](https://support.cybertracker.org/). The group is
 monitored by the CyberTracker team and has many knowledgeable folks asking and answering questions.

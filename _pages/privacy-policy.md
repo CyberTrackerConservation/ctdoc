@@ -1,11 +1,10 @@
 ---
 permalink: /privacy-policy/
-layout: page
+layout: default
 search_exclude: true
-title: Privacy Policy
+nav_exclude: true
 ---
 # Privacy Policy
-Last updated: March 09, 2020
 
 This Privacy Policy describes Our policies and procedures on the collection, use and disclosure of Your information when You use the Service and tells You about Your privacy rights and how the law protects You.
 
