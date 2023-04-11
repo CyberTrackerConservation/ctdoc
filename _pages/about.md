@@ -2,6 +2,7 @@
 layout: home
 title: About
 permalink: /about/
+nav_order: 8000
 ---
 # About
 
