@@ -2,7 +2,6 @@
 permalink: /privacy-policy/
 layout: default
 search_exclude: true
-nav_exclude: true
 ---
 # Privacy Policy
 
