@@ -9,8 +9,8 @@ We take your privacy seriously and want you to feel confident when using the app
 
 ## Definitions
 For the purposes of this Privacy Policy:
-**You** means the individual using the App.
-**App** means the software using the CyberTracker Mobile engine. This includes CyberTracker and SMART Mobile as of writing. It does not include any Provider technology.
+**You** means the individual using the App.<br/>
+**App** means the software using the CyberTracker Mobile engine. This includes CyberTracker and SMART Mobile as of writing. It does not include any Provider technology.<br/>
 **Provider** means the server technology on behalf of whom data is being collected, e.g. CyberTracker Online, SMART, EarthRanger, KoBoToolbox, etc.
 
 ## Information we collect
