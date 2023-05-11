@@ -15,10 +15,10 @@ For the purposes of this Privacy Policy:<br/>
 ## Information we collect
 The app collects usage statistics such as the number of times it is opened and which features are used. Usage data never contains personally identifiable information. However, user collected data may contain personally identifiable information.
 
-### Location and background location
+#### Location and background location
 The device location may be captured as part of a user recorded observation. This location will be sent to the appropriate backend for analysis, e.g. to show the location of an observation on a map. Background location capture may also be used to create tracks. Tracks are used for analysis to understand distances covered and time spent in the field.
 
-### Bug reports
+#### Bug reports
 The app contains a feature whereby you can manually create and share a bug report. This report may contain personally identifiable information, so it should be shared cautiously. However, this will never happen automatically.
 
 ## How we use the information
