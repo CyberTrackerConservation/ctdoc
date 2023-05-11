@@ -10,13 +10,16 @@ We take your privacy seriously and want you to feel confident when using the app
 ## Definitions
 For the purposes of this Privacy Policy:<br/>
 **You** means the individual using the App.<br/>
-**App** means the software using the CyberTracker Mobile engine. This includes CyberTracker and SMART Mobile as of writing. It does not include any Provider technology.<br/>
-**Provider** means the server technology on behalf of whom data is being collected, e.g. CyberTracker Online, SMART, EarthRanger, KoBoToolbox, etc.
+**App** means the CyberTracker mobile application and SMART Mobile.<br/>
 
 ## Information we collect
-The app collects usage statistics such as the number of times it is opened and which features are used. Usage data never contains personally identifiable information. However, collected data (on behalf of a Provider) may contain personally identifiable information. If your Provider uses location services, your device's location information may be captured. However, this data is only sent to the Provider and not separately collected or used by the app.
+The app collects usage statistics such as the number of times it is opened and which features are used. Usage data never contains personally identifiable information. However, user collected data may contain personally identifiable information.
 
-The app contains a feature whereby you can manually share a bug report. This report may contain personally identifiable information, so it should be shared cautiously. However, this will never happen automatically.
+### Location and background location
+The device location may be captured as part of a user recorded observation. This location will be sent to the appropriate backend for analysis, e.g. to show the location of an observation on a map. Background location capture may also be used to create tracks. Tracks are used for analysis to understand distances covered and time spent in the field.
+
+### Bug reports
+The app contains a feature whereby you can manually create and share a bug report. This report may contain personally identifiable information, so it should be shared cautiously. However, this will never happen automatically.
 
 ## How we use the information
 The information we collect is used solely for the purpose of improving the functionality and performance of the app. We use this data to understand how our users interact with the app, identify any areas for improvement, and make necessary updates. 
