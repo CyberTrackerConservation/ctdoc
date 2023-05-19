@@ -24,7 +24,7 @@ The desktop version of CyberTracker makes it easy to iterate and test the XlsFor
 3. Launch CyberTracker
 
 ## Android
-[Download Android APK Build 466]([https://ctwiki.blob.core.windows.net/bin/CT-build-466.apk)
+[Download Android APK Build 466](https://ctwiki.blob.core.windows.net/bin/CT-build-466.apk)
 
 1. Download the APK to an Android device
 2. Open it with the Android file manager
