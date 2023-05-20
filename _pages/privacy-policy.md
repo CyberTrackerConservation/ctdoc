@@ -18,6 +18,9 @@ The app collects usage statistics such as the number of times it is opened and w
 ### Location and background location
 The device location may be captured as part of a user recorded observation. This location will be sent to the appropriate backend for analysis, e.g. to show the location of an observation on a map. Background location capture may also be used to create tracks. Tracks are used for analysis to understand distances covered and time spent in the field.
 
+### Google Limited Use
+App use of information received from Google APIs will adhere to Google API Services User Data Policy, including the Limited Use requirements.
+
 ### Bug reports
 The app contains a feature whereby you can manually create and share a bug report. This report may contain personally identifiable information, so it should be shared cautiously. However, this will never happen automatically.
 
