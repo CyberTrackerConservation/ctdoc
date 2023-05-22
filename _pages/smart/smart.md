@@ -15,7 +15,7 @@ In an effort to make protected areas more successful at preventing the loss of n
 
 ## Features demo
 A demo video showing how CyberTracker works with SMART.<br/>
-<iframe width="560" height="315" src="http://www.youtube.com/embed/IMbQqL0utP4" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/IMbQqL0utP4" frameborder="0" allowfullscreen></iframe>
 
 <!-- <div style="text-align: center;">
     <img src="{{ site.baseurl }}/assets/smart/logo.svg" style="width:25%;"/>

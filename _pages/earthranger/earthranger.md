@@ -17,7 +17,7 @@ The system helps park rangers and wildlife conservationists to monitor animal po
 
 ## Features demo
 A demo video showing how CyberTracker works with EarthRanger.<br/>
-<iframe width="560" height="315" src="http://www.youtube.com/embed/Ba1z7hUvaA0" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Ba1z7hUvaA0" frameborder="0" allowfullscreen></iframe>
 <!-- <br/>
 <br/>
 <div style="text-align: center;">
