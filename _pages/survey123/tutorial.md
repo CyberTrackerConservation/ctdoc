@@ -1,13 +1,12 @@
 ---
 layout: page
-title: Using Survey123 tracks
+title: Tracks tutorial
 nav_order: 2000
-parent: Tutorials
-grand_parent: XlsForm extensions
-permalink: /xlsform/tutorial/2
+parent: Survey123
+permalink: /survey123/tutorial
 has_toc: false
 ---
-Using Survey123 tracks
+Tracks tutorial
 ===========
 {: .no_toc }
 

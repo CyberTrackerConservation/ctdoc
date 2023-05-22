@@ -2,8 +2,7 @@
 layout: default
 title: Trillion Trees
 has_children: false
-nav_order: 400
-parent: Connectors
+nav_order: 4900
 permalink: /trilliontrees/
 ---
 # Trillion Trees 

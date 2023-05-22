@@ -1,13 +1,12 @@
 ---
 layout: page
-title: Using KoBoToolbox
-nav_order: 1000
-parent: Tutorials
-grand_parent: XlsForm extensions
-permalink: /xlsform/tutorial/1
+title: Tutorial
+nav_order: 2000
+parent: KoBoToolbox
+permalink: /kobo/tutorial
 has_toc: false
 ---
-Using KoBoToolbox
+Getting started
 ========================
 {: .no_toc }
 

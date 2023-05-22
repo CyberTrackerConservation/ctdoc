@@ -2,8 +2,7 @@
 layout: default
 title: ODK
 has_children: false
-nav_order: 200
-parent: Connectors
+nav_order: 4700
 permalink: /odk
 ---
 
@@ -15,9 +14,10 @@ permalink: /odk
 ODK is primarily used by organizations working in humanitarian aid and global development. Notable users include World Health Organization, International Red Cross and Red Crescent, and Carter Center. ODK has been recognized by the Digital Public Goods Alliance as a digital public good.
 
 ## CyberTracker Connector
-CyberTracker supports data collection for ODK. This includes downloading forms, data collection and submission.
+CyberTracker supports data collection for ODK. This includes downloading forms, data collection and submission.<br/>
 
-<br/>
+Custom CyberTracker functions are activated using the [XlsForm extensions]({{ site.baseurl }}/xlsform/reference-manual).
+
 <div style="text-align: center;">
     <img src="{{ site.baseurl }}/assets/odk/logo.svg" style="width:20%;"/>
 </div>
