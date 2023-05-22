@@ -7,11 +7,15 @@ nav_order: 1000
 # Welcome to the CyberTracker Wiki!
 
 ## What is CyberTracker?
-[CyberTracker](http://cybertracker.org) is a nonprofit organization which develops software as part of a larger vision. 
+[CyberTracker](http://cybertracker.org) is a nonprofit organization which develops data capture software as part of a larger vision. 
 CyberTracker is most widely used in conservation, but it has also been successfully customized for a variety of other fields. CyberTracker is freeware and is supported through donors and community funded features.
 
 ## Universal Data Collector
-Imagine you're working for a conservation organization that focuses on protecting wildlife and the environment. As part of your work, you need to collect data while out in the field, like tracking animal sightings, monitoring habitats, or recording environmental conditions.
+<div style="text-align: center;">
+    <img src="{{ site.baseurl }}/assets/udc.svg" style="width:100%;"/>
+</div>
+
+Imagine you are working for a conservation organization that focuses on protecting wildlife and the environment. As part of your work, you need to collect data while out in the field, like tracking animal sightings, monitoring habitats, or recording environmental conditions.
 
 Traditionally, conservation organizations relied on multiple tools or methods to gather this information. They might use paper forms, standalone data collection apps, or even manual data entry into spreadsheets. This can be time-consuming and fragmented, making it difficult to manage and analyze the collected data effectively.
 
