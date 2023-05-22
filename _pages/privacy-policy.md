@@ -16,7 +16,7 @@ For the purposes of this Privacy Policy:<br/>
 The app collects usage statistics such as the number of times it is opened and which features are used. Usage data never contains personally identifiable information. However, user collected data may contain personally identifiable information.
 
 ### Google Limited Use
-App use of information received from Google APIs will adhere to Google API Services User Data Policy, including the Limited Use requirements.
+App use of information received from Google APIs will adhere to [Google API Services User Data Policy](https://developers.google.com/terms/api-services-user-data-policy), including the Limited Use requirements.
 
 ### Location and background location
 The device location may be captured as part of a user recorded observation. This location will be sent to the appropriate backend for analysis, e.g. to show the location of an observation on a map. Background location capture may also be used to create tracks. Tracks are used for analysis to understand distances covered and time spent in the field.
