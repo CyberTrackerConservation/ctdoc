@@ -1,0 +1,281 @@
+---
+permalink: /applink-rilla/
+layout: empty
+search_exclude: true
+title: Get Rilla Forms
+---
+<style type="text/css">
+    * {
+        padding: 0;
+        margin: 0;
+        border: 0;
+    }
+
+    *, *:before, *:after {
+        box-sizing: border-box;
+    }
+
+    :focus, :active {
+        outline: none;
+    }
+
+    a:focus, a:active {
+        outline: none;
+    }
+
+    nav, footer, header, aside {
+        display: block;
+    }
+
+    input, button, textarea {
+        font-family: inherit;
+    }
+
+    input::-ms-clear {
+        display: none;
+    }
+
+    button {
+        cursor: pointer;
+    }
+
+    button::-moz-focus-inner {
+        padding: 0;
+        border: 0;
+    }
+
+    a, a:visited {
+        text-decoration: none;
+    }
+
+    a:hover {
+        text-decoration: none;
+    }
+
+    img {
+        vertical-align: top;
+    }
+
+    html, body {
+        width: 100%;
+        height: 100%;
+        line-height: 1;
+        font-size: 14px;
+        background-color: black;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        font-size: inherit;
+        font-weight: 500;
+    }
+
+    body {
+        font-weight: 300;
+        font-size: calc(14px + 3 * ((100vw - 320px) / 960));
+        overflow-x: hidden
+    }
+    
+    h1, h2, h3, h4, h5, h6 {
+        font-weight: 500;
+        -webkit-transform: translateZ(0);
+        transform: translateZ(0);
+        font-size: calc(24px + 12 * ((100vw - 320px) / 960))
+    }
+
+    p {
+        line-height: 1.2em;
+        margin: 5px 0px;
+        -webkit-transform: translateZ(0);
+        transform: translateZ(0)
+    }
+    
+    .wrapper {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        min-height: 100vh
+    }
+    
+    .main {
+        -webkit-box-flex: 1;
+        -ms-flex: 1 1 auto;
+        flex: 1 1 auto
+    }
+
+    .container {
+        max-width: 600px;
+        margin: 0px auto;
+        padding: 0px 15px
+    }
+
+    .header__logo {
+        margin: 0 auto;
+        width: 150px
+    }
+
+    .header__logo img {
+        margin: 10px 10px;
+        max-width: 100%
+    }
+
+    .header__title {
+        font-size: calc(24px + 12 * ((100vw - 320px) / 960));
+        padding-bottom: 15px
+    }
+
+    .header__desc {
+        padding-bottom: 15px
+    }
+
+    .header__desc-title {
+        padding-bottom: 5px;
+        font-weight: bold;
+        font-size: calc(17px + 7 * ((100vw - 320px) / 960))
+    }
+
+    .header__buttons { 
+        display:-webkit-box;
+        display:-ms-flexbox;
+        display:flex
+    }
+
+    .header__steps {
+        margin-top: 20px;
+        padding: 10px;
+        font-weight: bold;
+        font-size: calc(14px + 3 * ((100vw - 320px) / 960));
+        background-color:#FCF7EF
+    }
+
+    .header__steps-text {
+        padding: 15px;
+        margin-left: 5px;
+        font-weight: normal
+    }
+
+    .header__steps-text li {
+        line-height:1.2em
+    }
+
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .header__title {
+        color: #ffffff;
+    }
+
+    .header__desc {
+        color: #ffffff;
+        line-height: 1.2em;
+    }
+
+    .header__desc-title {
+        color: #ffffff;
+    }
+
+    .button__store {
+        width: 100%;
+        border: 1px solid white;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+        padding: 5px 5px;
+    }
+
+    .button__store img {
+        max-width: 100%;
+        max-height: 256px;
+    }
+
+    a {  
+        text-decoration: underline;
+    }
+</style>
+
+<body>
+    <div class="wrapper">
+        <!--------------------- header ---------------->
+        <header class="header">
+            <div class="container">
+                <div class="header__logo">
+                    <img src="{{ site.baseurl }}/assets/logoRilla.svg" alt="logo">
+                </div>
+                <div class="header__title">
+                    Install Rilla Forms
+                </div>
+                <div class="header__desc">
+                    To use Rilla Forms, first install the mobile application by clicking the link below or following the instructions.
+                </div>
+                <div class="header__desc-title">
+                    Download Rilla Forms
+                </div>
+                <div id="iOS-button" class="button__store">
+                    <a href="https://apps.apple.com/us/app/cybertracker/id1524186167"><img src="{{ site.baseurl }}/assets/button-app-store.png" alt="App Store" style="width:100%"></a>
+                </div>
+                <div id="Android-button" class="button__store">
+                    <a href="https://play.google.com/store/apps/details?id=org.cybertracker.mobile.gg"><img src="{{ site.baseurl }}/assets/button-google-play.png" alt="Google Play Store" style="width:100%"></a>
+                </div>
+                <div class="header__steps">
+                    Steps:
+                    <div class="header__steps-text">
+                        <ol>
+                            <li>Install Rilla Forms using the button above</li>
+                            <li>Click the link which opened this page</li>
+                            <li>Launch project</li>
+                        </ol>
+                    </div>
+                    More on the <a href="https://rillaforms.com">Rilla Forms documentation</a>.
+                </div>
+            </div>
+        </header>
+    </div>
+    <script>
+        "use strict";
+
+        let isMobile = {
+            Android: function () {
+                return navigator.userAgent.match(/Android/i);
+            },
+            BlackBerry: function () {
+                return navigator.userAgent.match(/BlackBerry/i);
+            },
+            iOS: function () {
+                return navigator.userAgent.match(/iPhone|iPad|iPod/i);
+            },
+            iPhone: function () {
+                return navigator.userAgent.match(/iPhone/i);
+            },
+            iPad: function () {
+                return navigator.userAgent.match(/iPad/i);
+            },
+            Opera: function () {
+                return navigator.userAgent.match(/Opera Mini/i);
+            },
+            Windows: function () {
+                return navigator.userAgent.match(/IEMobile/i);
+            },
+            any: function () {
+                return (
+                    isMobile.Android() ||
+                    isMobile.BlackBerry() ||
+                    isMobile.iOS() ||
+                    isMobile.Opera() ||
+                    isMobile.Windows()
+                );
+            },
+        };
+        
+        if (isMobile.iPhone()) {
+            document.getElementById("Android-button").style.display = "none";
+        }
+        if (isMobile.Android()) {
+            document.getElementById("iOS-button").style.display = "none";
+        }
+    </script>
+</body>
