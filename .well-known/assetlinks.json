@@ -8,7 +8,8 @@
       "package_name": "org.cybertracker.mobile.ct",
       "sha256_cert_fingerprints": [
         "34:57:2C:F0:07:57:FE:DC:E1:2F:E6:18:EE:34:D7:5A:B1:C1:E8:1F:CC:C6:73:13:39:79:12:19:C5:0D:CA:46",
-        "78:C9:34:8D:DA:A0:29:5F:22:EC:43:F6:DE:27:AB:68:74:0E:EE:8D:56:92:98:27:F6:44:03:84:B1:E4:44:A4"
+        "78:C9:34:8D:DA:A0:29:5F:22:EC:43:F6:DE:27:AB:68:74:0E:EE:8D:56:92:98:27:F6:44:03:84:B1:E4:44:A4",
+        "D7:A7:A0:FB:5D:7E:27:31:D7:71:E9:48:4E:BC:DE:F7:1D:5F:0C:3E:0A:29:48:78:2B:C8:3E:E0:EA:69:9E:F4"
       ]
     }
   },
@@ -46,7 +47,8 @@
       "namespace": "android_app",
       "package_name": "org.cybertracker.mobile.smk",
       "sha256_cert_fingerprints": [
-        "E7:93:C9:B0:2F:D8:AA:13:E2:1C:31:22:8A:CC:B0:81:19:64:3B:74:9C:89:89:64:B1:74:6D:46:C3:D4:CB:D2"
+        "E7:93:C9:B0:2F:D8:AA:13:E2:1C:31:22:8A:CC:B0:81:19:64:3B:74:9C:89:89:64:B1:74:6D:46:C3:D4:CB:D2",
+        "D7:A7:A0:FB:5D:7E:27:31:D7:71:E9:48:4E:BC:DE:F7:1D:5F:0C:3E:0A:29:48:78:2B:C8:3E:E0:EA:69:9E:F4"
       ]
     }
   }
