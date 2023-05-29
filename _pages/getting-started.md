@@ -12,7 +12,7 @@ There are several ways to add a Project to CyberTracker:
 1. Scan a **QR Code** using your phones QR code scanner
 <br/>This is the simplest way to get a project. The QR code contains everything that CyberTracker needs to find and add the project.
 
-1. Open an **Link** from an email or text message
+1. Open a **Link** from an email or text message
 <br/>If you have received a link to a project, then clicking on it and opening it with CyberTracker will add the project.
 
 1. Select a **Login** and choose a Project
