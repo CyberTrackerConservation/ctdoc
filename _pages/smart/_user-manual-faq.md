@@ -89,3 +89,17 @@ Then
 -   Other suggested Android general settings
 
     > ![]({{ site.baseurl }}/assets/smart/faq6.png){: width="40%"} ![]({{ site.baseurl }}/assets/smart/faq7.png){: width="40%"} ![]({{ site.baseurl }}/assets/smart/faq8.png){: width="40%"} ![]({{ site.baseurl }}/assets/smart/faq9.png){: width="40%"}
+
+### 10.11 BlackView, DoKe OS and Android 12
+BlackView devices using DoKe OS clean up background apps when the device goes to sleep - typically after 5 minutes. When on patrol with a track, SMART Mobile will be detected as a background app and closed.
+
+To prevent this from happening, do the following:
+1. Open the "System Manager" app
+1. Select "App Management"
+1. Select "Auto cleanup"
+1. Activate "SMART Mobile" - this will opt-out of the cleanup process
+
+Another option which also works is to "Lock" the app:
+1. Select the Overview button in the navigation bar or swipe up if you are using gestures
+1. Select on the three dots menu for SMART Mobile
+1. Select the "Lock" button
