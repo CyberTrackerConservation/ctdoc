@@ -103,3 +103,5 @@ Another option which also works is to "Lock" the app:
 1. Select the Overview button in the navigation bar or swipe up if you are using gestures
 1. Select on the three dots menu for SMART Mobile
 1. Select the "Lock" button
+
+See [more information from Blackview](https://dontkillmyapp.com/blackview) to troubleshoot further.
