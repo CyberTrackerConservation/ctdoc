@@ -9,9 +9,7 @@ An offline map package is a zip file containing one or more layer files. See thi
 ### Package installation
 On **desktop**, a map package can be installed using `Install package` from the `File` menu.
 
-On **mobile**, CyberTracker registers as a handler for zip files. When opening a zip, a prompt is displayed asking which app to open the file with. Select CyberTracker and the map will be installed. This is useful, because it is possible to send people a link via email or SMS.
-
-Maps can also be installed directly from the `Offline maps` page. This can be reached via `Settings` or the gear icon on the Map Layers page:
+On **mobile**, maps can also be installed directly from the `Offline maps` page. This can be reached via `Settings` or the gear icon on the Map Layers page:
 <table>
 <tr>
 <td><img src="{{ site.baseurl }}/assets/xlsform/refman-offlinemap-1.png" /></td>
