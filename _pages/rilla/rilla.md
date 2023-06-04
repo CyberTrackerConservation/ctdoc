@@ -1,18 +1,18 @@
 ---
 layout: default
-title: Rilla Forms
+title: Google Forms™
 has_children: false
 nav_order: 4750
 permalink: /rilla
 ---
 
-# Rilla Forms
+# Google Forms™
 
-## What is Rilla Forms?
-[Rilla Forms](https://rillaforms.com) is a mobile application designed to take your Google Forms™ offline. You can use it to create and share surveys.
+## What are Google Forms™?
+Google Forms™ is a simple and powerful form creation and reporting system which comes with your Google account. Forms are created in a [form designer](https://forms.google.com) and collected data feeds into a [spreadsheet](https://sheets.google.com). 
 
 ## CyberTracker Connector
-CyberTracker supports data collection for Rilla Forms. This includes downloading forms, data collection and submission.<br/>
+By using a companion add-on called [Rilla Forms](https://rillaforms.com), your form can be used in CyberTracker. While Forms™ has only a few question types and styles, Rilla extends them by adding `tags` to question descriptions. For example, if you add `#number` to a `short-answer` question, then it will become a number keypad question. This provides support for the full range of CyberTracker features and creates a tool for offline surveys.
 
 ## Getting started
 A demo video showing how Rilla Forms works:<br/>
