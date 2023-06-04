@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Google Forms™
+title: Google Forms
 has_children: false
 nav_order: 4750
 permalink: /rilla
