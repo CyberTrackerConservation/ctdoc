@@ -7,26 +7,25 @@ nav_order: 1000
 # Welcome to the CyberTracker Wiki!
 
 ## What is CyberTracker?
-[CyberTracker](http://cybertracker.org) is a nonprofit organization which develops data capture software as part of a larger vision. 
-CyberTracker is most widely used in conservation, but it has also been successfully customized for a variety of other fields. CyberTracker is freeware and is supported through donors and community funded features.
+[CyberTracker](http://cybertracker.org) is a nonprofit organization which develops field data collection software. 
+CyberTracker is most widely used in conservation, but it has also been successfully customized for other areas from healthcare to disaster relief to farming. CyberTracker is freeware and is supported through donors and community funded features.
 
-## Universal Data Collector
+## Technology
 <div style="text-align: center;">
     <img src="{{ site.baseurl }}/assets/udc.svg" style="width:100%;"/>
 </div>
 
-Imagine you are working for a conservation organization that focuses on protecting wildlife and the environment. As part of your work, you need to collect data while out in the field, like tracking animal sightings, monitoring habitats, or recording environmental conditions.
+The CyberTracker mobile app can collect data for several popular backends (see above). CyberTracker connects to a backend and downloads a form. Users capture data with the form and  upload it for reports and dashboards.
 
-Traditionally, conservation organizations relied on multiple tools or methods to gather this information. They might use paper forms, standalone data collection apps, or even manual data entry into spreadsheets. This can be time-consuming and fragmented, making it difficult to manage and analyze the collected data effectively.
+Having a single mobile app has four key advantages:
 
-CyberTracker is designed to streamline field data collection for conservation projects. The app is user-friendly and can be easily installed on smartphones or tablets, which many people already have.
+- Choosing a data capture system is complicated, because it is hard to know all your requirements up front. By having a single app, you can use different backends without impacting data collection. For example, if you begin with KoBo and later need advanced GIS functionality, you can move to ArcGIS without retraining or retooling field workers.
 
-What makes the app unique is its ability to work with different backends. Think of a backend as a centralized storage and management system for the collected data. Backends can be chosen which suit specific needs, so there is no need to juggle different tools or waste resources on building separate apps for each project. By reducing the reliance on multiple tools and encouraging investment in a single, adaptable solution, organizations can rely on consistent and reliable data from the field.
+- Organizations using the same tools can collaborate more easily. While this includes overlapping field work, it even extends to making improvements to the app. For example, if an organization wants to add a new feature, then it can be built once and benefit all others. 
 
-## Customization
-CyberTracker can be customized for users with various literacy skills. It recognizes that not everyone has the same level of reading or writing ability. There are multiple ways to input data, including voice recording, image capture, or selecting from predefined options with icons, making it accessible to a wider range of users.
+- CyberTracker excels at simple and intuitive user interfaces which can be used by an incredibly broad range of users, including oralate rangers in remote regions. The app brings this level of customization to each backend, even if it is not natively supported. For example, by using the CyberTracker extensions, any ODK-based system can become an icon-only interface.
 
-By providing different data input options, this app ensures that everyone can actively participate in data collection. This customization promotes inclusivity and empowers field workers, volunteers, and local community members to contribute effectively to conservation efforts.
+- Mobile applications are expensive to create and maintain over time. Having a single data collector app which can be extended easily will reduce the cost of creating and maintaining one-off tools. 
 
 ## Support
 CyberTracker is supported by a [Forum](https://support.cybertracker.org/). The group is monitored by the CyberTracker team and has many knowledgeable folks answering questions.
