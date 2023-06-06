@@ -196,7 +196,7 @@ search_exclude: true
         text-decoration: underline;
     }
 </style>
-
+<script src="https://unpkg.com/current-device/umd/current-device.min.js"></script>
 <body>
     <div class="wrapper">
         <!--------------------- header ---------------->
@@ -235,45 +235,10 @@ search_exclude: true
         </header>
     </div>
     <script>
-        "use strict";
-
-        let isMobile = {
-            Android: function () {
-                return navigator.userAgent.match(/Android/i);
-            },
-            BlackBerry: function () {
-                return navigator.userAgent.match(/BlackBerry/i);
-            },
-            iOS: function () {
-                return navigator.userAgent.match(/iPhone|iPad|iPod/i);
-            },
-            iPhone: function () {
-                return navigator.userAgent.match(/iPhone/i);
-            },
-            iPad: function () {
-                return navigator.userAgent.match(/iPad/i);
-            },
-            Opera: function () {
-                return navigator.userAgent.match(/Opera Mini/i);
-            },
-            Windows: function () {
-                return navigator.userAgent.match(/IEMobile/i);
-            },
-            any: function () {
-                return (
-                    isMobile.Android() ||
-                    isMobile.BlackBerry() ||
-                    isMobile.iOS() ||
-                    isMobile.Opera() ||
-                    isMobile.Windows()
-                );
-            },
-        };
-        
-        if (isMobile.iPhone()) {
+        if (device.ios()) {
             document.getElementById("Android-button").style.display = "none";
         }
-        if (isMobile.Android()) {
+        if (device.android()) {
             document.getElementById("iOS-button").style.display = "none";
         }
     </script>
