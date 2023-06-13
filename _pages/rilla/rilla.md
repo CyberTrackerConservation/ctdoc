@@ -14,6 +14,12 @@ Google Forms™ is a simple and powerful form creation and reporting system whic
 
 ## CyberTracker Connector
 By using a companion add-on called [Rilla Forms](https://rillaforms.com), your form can be used in CyberTracker. While Forms™ has only a few question types and styles, Rilla extends them by adding `tags` to question descriptions. For example, if you add `#number` to a `short-answer` question, then it will become a number keypad question. This provides support for the full range of CyberTracker features and creates a powerful tool for offline surveys.
+<br/><br/>
+<div style="text-align: center;">
+<a href="https://workspace.google.com/marketplace/app/rilla_forms/800069033510?pann=b" target="_blank" aria-label="Get it from the Google Workspace Marketplace">
+  <img alt="Google Workspace Marketplace badge" alt-text="Get it from the Google Workspace Marketplace" src="https://workspace.google.com/static/img/marketplace/en/gwmBadge.svg?" style="height: 68px">
+</a>
+</div>
 
 ## Getting started
 A demo video showing how Rilla Forms works:<br/>
