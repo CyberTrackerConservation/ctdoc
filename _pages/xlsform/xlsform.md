@@ -8,6 +8,7 @@ permalink: /xlsform/
 # XlsForm
 
 ## What is XlsForm?
+<img src="{{ site.baseurl }}/assets/xlsform/logo.png" align="right" class="inline" style="width:15%;"/>
 [XlsForm](https://xlsform.org) is a form standard created to help simplify the authoring of forms. Authoring is done in a human readable format using a familiar tool that almost everyone knows - Excel. XLSForms provide a practical standard for sharing and collaborating on authoring forms. They are simple to get started with but allow for complex behavior.
 
 ## How does it relate to CyberTracker?

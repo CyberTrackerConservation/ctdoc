@@ -9,10 +9,11 @@ permalink: /rilla
 # Google Forms™
 
 ## What are Google Forms™?
+<img src="{{ site.baseurl }}/assets/rilla/logo.svg" align="right" class="inline" style="width:12%;"/>
 Google Forms™ is a simple and powerful form creation and reporting system which comes with your Google account. Forms are created in a [form designer](https://forms.google.com) and collected data feeds into a [spreadsheet](https://sheets.google.com). 
 
 ## CyberTracker Connector
-By using a companion add-on called [Rilla Forms](https://rillaforms.com), your form can be used in CyberTracker. While Forms™ has only a few question types and styles, Rilla extends them by adding `tags` to question descriptions. For example, if you add `#number` to a `short-answer` question, then it will become a number keypad question. This provides support for the full range of CyberTracker features and creates a tool for offline surveys.
+By using a companion add-on called [Rilla Forms](https://rillaforms.com), your form can be used in CyberTracker. While Forms™ has only a few question types and styles, Rilla extends them by adding `tags` to question descriptions. For example, if you add `#number` to a `short-answer` question, then it will become a number keypad question. This provides support for the full range of CyberTracker features and creates a powerful tool for offline surveys.
 
 ## Getting started
 A demo video showing how Rilla Forms works:<br/>

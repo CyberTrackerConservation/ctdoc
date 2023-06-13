@@ -9,6 +9,7 @@ permalink: /survey123
 # Survey123
 
 ## What is Survey123?
+<img src="{{ site.baseurl }}/assets/survey123/logo2.svg" align="right" class="inline" style="width:15%;"/>
 [Survey123](https://survey123.arcgis.com/) for ArcGIS is a complete, form-centric solution for creating, sharing, and analyzing surveys. It is developed by [Esri](https://www.esri.com), a company that specializes in Geographic Information System (GIS) software.
 
 Survey123 allows you to create surveys using an intuitive form builder, either in a web browser or in the dedicated Survey123 Connect for ArcGIS desktop software. You can create simple or sophisticated forms, including questions with multiple choice options, text inputs, photo and signature captures, and more. The form design can also incorporate skip logic and validation rules.
@@ -23,8 +24,3 @@ This software integrates well with the ArcGIS ecosystem, allowing you to map and
 CyberTracker supports data collection for Survey123. This includes downloading forms, data collection and submission. CyberTracker extensions are not visible in the Survey123 form editor. To use them, you must maintain the XlsForm separately and upload it when changes are made.
 
 Custom CyberTracker functions are activated using the [XlsForm extensions]({{ site.baseurl }}/xlsform/reference-manual).
-
-<!-- <br/>
-<div style="text-align: center;">
-    <img src="{{ site.baseurl }}/assets/survey123/logo.svg" style="width:20%;"/>
-</div> -->
