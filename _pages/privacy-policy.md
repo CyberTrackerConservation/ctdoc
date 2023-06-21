@@ -34,7 +34,7 @@ We do not share the information we collect with any third-party partners or adve
 The information we collect is stored securely on our servers and is accessible only to authorized personnel. We take appropriate measures to ensure the security and integrity of the collected data.
 
 ## Children's privacy
-The app is not intended for use by children under the age of 13. We do not knowingly collect any personal information from children under the age of 13.
+The app is not intended for use by children under the age of 18. We do not knowingly collect any personal information from children under the age of 18.
 
 ## Changes to this privacy statement
 We may update this privacy statement from time to time to reflect changes in our information practices. We will notify you of any material changes by posting the updated privacy statement on our website or within the app.
