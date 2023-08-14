@@ -9,11 +9,11 @@ permalink: /classic/download/
 
 Click the links below to download the latest release of CyberTracker:
 
-[Download latest release (recommended): 3.529
-\~ 11MB](https://ctwiki.blob.core.windows.net/bin/ct3529u.msi)
+[Download latest release (recommended): 3.530
+\~ 11MB](https://ctwiki.blob.core.windows.net/bin/ct3530u.msi)
 
-[Download latest release (admin install): 3.529
-\~ 11MB](https://ctwiki.blob.core.windows.net/bin/ct3529.msi)
+[Download latest release (admin install): 3.530
+\~ 11MB](https://ctwiki.blob.core.windows.net/bin/ct3530.msi)
 
 [Download latest Android APK: 471](https://ctwiki.blob.core.windows.net/bin/CT-build-471.apk)
 
