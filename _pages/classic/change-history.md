@@ -7,6 +7,12 @@ permalink: /classic/change-history/
 ---
 # Change History
 
+### 3.530: 08/14/2023
+
+Bug fixes
+
+  - Export to CSV should preload exported of media to avoid memory overflow
+
 ### 3.529: 03/03/2023
 
 New features
