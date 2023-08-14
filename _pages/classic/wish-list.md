@@ -17,50 +17,38 @@ permalink: /classic/wish-list/
 
 ## Open feature requests (in no particular order):
 
-1.  Speed should optionally be part of sighting GPS attributes
-2.  Export to GDB and GDX (GPS waypoint data files)
-3.  Smartphone (no touch screen) support
-4.  Hold down on Element list displays hint
-5.  Feature to delete all the sightings from a database
-6.  Ability to individually inspect and edit track timer readings
-7.  Direct text entry screen, similar to digit screen, but with text
-8.  Shape file rendering on map: class breaks renderer
-9.  Identify shape file feature
-10. Use of physical buttons for specific commands, e.g. track control or movement within a sequence
-11. Export to DXF
-12. Specify row-wise or column-wise order for Elements in a multi-column list.
-13. Automatically convert font symbols to icons.
-14. Element Formula support for math functions like SQRT, SIN, COS, etc
-15. Global value support for strings
-16. Client control for input of time
-17. Result Element support on check lists
-18. Calendar control on client
-19. iPhone version of the client
-20. Zoom to active map sighting
-21. Support for the creation of polygons
-22. Timer control to do countdowns
-23. Export of ESRI Projection file (.PRJ) alongside SHP files
-24. Multiple field maps on the PDA
-25. Export filters back to Excel
-26. Re-synchronize all Applications at once
-27. Output Heading and Speed with other GPS attributes
-28. Export images from SHP file export
-29. Create columns for all fields in sighting at once
-30. Degrees/Minutes/Seconds display on desktop
-31. Ability to change units on field devices, e.g. miles, namiles, etc.
-32. Alternate colors on Element List lines
-33. Export multiple queries at once into a single Excel spreadsheet
-34. Post processing of GPS to differential quality
-35. Change color on field map based on property of Element
-36. Support for far east languages
-37. Upload to DropBox from Android devices
-38. Google Play version of CyberTracker
-39. Status page on the client which shows details about uploads, number of sightings, etc.
-40. Ability to change English text like "tap to edit" and "tap to capture"
-41. Multi-select User lists
-42. Ability to select target folder for images when exporting a table
-43. Cyrillic alphabet support
-44. SFTP
+1. Speed should optionally be part of sighting GPS attributes
+1. Export to GDB and GDX (GPS waypoint data files)
+1. Feature to delete all the sightings from a database
+1. Ability to individually inspect and edit track timer readings
+1. Direct text entry screen, similar to digit screen, but with text
+1. Identify shape file feature
+1. Export to DXF
+1. Specify row-wise or column-wise order for Elements in a multi-column list.
+1. Automatically convert font symbols to icons.
+1. Element Formula support for math functions like SQRT, SIN, COS, etc
+1. Global value support for strings
+1. Client control for input of time
+1. Zoom to active map sighting
+1. Support for the creation of polygons
+1. Timer control to do countdowns
+1. Export of ESRI Projection file (.PRJ) alongside SHP files
+1. Export filters back to Excel
+1. Re-synchronize all Applications at once
+1. Output Heading and Speed with other GPS attributes
+1. Export images from SHP file export
+1. Create columns for all fields in sighting at once
+1. Degrees/Minutes/Seconds display on desktop
+1. Alternate colors on Element List lines
+1. Export multiple queries at once into a single Excel spreadsheet
+1. Post processing of GPS to differential quality
+1. Change color on field map based on property of Element
+1. Support for far east languages
+1. Status page on the client which shows details about uploads, number of sightings, etc.
+1. Ability to change English text like "tap to edit" and "tap to capture"
+1. Multi-select User lists
+1. Ability to select target folder for images when exporting a table
+1. Cyrillic alphabet support
 
 ## Completed features
 
@@ -93,4 +81,14 @@ permalink: /classic/wish-list/
   - Client control for input of date
   - Support for PostgreSQL
   - Edit sightings should work with regular Navigator Save control, not just Navigator
-  
+  - Hold down on Element list displays hint
+  - Upload to DropBox from Android devices
+  - Google Play version of CyberTracker
+  - Ability to change units on field devices, e.g. miles, namiles, etc.
+  - Shape file rendering on map: class breaks renderer~~
+  - Use of physical buttons for specific commands, e.g. track control or movement within a sequence
+  - Result Element support on check lists
+  - Calendar control on client
+  - iPhone version of the client
+  - Multiple field maps on the PDA
+  - SFTP
