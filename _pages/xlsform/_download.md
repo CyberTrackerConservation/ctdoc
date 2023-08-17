@@ -3,7 +3,7 @@
 The desktop version of CyberTracker makes it easy to iterate and test the XlsForm extensions before deploying the form to a backend. A 'console window' is also provided to log feedback about extensions.
 
 ## Windows (64-bit)
-[Download Windows Desktop Simulator Build 473](https://ctwiki.blob.core.windows.net/bin/CT-build-473-win64.zip)
+[Download Windows Desktop Simulator Build 474](https://ctwiki.blob.core.windows.net/bin/CT-build-474-win64.zip)
 
 1. Download the ZIP file and open it in Windows Explorer
 2. Drag the folder `CT_desktop` to the desktop
