@@ -625,7 +625,7 @@ If **Upload Data to Connect** is _unchecked_, then the data is expected to be re
 
 If **Automatically upload data every n minutes** is _checked_, then data will be sent to the server at regular intervals. While the data reaches the server more quickly with this approach, it cannot be edited after saving.
 
-If **Automatically upload data every n minutes** is un_checked_, then data will not be sent to the server. **Export data** will send all data to the server at once. An advantage of this approach is that incidents can be edited before they have been sent to the server.
+If **Automatically upload data every n minutes** is _unchecked_, then data will not be sent to the server. **Export data** will send all data to the server at once. An advantage of this approach is that incidents can be edited before they have been sent to the server.
 
 <table>
 <tr>
