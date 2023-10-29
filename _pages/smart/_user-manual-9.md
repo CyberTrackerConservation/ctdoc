@@ -58,3 +58,22 @@ Open Windows Explorer and navigate to the folder:
 **\Android\data\org.cybertracker.mobile.smk\files\SMARTdata**
 
 This folder contains the JSON data files.
+
+### 9.6. Blackview track logging 
+Some Blackview devices try to prevent background tasks from using the battery. The symptoms of this issue are that track logging is disabled after 10 minutes.
+
+To solve this, Blackview has provided a **System Manager** application which allows applications to be excluded from this behavior. The steps are:
+1. Run the `System Manager` application
+1. Select `App Management`
+1. Select `Auto cleanup`
+1. Scroll down to `SMART Mobile` and enable the switch to prevent cleanup
+<table>
+<tr>
+<td><img src="{{ site.baseurl }}/assets/smart/blackview-1.png" /></td>
+<td><img src="{{ site.baseurl }}/assets/smart/blackview-2.png" /></td>
+</tr>
+<tr>
+<td><img src="{{ site.baseurl }}/assets/smart/blackview-3.png" /></td>
+<td><img src="{{ site.baseurl }}/assets/smart/blackview-4.png" /></td>
+</tr>
+</table>
