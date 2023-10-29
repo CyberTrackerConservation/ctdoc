@@ -67,6 +67,8 @@ To solve this, Blackview has provided a **System Manager** application which all
 1. Select `App Management`
 1. Select `Auto cleanup`
 1. Scroll down to `SMART Mobile` and enable the switch to prevent cleanup
+
+If the below user experience does not match your device, check out [Don't kill by app](https://dontkillmyapp.com/blackview).
 <table>
 <tr>
 <td><img src="{{ site.baseurl }}/assets/smart/blackview-1.png" /></td>
