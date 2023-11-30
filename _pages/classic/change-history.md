@@ -7,6 +7,11 @@ permalink: /classic/change-history/
 ---
 # Change History
 
+### 3.531: 11/30/2023
+
+Bug fixes
+  - Do not restore window position if offscreen
+
 ### 3.530: 08/14/2023
 
 Bug fixes
