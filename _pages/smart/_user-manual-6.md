@@ -599,7 +599,8 @@ If existing map files are available, then these can be used directly by selectin
 SMART Mobile supports online Web Map Service layers. More information on this type of layer: [https://en.wikipedia.org/wiki/Web_Map_Service](https://en.wikipedia.org/wiki/Web_Map_Service).
 
 For example, a weather layer:
-[https://nowcoast.noaa.gov/arcgis/services/nowcoast/radar_meteo_imagery_nexrad_time/MapServer/WMSServer](https://nowcoast.noaa.gov/arcgis/services/nowcoast/radar_meteo_imagery_nexrad_time/MapServer/WMSServer):
+
+[https://nowcoast.noaa.gov/geoserver/observations/weather_radar/ows?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetCapabilities](https://nowcoast.noaa.gov/geoserver/observations/weather_radar/ows?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetCapabilities):
 
 <table>
 <tr>
