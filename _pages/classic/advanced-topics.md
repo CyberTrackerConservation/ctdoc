@@ -285,6 +285,18 @@ Exit code 201 = Install triggered</p></td>
 <td><p><code>/ExportXml</code></p></td>
 <td><p>Export data in the specified data file to an XML file.</p></td>
 </tr>
+<tr class="odd">
+<td><p><code>/ExportCSV</code></p></td>
+<td><p>Export data in the specified data file to a CSV (comma separated values) file.</p></td>
+</tr>
+<tr class="odd">
+<td><p><code>/ExportTSV</code></p></td>
+<td><p>Export data in the specified data file to an TSV (tab separated values) file.</p></td>
+</tr>
+<tr class="odd">
+<td><p><code>/ExportJson</code></p></td>
+<td><p>Export data in the specified data file to a JSON file.</p></td>
+</tr>    
 </tbody>
 </table>
 
