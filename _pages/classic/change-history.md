@@ -7,25 +7,24 @@ permalink: /classic/change-history/
 ---
 # Change History
 
-### 3.531: 11/30/2023
+### 3.532: 04/23/2024
 
+New features
+- ExportCSV from command line
+
+### 3.531: 11/30/2023
 Bug fixes
   - Do not restore window position if offscreen
 
 ### 3.530: 08/14/2023
-
 Bug fixes
-
   - Export to CSV should preload exported of media to avoid memory overflow
 
 ### 3.529: 03/03/2023
-
 New features
-
   - Reset button on Publish dialog
 
 Bug fixes
-
   - Crash on publish with no fields
   - Crash on publish with custom timeout
   - Improve memory efficiency for tracks
