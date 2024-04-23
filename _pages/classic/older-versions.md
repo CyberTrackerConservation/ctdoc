@@ -7,6 +7,8 @@ permalink: /classic/older-versions/
 ---
 # Older Versions
 
+[3.532 - user](https://ctwiki.blob.core.windows.net/bin/ct3532u.msi)  
+[3.532 - admin](https://ctwiki.blob.core.windows.net/bin/ct3532.msi)  
 [3.531 - user](https://ctwiki.blob.core.windows.net/bin/ct3531u.msi)  
 [3.531 - admin](https://ctwiki.blob.core.windows.net/bin/ct3531.msi)  
 [3.530 - user](https://ctwiki.blob.core.windows.net/bin/ct3530u.msi)  
