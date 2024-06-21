@@ -72,7 +72,7 @@ If `wizardMode` is set to `yes`, then each question will appear on its own page 
 </tr>
 </table>
 
-### summary
+### summaryText and summaryIcon
 The summary attribute specifies which fields to use as the summary of a sighting on the **Home** page. For example:
 
 <table class="xlsTable">
@@ -112,18 +112,20 @@ The summary attribute specifies which fields to use as the summary of a sighting
   </tfoot>
 </table>
 
-The following setting will ensure that the summary only uses the `f_animal` and `f_behavior` questions.
+The following setting will ensure that the summary text only uses the `f_animal` and `f_behavior` questions. Similarly, the summary icon will be taken from the `f_animal` question.
 <table class="xlsTable">
   <thead>
     <tr>
       <th>title</th>
-      <th>bind::ct:summary</th>
+      <th>bind::ct:summaryText</th>
+      <th>bind::ct:summaryIcon</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td>My Form</td>
       <td>f_animal f_behavior</td>
+      <td>f_animal</td>
     </tr>
   </tbody>
   <tfoot>
