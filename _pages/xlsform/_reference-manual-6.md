@@ -267,7 +267,7 @@ This value must be a valid JSON array.
 
 `snapTrack` causes the system to snapshot all the track points (since prior snap). 
 
-If using Survey123 and `esriLocationServiceUrl` is specified, then the track data will be sent to the [feature service]({{ site.baseurl }}/xlsform/reference-manual/2#esrilocationserviceurl). Otherwise, a track file will be created and added to a `file` type question in the form. See the section on the track file [here]({{ site.baseurl }}/xlsform/reference-manual/#track-file-format).
+If using Survey123 and `locationServiceUrl` is specified, then the track data will be sent to the [feature service]({{ site.baseurl }}/xlsform/reference-manual/2#locationserviceurl). Otherwise, a track file will be created and added to a `file` type question in the form. See the section on the track file [here]({{ site.baseurl }}/xlsform/reference-manual/#track-file-format).
 
 <table>
 <tr>

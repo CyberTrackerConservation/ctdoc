@@ -263,15 +263,15 @@ The `offlineMapUrl` attribute specifies a url to a downloadable zip file contain
 
 See the section on [Offline maps]({{ site.baseurl }}/xlsform/reference-manual/maps) for more information.
 
-### esriLocationServiceUrl
+### locationServiceUrl
 
-When using Survey123, CyberTracker supports uploading locations and tracks to a hosted feature service. In this case, the feature service is specified in the `bind::ct:esriLocationServiceUrl` column:
+When using Survey123, CyberTracker supports uploading locations and tracks to a hosted feature service. In this case, the feature service is specified in the `bind::ct:locationServiceUrl` column:
 
 <table class="xlsTable">
   <thead>
     <tr>
       <th>title</th>
-      <th>bind::ct:esriLocationServiceUrl</th>
+      <th>bind::ct:locationServiceUrl</th>
     </tr>
   </thead>
   <tbody>
@@ -287,7 +287,7 @@ When using Survey123, CyberTracker supports uploading locations and tracks to a 
   </tfoot>
 </table>
 
-The feature service should be created using the CyberTracker Desktop Simulator (see [Download page]({{ site.baseurl }}/xlsform/download)). There is an option off the **Tools** menu called **Create ArcGIS location service**. This tool will automatically create and configure a hosted service which is compatible with CyberTracker:
+The feature service can be created using the CyberTracker Mobile application from the Settings page of a Survey123 project or using the Desktop Simulator (see [Download page]({{ site.baseurl }}/xlsform/download)). There is an option off the **Tools** menu called **Create ArcGIS location service**. This tool will automatically create and configure a hosted service which is compatible with CyberTracker:
 
 <table>
 <tr>
@@ -308,7 +308,7 @@ If this service is not specified, then tracks are placed in a `file` type questi
 
 ### sendLocationInterval
 
-If using Survey123, CyberTracker can send the current location at regular intervals - separately from tracks. The value is in seconds and is user configurable via the form Settings page on the device. This specifies the default value. `bind::ct:esriLocationServiceUrl` must be configured.
+If using Survey123, CyberTracker can send the current location at regular intervals - separately from tracks. The value is in seconds and is user configurable via the form Settings page on the device. This specifies the default value. `bind::ct:locationServiceUrl` must be configured.
 
 <table class="xlsTable">
   <thead>

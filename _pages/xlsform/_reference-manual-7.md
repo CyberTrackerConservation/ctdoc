@@ -30,7 +30,7 @@ When the user presses **Save** and creates a track file, it is stored in a `file
 
 By default the format of the track is zipped geojson, but this can be changed by using the `format` parameter of the question itself. Supported values are `geojson` and `kmz` (not supported on Survey123). 
 
-Survey123 users should prefer to use a location service - see [esriLocationServiceUrl]({{ site.baseurl }}/xlsform/reference-manual/2#esrilocationserviceurl). If a location service is specified, this question should be removed.
+Survey123 users should prefer to use a location service - see [locationServiceUrl]({{ site.baseurl }}/xlsform/reference-manual/2#locationserviceurl). If a location service is specified, this question should be removed.
 
 <table class="xlsTable">
   <thead>

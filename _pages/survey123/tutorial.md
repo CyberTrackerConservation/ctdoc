@@ -34,7 +34,7 @@ It is recommended to follow the [getting started]({{ site.baseurl }}/xlsform/tut
 ### 2. Create a new survey
 Create a new survey or start with an existing survey.
 
-You can use the **File** option and start with the [tutorial survey]({{ site.baseurl }}/assets/xlsform/tutorial-survey123-track.xlsx). This form still requires that the `bind::ct:esriLocationServiceUrl` column of the `settings` sheet be filled in before it will work (see step 4 below).
+You can use the **File** option and start with the [tutorial survey]({{ site.baseurl }}/assets/xlsform/tutorial-survey123-track.xlsx). This form still requires that the `bind::ct:locationServiceUrl` column of the `settings` sheet be filled in before it will work (see step 4 below).
 <table>
 <tr><td><img src="{{ site.baseurl }}/assets/xlsform/tutorial-esri-0.png" /></td></tr>
 </table>
@@ -71,13 +71,13 @@ Login to your ArcGIS Online account and verify that the service has been created
 </table>
 
 ### 5. Update the 'settings' sheet
-Return to Excel and update the `settings` sheet with the `namespaces`, `esriLocationServiceUrl` and `sendLocationInterval` columns.
+Return to Excel and update the `settings` sheet with the `namespaces`, `locationServiceUrl` and `sendLocationInterval` columns.
 <table class="xlsTable">
   <thead>
     <tr>
       <th>title</th>
       <th>namespaces</th>
-      <th>bind::ct:esriLocationServiceUrl</th>
+      <th>bind::ct:locationServiceUrl</th>
       <th>bind::ct:sendLocationInterval</th>
     </tr>
   </thead>
