@@ -23,7 +23,7 @@ Having a single mobile app has four key advantages:
 
 - Organizations using the same tools can collaborate more easily. While this includes overlapping field work, it even extends to making improvements to the app. For example, if an organization wants to add a new feature, then it can be built once and benefit all others. 
 
-- CyberTracker excels at simple and intuitive user interfaces which can be used by an incredibly broad range of users, including oralate rangers in remote regions. The app brings this level of customization to every backend. For example, by using the CyberTracker extensions, any ODK-based form can be made icon-only.
+- CyberTracker excels at **simple** and intuitive user interfaces which can be used by an incredibly broad range of users, including oralate rangers in remote regions. The app brings this level of customization to every backend. For example, by using the CyberTracker extensions, any ODK-based form can be made icon-only.
 
 - Mobile applications are expensive to create and maintain over time. Having a single data collector app which can be extended easily will reduce the cost of creating and maintaining one-off tools. 
 
