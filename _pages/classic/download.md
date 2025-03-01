@@ -15,7 +15,7 @@ Click the links below to download the latest release of CyberTracker:
 [Download latest release (admin install): 3.533
 \~ 11MB](https://ctwiki.blob.core.windows.net/bin/ct3533.msi)
 
-[Download latest Android APK: 516](https://ctwiki.blob.core.windows.net/bin/CT-build-516.apk)
+[Download latest Android APK: 522](https://ctwiki.blob.core.windows.net/bin/CT-build-522.apk)
 
 ## Legacy downloads
 
@@ -23,6 +23,9 @@ Click on the links below to get older versions of CyberTracker which are needed 
 
 [Download Android APK for Android 5.0 and earlier](https://ctwiki.blob.core.windows.net/bin/client.Android.APK)
 This version is missing many of the newer features, but can be used on much older devices.
+
+[Download Android APK for Android 5.1](https://ctwiki.blob.core.windows.net/bin/CT-build-516.apk)
+This version is newer, but requires 5.1 or later.
 
 [Download Android APK for Desktop version 3.518 and earlier](https://ctwiki.blob.core.windows.net/bin/CT-build-389.apk)
 This version is compatible with Desktop versions 3.518 and earlier. A policy change by Google means that the Play Store version of CyberTracker is not compatible with desktop versions 3.518 and below.
