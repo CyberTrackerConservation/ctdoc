@@ -35,7 +35,7 @@ remote_theme: just-the-docs/just-the-docs
 #theme: just-the-docs
 
 # Include for processing.
-include: ["_pages", ".well-known"]
+include: ["_pages", ".well-known", "*.kml"]
 
 # Enable or disable heading anchors
 heading_anchors: true

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2"
+     xmlns:gx="http://www.google.com/kml/ext/2.2">
+  <Document>
+    <name>Simple Story Map</name>
+    <open>1</open>
+    <Style id="placemarkStyle">
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+        </Icon>
+        <scale>1.2</scale>
+      </IconStyle>
+    </Style>
+    <!-- Placemark 1 -->
+    <Placemark>
+      <name>Golden Gate Bridge</name>
+      <styleUrl>#placemarkStyle</styleUrl>
+      <description><![CDATA[
+        <h2>Golden Gate Bridge</h2>
+        <p>
+          The Golden Gate Bridge is a suspension bridge spanning the Golden Gate, the one-mile-wide strait connecting San Francisco Bay and the Pacific Ocean.
+        </p>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/0/0c/GoldenGateBridge-001.jpg" width="400" />
+      ]]></description>
+      <Point>
+        <coordinates>-122.478255,37.819928,0</coordinates>
+      </Point>
+    </Placemark>
+    <!-- Placemark 2 -->
+    <Placemark>
+      <name>Statue of Liberty</name>
+      <styleUrl>#placemarkStyle</styleUrl>
+      <description><![CDATA[
+        <h2>Statue of Liberty</h2>
+        <p>
+          The Statue of Liberty is a colossal neoclassical sculpture on Liberty Island in New York Harbor within New York City.
+        </p>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/a/a1/Statue_of_Liberty_7.jpg" width="400" />
+      ]]></description>
+      <Point>
+        <coordinates>-74.044502,40.689247,0</coordinates>
+      </Point>
+    </Placemark>
+    <!-- Placemark 3 -->
+    <Placemark>
+      <name>Eiffel Tower</name>
+      <styleUrl>#placemarkStyle</styleUrl>
+      <description><![CDATA[
+        <h2>Eiffel Tower</h2>
+        <p>
+          The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.
+        </p>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/a/a8/Tour_Eiffel_Wikimedia_Commons.jpg" width="400" />
+      ]]></description>
+      <Point>
+        <coordinates>2.294481,48.858370,0</coordinates>
+      </Point>
+    </Placemark>
+    <!-- Tour -->
+    <gx:Tour>
+      <name>Story Map Tour</name>
+      <gx:Playlist>
+        <!-- Fly to Golden Gate Bridge -->
+        <gx:FlyTo>
+          <gx:duration>4.0</gx:duration>
+          <gx:flyToMode>bounce</gx:flyToMode>
+          <LookAt>
+            <longitude>-122.478255</longitude>
+            <latitude>37.819928</latitude>
+            <altitude>0</altitude>
+            <heading>0</heading>
+            <tilt>45</tilt>
+            <range>800</range>
+            <altitudeMode>relativeToGround</altitudeMode>
+          </LookAt>
+        </gx:FlyTo>
+        <gx:Wait>
+          <gx:duration>5.0</gx:duration>
+        </gx:Wait>
+        <!-- Fly to Statue of Liberty -->
+        <gx:FlyTo>
+          <gx:duration>4.0</gx:duration>
+          <gx:flyToMode>smooth</gx:flyToMode>
+          <LookAt>
+            <longitude>-74.044502</longitude>
+            <latitude>40.689247</latitude>
+            <altitude>0</altitude>
+            <heading>0</heading>
+            <tilt>45</tilt>
+            <range>800</range>
+            <altitudeMode>relativeToGround</altitudeMode>
+          </LookAt>
+        </gx:FlyTo>
+        <gx:Wait>
+          <gx:duration>5.0</gx:duration>
+        </gx:Wait>
+        <!-- Fly to Eiffel Tower -->
+        <gx:FlyTo>
+          <gx:duration>4.0</gx:duration>
+          <gx:flyToMode>smooth</gx:flyToMode>
+          <LookAt>
+            <longitude>2.294481</longitude>
+            <latitude>48.858370</latitude>
+            <altitude>0</altitude>
+            <heading>0</heading>
+            <tilt>45</tilt>
+            <range>800</range>
+            <altitudeMode>relativeToGround</altitudeMode>
+          </LookAt>
+        </gx:FlyTo>
+        <gx:Wait>
+          <gx:duration>5.0</gx:duration>
+        </gx:Wait>
+      </gx:Playlist>
+    </gx:Tour>
+  </Document>
+</kml>

@@ -7,6 +7,12 @@ permalink: /classic/change-history/
 ---
 # Change History
 
+### 3.534: 03/03/2025
+
+Bug fixes
+- Crash on desktop when sending data automatically
+- DownloadUrl command line should include Azure Publish system 
+
 ### 3.532: 04/23/2024
 
 New features
