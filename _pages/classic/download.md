@@ -7,27 +7,22 @@ permalink: /classic/download/
 ---
 # Download 
 
-Click the links below to download the latest release of CyberTracker:
+Windows desktop application:<br/>
+[Download build 3.534 (recommended)](https://ctwiki.blob.core.windows.net/bin/ct3534u.msi)<br/>
+[Download build 3.534 (admin install)](https://ctwiki.blob.core.windows.net/bin/ct3534.msi)<br/>
 
-[Download latest release (recommended): 3.534
-\~ 11MB](https://ctwiki.blob.core.windows.net/bin/ct3534u.msi)
+Android APK:<br/>
+[Download build 562 - for Android 9+](https://ctwiki.blob.core.windows.net/bin/CT-build-562.apk)<br/>
+[Download build 561 - for older Android devices](https://ctwiki.blob.core.windows.net/bin/CT-build-561-qt5.apk)
 
-[Download latest release (admin install): 3.534
-\~ 11MB](https://ctwiki.blob.core.windows.net/bin/ct3534.msi)
-
-[Download latest Android APK: 524](https://ctwiki.blob.core.windows.net/bin/CT-build-524.apk)
+Desktop simulator for demos and testing - identical to the mobile version, but runs on Windows:<br/>
+[Download Windows destkop simulator: 1.0.562](https://ctwiki.blob.core.windows.net/bin/CT-build-562-win64.zip)<br/>
 
 ## Legacy downloads
+[Download Mobile for Android < 9](https://ctwiki.blob.core.windows.net/bin/CT-build-561-qt5.apk)
+This version is missing some newer features, but can be used on older devices.
 
-Click on the links below to get older versions of CyberTracker which are needed for some scenarios:
-
-[Download Android APK for Android 5.0 and earlier](https://ctwiki.blob.core.windows.net/bin/client.Android.APK)
-This version is missing many of the newer features, but can be used on much older devices.
-
-[Download Android APK for Android 5.1](https://ctwiki.blob.core.windows.net/bin/CT-build-516.apk)
-This version is newer, but requires 5.1 or later.
-
-[Download Android APK for Desktop version 3.518 and earlier](https://ctwiki.blob.core.windows.net/bin/CT-build-389.apk)
+[Download Mobile for Desktop version 3.518 and earlier](https://ctwiki.blob.core.windows.net/bin/CT-build-389.apk)
 This version is compatible with Desktop versions 3.518 and earlier. A policy change by Google means that the Play Store version of CyberTracker is not compatible with desktop versions 3.518 and below.
 
 ## How do I install CyberTracker?
