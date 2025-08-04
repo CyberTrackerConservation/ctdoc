@@ -16,7 +16,7 @@ Android APK:<br/>
 [Download build 569 - for older Android devices](https://ctwiki.blob.core.windows.net/bin/CT-build-569-qt5.apk)
 
 Desktop simulator for demos and testing - identical to the mobile version, but runs on Windows:<br/>
-[Download Windows destkop simulator: 1.0.570](https://ctwiki.blob.core.windows.net/bin/CT-build-568-win64.zip)<br/>
+[Download Windows destkop simulator: 1.0.570](https://ctwiki.blob.core.windows.net/bin/CT-build-570-win64.zip)<br/>
 
 ## Legacy downloads
 [Download Mobile for Android < 9](https://ctwiki.blob.core.windows.net/bin/CT-build-561-qt5.apk)
