@@ -19,7 +19,7 @@ Desktop simulator for demos and testing - identical to the mobile version, but r
 [Download Windows destkop simulator: 1.0.570](https://ctwiki.blob.core.windows.net/bin/CT-build-570-win64.zip)<br/>
 
 ## Legacy downloads
-[Download Mobile for Android < 9](https://ctwiki.blob.core.windows.net/bin/CT-build-561-qt5.apk)
+[Download Mobile for Android < 9](https://ctwiki.blob.core.windows.net/bin/CT-build-569-qt5.apk)
 This version is missing some newer features, but can be used on older devices.
 
 [Download Mobile for Desktop version 3.518 and earlier](https://ctwiki.blob.core.windows.net/bin/CT-build-389.apk)
