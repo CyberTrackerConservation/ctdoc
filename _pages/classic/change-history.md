@@ -7,6 +7,11 @@ permalink: /classic/change-history/
 ---
 # Change History
 
+### 3.535: 09/19/2025
+
+Bug fixes
+- Floating point errors on Windows 11
+
 ### 3.534: 03/03/2025
 
 Bug fixes
