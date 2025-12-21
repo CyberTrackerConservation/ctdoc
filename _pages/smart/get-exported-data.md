@@ -6,17 +6,20 @@ permalink: /smart/get-exported-data/
 ---
 # Get exported data
 
-The normal way to retrieve data from SMART Mobile over USB is to import the data using the **Field data -> SMART Mobile -> Import data** menu option.
+The normal way to retrieve data from SMART Mobile over USB is to import the data using the **Field data -> SMART Mobile -> Import...** menu option on SMART Desktop.
 
-This recently stopped working due to mobile security changes.
+This recently stopped working due to mobile security changes. It will be addressed in an upcoming SMART Desktop patch in early 2026. 
 
-This is the work around.
-
-1. Install SMART Mobile build 585 or later. It is available on the Google Play Store or you can get the APK from [here]({{ site.baseurl }}/smart/download).
+In the meantime, follow these steps to retrieve exported data:
+1. Update to SMART Mobile version 1.0.585 or later. It is available on the Google Play Store or you can get the APK from [here]({{ site.baseurl }}/smart/download).
 1. Connect the USB cable and select **File Transfer** mode on the device
 1. Open Windows Explorer, select your device and navigate to the **Download** folder and then the **SMARTdata** folder
 1. Copy the JSON files there to any desktop folder (or create a new one)
-1. Use the **Field data -> SMART Mobile -> Import data** menu option and set **Import From** to **Files**
+1. Use the **Field data -> SMART Mobile -> Import...** menu option and set **Import From** to **Files**
 1. Use the **Add** button to select the files you copied and then click **Open**
-1. Once you have confirmed the data was imported, delete the JSON files from your desktop
-1. Delete the files from the SMARTdata folder on the device
+1. Once you have confirmed the data was imported, delete the JSON files from your desktop and the device
+
+Note:
+1. Users of Connect and Collect are not affected. This is only needed if you use a USB cable to retrieve data. 
+1. The data can also be sent directly from the device from the Project Settings page, under the Exported data option. Select the data and then Share.
+1. The data is also available off the Main Settings page, under Data archive and Manage backups.
