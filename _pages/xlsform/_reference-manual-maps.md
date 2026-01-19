@@ -34,6 +34,13 @@ CyberTracker will discover and install layers in a zip file automatically. While
         "name": "World countries",
         "active": true,
         "opacity": 0.5
+    },
+    {
+        "filename": "LegalAtlas.geojson",
+        "metadata": "LegalAtlas.json",
+        "name": "Legal atlas",
+        "active": true,
+        "opacity": 0.5
     }
 ]
 ```
