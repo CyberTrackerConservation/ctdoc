@@ -36,11 +36,19 @@ CyberTracker will discover and install layers in a zip file automatically. While
         "opacity": 0.5
     },
     {
-        "filename": "LegalAtlas.geojson",
-        "metadata": "LegalAtlas.json",
-        "name": "Legal atlas",
+        "filename": "LegalAtlasShapeFile.shp",
+        "legalAtlas": true,
+        "name": "Legal atlas shapefile",
         "active": true,
-        "opacity": 0.5
+        "opacity": 0.1,
+        "symbol": {
+           "fill-style": "solid",
+           "fill-color": "#ff00ff",
+           "outline-symbol": {
+              "stroke-style": "dashdot",
+              "stroke-size": 4.4,
+              "color": "#ffff00"
+           }  
     }
 ]
 ```
@@ -88,6 +96,43 @@ The following layer formats are supported:
 - MapBox: mbtiles 
 - Google: KML
 - GeoJSON
+
+### Shape files
+Shape files entries can include symbology.
+
+#### Point symbols
+`marker-style` can be `circle`, `cross`, `diamond`, `square`, `triangle`, `x`.
+```json
+"symbol": {
+    "marker-style": "circle",
+    "marker-size": 5.5,
+    "marker-color": "#ffff00",
+    "outline-color": "#ff0000"
+}
+```
+#### Line symbols
+`stroke-style` can be `solid`, `dash`, `dashdot`, `dashdotdot`, `dot`.
+```json
+"symbol": {
+    "stroke-style": "dashdot",
+    "stroke-size": 4.4,
+    "stroke-color": "#ffff00"
+}
+```
+
+#### Line symbols
+`fill-style` can be `none`, `solid`, `horizontal`, `vertical`, `forwardDiagonal`, `backwardDiagonal`, `cross`, `diagonalCross`.
+```json
+"symbol": {
+   "fill-style": "solid",
+   "fill-color": "#ff00ff",
+   "outline-symbol": {
+      "stroke-style": "dashdot",
+      "stroke-size": 4.4,
+      "color": "#ffff00"
+   }  
+}
+```
 
 ### WMS layers
 
