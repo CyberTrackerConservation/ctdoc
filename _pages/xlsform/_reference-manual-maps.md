@@ -43,11 +43,11 @@ CyberTracker will discover and install layers in a zip file automatically. While
         "opacity": 0.1,
         "symbol": {
            "fill-style": "solid",
-           "fill-color": "#ff00ff",
+           "fill-color": "#808080",
            "outline-symbol": {
               "stroke-style": "dashdot",
-              "stroke-size": 4.4,
-              "color": "#ffff00"
+              "stroke-size": 1.0,
+              "stroke-color": "#404040"
            }  
     }
 ]
@@ -128,8 +128,8 @@ Shape files entries can include symbology.
    "fill-color": "#ff00ff",
    "outline-symbol": {
       "stroke-style": "dashdot",
-      "stroke-size": 4.4,
-      "color": "#ffff00"
+      "stroke-size": 1.0,
+      "stroke-color": "#ffff00"
    }  
 }
 ```
