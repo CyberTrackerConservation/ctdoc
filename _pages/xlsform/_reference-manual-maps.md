@@ -120,7 +120,7 @@ Shape files entries can include symbology.
 }
 ```
 
-#### Line symbols
+#### Fill symbols
 `fill-style` can be `none`, `solid`, `horizontal`, `vertical`, `forwardDiagonal`, `backwardDiagonal`, `cross`, `diagonalCross`.
 ```json
 "symbol": {
