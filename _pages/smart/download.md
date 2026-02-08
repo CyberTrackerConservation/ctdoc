@@ -10,11 +10,11 @@ permalink: /smart/download/
 ### SMART 7.5 and 8
 
 Android APK:<br/>
-[Download build 586 - for Android 9+](https://ctwiki.blob.core.windows.net/bin/SMK-build-586.apk)<br/>
+[Download build 590 - for Android 9+](https://ctwiki.blob.core.windows.net/bin/SMK-build-590.apk)<br/>
 [Download build 571 - for older Android devices](https://ctwiki.blob.core.windows.net/bin/SMK-build-571-qt5.apk)
 
 Windows Desktop Simulator:<br/>
-[Download Desktop Simulator Build 586](https://ctwiki.blob.core.windows.net/bin/SM-build-586-win64.zip)
+[Download Desktop Simulator Build 590](https://ctwiki.blob.core.windows.net/bin/SM-build-590-win64.zip)
 
 User manual as a PDF:<br/>
 [Download User Manual]({{ site.baseurl }}/assets/smart/smart-mobile-user-manual.pdf)
