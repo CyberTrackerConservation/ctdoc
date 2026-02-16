@@ -205,4 +205,4 @@ Records may contain links to sub-records. In this case, the value will be an arr
 
 * Use HTTPS for your webhook URLs to ensure secure transmission
 * Respond to webhook POST requests with `HTTP 200 OK` to acknowledge receipt
-* `uid` may be duplicated for cases where records are edited
+* `uid` may be duplicated across different payloads in cases where records are edited and resent
