@@ -7,7 +7,7 @@ permalink: /smart/download/
 ---
 # Download
 
-### SMART 7.5 and 8
+### SMART 7.5 and 8+
 
 Android APK:<br/>
 [Download build 595 - for Android 9+](https://ctwiki.blob.core.windows.net/bin/SMK-build-595.apk)<br/>
