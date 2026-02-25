@@ -12,11 +12,11 @@ Windows desktop application:<br/>
 [Download build 3.536 (admin install)](https://ctwiki.blob.core.windows.net/bin/ct3536.msi)<br/>
 
 Android APK:<br/>
-[Download build 590 - for Android 9+](https://ctwiki.blob.core.windows.net/bin/CT-build-590.apk)<br/>
+[Download build 595 - for Android 9+](https://ctwiki.blob.core.windows.net/bin/CT-build-595.apk)<br/>
 [Download build 571 - for older Android devices](https://ctwiki.blob.core.windows.net/bin/CT-build-571-qt5.apk)
 
 Desktop simulator for demos and testing - identical to the mobile version, but runs on Windows:<br/>
-[Download Windows destkop simulator: 1.0.590](https://ctwiki.blob.core.windows.net/bin/CT-build-590-win64.zip)<br/>
+[Download Windows destkop simulator: 1.0.595](https://ctwiki.blob.core.windows.net/bin/CT-build-595-win64.zip)<br/>
 
 ## Legacy downloads
 [Download Mobile for Android < 9](https://ctwiki.blob.core.windows.net/bin/CT-build-571-qt5.apk)
