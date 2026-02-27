@@ -5,7 +5,7 @@ permalink: /legalatlas/
 nav_order: 7450
 ---
 # Legal Atlas
-<img src="{{ site.baseurl }}/assets/legalAtlas/logo.svg" align="right" class="inline" style="width:15%;"/>
+<img src="{{ site.baseurl }}/assets/legalatlas/logo.svg" align="right" class="inline" style="width:15%;"/>
 CyberTracker and SMART Mobile support [Legal Atlas](https://legal-atlas.net/) map packages. These packages contain polygons and metadata used to identify which laws may apply in a particular location.
 
 **Disclaimer:** Legal Atlas content is provided for informational purposes only and does not constitute legal advice. Government authorities are the authoritative source of all laws and regulations. Always consult official government sources or qualified legal counsel for definitive legal guidance.
