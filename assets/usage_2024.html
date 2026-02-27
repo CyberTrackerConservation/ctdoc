@@ -60,6 +60,17 @@
 
         
     
+            var greenIcon = L.icon({
+                iconUrl: 'data:image/svg+xml,' + encodeURIComponent('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 41"><path d="M12.5 0C5.6 0 0 5.6 0 12.5c0 2.4.7 4.6 1.9 6.5L12.5 41l10.6-22c1.2-1.9 1.9-4.1 1.9-6.5C25 5.6 19.4 0 12.5 0z" fill="#228B22"/><circle cx="12.5" cy="12.5" r="5" fill="#fff" opacity="0.5"/></svg>'),
+                iconSize: [15, 25],
+                iconAnchor: [7, 25],
+                popupAnchor: [1, -20],
+                shadowUrl: 'https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/images/marker-shadow.png',
+                shadowSize: [25, 25],
+                shadowAnchor: [7, 25]
+            });
+            L.Marker.prototype.options.icon = greenIcon;
+
             var tile_layer_bdc6259f7d7019401dbf8bee7bc1e27d = L.tileLayer(
                 "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
                 {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
