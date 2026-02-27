@@ -11,7 +11,7 @@ CyberTracker and SMART Mobile support [Legal Atlas®](#legal-atlas-platform) map
 **Disclaimer:** Legal Atlas® content is provided for informational purposes only and does not constitute legal advice. Government authorities are the authoritative source of all laws and regulations. Always consult official government sources or qualified legal counsel for definitive legal guidance.
 
 ## Packages
-The legal data currently available is limited to Mongolia. This dataset has been developed in partnership with Legal Atlas®, Wildlife Conservation Society (WCS), and the SMART Partnership to support ranger operations and legal awareness in the field.
+The legal data currently available is limited to Mongolia. This dataset has been developed in partnership with [Legal Atlas®](https://legal-atlas.net), [Wildlife Conservation Society](https://www.wcs.org), and the [SMART Partnership](https://smartconservationtools.org) to support ranger operations and legal awareness in the field.
 <br/>
 [Download Mongolia package (English)](https://ctwiki.blob.core.windows.net/bin/LegalAtlasLayers_ENG.zip)<br/>
 [Download Mongolia package (Mongolian)](https://ctwiki.blob.core.windows.net/bin/LegalAtlasLayers_MON.zip)<br/>
