@@ -8,8 +8,8 @@ permalink: /classic/download/
 # Download 
 
 Windows desktop application:<br/>
-[Download build 3.536 (recommended)](https://ctwiki.blob.core.windows.net/bin/ct3536u.msi)<br/>
-[Download build 3.536 (admin install)](https://ctwiki.blob.core.windows.net/bin/ct3536.msi)<br/>
+[Download build 3.537 (recommended)](https://ctwiki.blob.core.windows.net/bin/ct3537u.msi)<br/>
+[Download build 3.537 (admin install)](https://ctwiki.blob.core.windows.net/bin/ct3537.msi)<br/>
 
 Android APK:<br/>
 [Download build 595 - for Android 9+](https://ctwiki.blob.core.windows.net/bin/CT-build-595.apk)<br/>
