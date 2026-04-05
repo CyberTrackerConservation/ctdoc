@@ -7,6 +7,11 @@ permalink: /classic/change-history/
 ---
 # Change History
 
+### 3.537: 04/05/2026
+
+Bug fixes
+- Auto-correct bad track data 
+
 ### 3.535: 09/19/2025
 
 Bug fixes
