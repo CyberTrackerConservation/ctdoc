@@ -10,11 +10,11 @@ permalink: /smart/download/
 ### SMART 7.5 and 8+
 
 Android APK:<br/>
-[Download build 595 - for Android 9+](https://ctwiki.blob.core.windows.net/bin/SMK-build-595.apk)<br/>
+[Download build 596 - for Android 9+](https://ctwiki.blob.core.windows.net/bin/SMK-build-596.apk)<br/>
 [Download build 571 - for older Android devices](https://ctwiki.blob.core.windows.net/bin/SMK-build-571-qt5.apk)
 
 Desktop simulator:<br/>
-[Download build 595 - for Windows 64-bit](https://ctwiki.blob.core.windows.net/bin/SM-build-595-win64.zip)<br/>
+[Download build 596 - for Windows 64-bit](https://ctwiki.blob.core.windows.net/bin/SM-build-596-win64.zip)<br/>
 [Download build 595 - for MacOS](https://ctwiki.blob.core.windows.net/bin/SM-build-595-mac.dmg)<br/>
 
 User manual as a PDF:<br/>
