@@ -350,6 +350,22 @@ Format should be `html` for rich text and html. For plain text, leave blank.
 ```
 Tone can be `note`, `important`, `caution`, `restriction`.
 
+<table>
+<tr>
+<td><img src="{{ site.baseurl }}/assets/placelookup/block-body.png" /></td>
+<td><img src="{{ site.baseurl }}/assets/placelookup/block-attributes.png" /></td>
+<td><img src="{{ site.baseurl }}/assets/placelookup/block-webview-1.png" /></td>
+</tr>
+<tr>
+<td><img src="{{ site.baseurl }}/assets/placelookup/block-webview-2.png" /></td>
+<td><img src="{{ site.baseurl }}/assets/placelookup/block-image.png" /></td>
+<td><img src="{{ site.baseurl }}/assets/placelookup/block-link.png" /></td>
+</tr>
+<tr>
+<td><img src="{{ site.baseurl }}/assets/placelookup/block-notice.png" /></td>
+</tr>
+</table>
+
 ### Runtime lookup flow
 
 1. Identify layers whose `layers.json` entries have `lookup: true`
@@ -528,7 +544,18 @@ The same Settings page is used to re-order layers, share the package with other 
 </tr>
 </table>
 
-### 4.2 Applink / QR code
+### 4.2 SMART Packages
+{: #smart-packages }
+
+In SMART Desktop, you can add an offline map package to a regular SMART Mobile package. This is done by adding the offline map package under `Basemap Settings`, `Custom Files`, select `+` and add the package:
+
+<table>
+<tr>
+<td><img src="{{ site.baseurl }}/assets/placelookup/smart-zip-package.png" /></td>
+</tr>
+</table>
+
+### 4.3 Applink / QR code
 {: #applink }
 
 A package can also be installed by giving users an **applink** that opens CyberTracker (or SMART Mobile) and downloads it. The applink shape is `https://cybertrackerwiki.org/applink/?x=<payload>`, where `<payload>` is the base64 encoding of a small JSON object:
@@ -539,8 +566,8 @@ A package can also be installed by giving users an **applink** that opens CyberT
 
 To build one:
 
-```bash
-python3 -c '
+```python
+python -c '
 import base64, json
 payload = {"webUpdateUrl": "https://ctwiki.blob.core.windows.net/bin/LegalAtlasMongoliaTest.zip"}
 print("https://cybertrackerwiki.org/applink/?x=" + base64.b64encode(json.dumps(payload).encode()).decode())
@@ -552,3 +579,17 @@ The CyberTracker app intercepts `cybertrackerwiki.org/applink/` URLs, decodes th
 For SMART Mobile, use the `applink-smart` prefix instead — `https://cybertrackerwiki.org/applink-smart/?x=<payload>`.
 
 Encoding the applink as a QR code also works: CyberTracker and SMART Mobile will read the QR code and install the package the same way.
+
+## 5. Sample packages
+
+Applinks for CyberTracker:
+- [blocks - all content block types](https://cybertrackerwiki.org/applink/?x=eyJ3ZWJVcGRhdGVVcmwiOiAiaHR0cHM6Ly9jdHdpa2kuYmxvYi5jb3JlLndpbmRvd3MubmV0L2Jpbi9ibG9ja3MuemlwIn0=)
+- [holidays in Mongolia](https://cybertrackerwiki.org/applink/?x=eyJ3ZWJVcGRhdGVVcmwiOiAiaHR0cHM6Ly9jdHdpa2kuYmxvYi5jb3JlLndpbmRvd3MubmV0L2Jpbi9ob2xpZGF5cy56aXAifQ==)
+- [seasons by location and time](https://cybertrackerwiki.org/applink/?x=eyJ3ZWJVcGRhdGVVcmwiOiAiaHR0cHM6Ly9jdHdpa2kuYmxvYi5jb3JlLndpbmRvd3MubmV0L2Jpbi9zZWFzb25zLnppcCJ9)
+- [weather by location via web](https://cybertrackerwiki.org/applink/?x=eyJ3ZWJVcGRhdGVVcmwiOiAiaHR0cHM6Ly9jdHdpa2kuYmxvYi5jb3JlLndpbmRvd3MubmV0L2Jpbi93ZWF0aGVyLnppcCJ9)
+
+Applinks for SMART Mobile:
+- [blocks - all content block types](https://cybertrackerwiki.org/applink-smart/?x=eyJ3ZWJVcGRhdGVVcmwiOiAiaHR0cHM6Ly9jdHdpa2kuYmxvYi5jb3JlLndpbmRvd3MubmV0L2Jpbi9ibG9ja3MuemlwIn0=)
+- [holidays in Mongolia](https://cybertrackerwiki.org/applink-smart/?x=eyJ3ZWJVcGRhdGVVcmwiOiAiaHR0cHM6Ly9jdHdpa2kuYmxvYi5jb3JlLndpbmRvd3MubmV0L2Jpbi9ob2xpZGF5cy56aXAifQ==)
+- [seasons by location and time](https://cybertrackerwiki.org/applink-smart/?x=eyJ3ZWJVcGRhdGVVcmwiOiAiaHR0cHM6Ly9jdHdpa2kuYmxvYi5jb3JlLndpbmRvd3MubmV0L2Jpbi9zZWFzb25zLnppcCJ9)
+- [weather by location via web](https://cybertrackerwiki.org/applink-smart/?x=eyJ3ZWJVcGRhdGVVcmwiOiAiaHR0cHM6Ly9jdHdpa2kuYmxvYi5jb3JlLndpbmRvd3MubmV0L2Jpbi93ZWF0aGVyLnppcCJ9)
