@@ -261,7 +261,7 @@ The `offlineMapUrl` attribute specifies a url to a downloadable zip file contain
   </tfoot>
 </table>
 
-See the section on [Offline maps]({{ site.baseurl }}/xlsform/reference-manual/maps) for more information.
+See the section on [Offline maps]({{ site.baseurl }}/offlinemaps/) for more information.
 
 ### locationServiceUrl
 
