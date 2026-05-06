@@ -17,6 +17,24 @@ pre.highlight {
   border: solid #AFAFAF 1px;
   border-collapse: collapse;
   font-family: Helvetica, Arial, sans-serif;
+  background: #FFFFFF;
+  color: #000000;
+}
+
+.xlsTable tr th,
+.xlsTable tr td {
+  color: #000000;
+  background: #FFFFFF;
+}
+
+.xlsTable tr th {
+  background: #EFEFEF;
+}
+
+.xlsTable tfoot tr,
+.xlsTable tfoot td {
+  color: #000000;
+  background: #EFEFEF;
 }
 
 .halfWidth {
