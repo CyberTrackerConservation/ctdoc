@@ -12,7 +12,7 @@ CyberTracker is most widely used in conservation, but it has also been successfu
 
 ## Technology
 <div style="text-align: center;">
-    <img src="{{ site.baseurl }}/assets/udc.svg" style="width:100%;"/>
+    <img src="{{ site.baseurl }}/assets/udc.png" style="width:100%;"/>
 </div>
 
 The CyberTracker mobile app can collect data for several popular backends (see above). CyberTracker connects to a backend and downloads a form. Users capture data with the form and  upload it for reports and dashboards.
