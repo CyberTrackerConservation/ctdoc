@@ -4,12 +4,13 @@ title: Wish List
 nav_order: 90
 parent: CyberTracker Classic
 permalink: /classic/wish-list/
+nav_exclude: true
 ---
 # Wish List
 
 ## To get a feature added to CyberTracker, your options are:
 
-  - Request a feature by sending mail to justin@steventon.com - he will
+  - Request a feature by sending mail to justin@cybertracker.org - he will
     add it to the wish list below.
   - Commision (pay for yourself) for the feature to be built. Once
     developed, the feature will be available to everyone who downloads

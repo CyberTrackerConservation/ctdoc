@@ -4,6 +4,7 @@ title: Classic User Manual
 nav_order: 40
 parent: SMART Mobile
 permalink: /smart/classic-user-manual/
+nav_exclude: true
 ---
 
 # SMART and CyberTracker Classic User Manual

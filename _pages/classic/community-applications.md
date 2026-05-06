@@ -7,7 +7,7 @@ permalink: /classic/community-applications/
 ---
 # Community Applications
 
-Please send applications to justin@steventon.com if you'd like them to
+Please send applications to justin@cybertracker.org if you'd like them to
 be added to this list.
 
 Note: These applications are not affiliated with CyberTracker.

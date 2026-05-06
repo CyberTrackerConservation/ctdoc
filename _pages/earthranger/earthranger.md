@@ -1,8 +1,9 @@
 ---
 layout: default
 title: EarthRanger
+parent: Connectors
 has_children: false
-nav_order: 4500
+nav_order: 1
 permalink: /earthranger/
 ---
 # EarthRanger

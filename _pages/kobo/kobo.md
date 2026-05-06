@@ -1,8 +1,9 @@
 ---
 layout: default
 title: KoBoToolbox
+parent: Connectors
 has_children: true
-nav_order: 4600
+nav_order: 2
 permalink: /kobo
 ---
 

@@ -1,8 +1,9 @@
 ---
 layout: default
 title: Google Forms
+parent: Connectors
 has_children: false
-nav_order: 4750
+nav_order: 4
 permalink: /rilla
 ---
 

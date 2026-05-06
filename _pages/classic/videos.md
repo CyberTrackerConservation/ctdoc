@@ -8,7 +8,7 @@ permalink: /classic/videos/
 # Videos
 {: .no_toc }
 
-Please send requests for new videos to justin@steventon.com.
+Please send requests for new videos to justin@cybertracker.org.
 
 ## Video list
 {: .no_toc .text-delta }
