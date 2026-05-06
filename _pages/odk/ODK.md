@@ -1,8 +1,9 @@
 ---
 layout: default
 title: ODK Central
+parent: Connectors
 has_children: false
-nav_order: 4700
+nav_order: 3
 permalink: /odk
 ---
 

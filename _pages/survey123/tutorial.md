@@ -3,6 +3,7 @@ layout: page
 title: Tracks tutorial
 nav_order: 2000
 parent: Survey123
+grand_parent: Connectors
 permalink: /survey123/tutorial
 has_toc: false
 ---

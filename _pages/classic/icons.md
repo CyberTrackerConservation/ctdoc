@@ -7,10 +7,5 @@ permalink: /classic/icons/
 ---
 # Icons
 
-CyberTracker Classic does not yet support SVG icons.
+Icons for use in CyberTracker Classic are available at [wildlifeicons.org](https://wildlifeicons.org).
 
-## SMART icons
-
-SMART icons are available for use without license or accreditation. They have been converted to PNG for use in CyberTracker at 100x100 resolution.
-
-[Download SMART PNG icons]({{ site.baseurl }}/assets/classic/SMART_icons.zip) 

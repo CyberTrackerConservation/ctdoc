@@ -38,7 +38,7 @@ build number.
 
 ### CyberTracker contains some GIS functionality, but I need more
 
-CyberTracker is primarily a data capture tool. We've been resisting the
+CyberTracker is primarily a data capture tool. We have been resisting the
 move toward extensive GIS functionality because it distracts from
 producing a great data capture solution. We also do not wish to compete
 on features with products like ESRI ArcView. If you need more GIS
@@ -47,7 +47,7 @@ data-conduit.
 
 ### How do I get new features into CyberTracker?
 
-Email justin@steventon.com with your feature request.
+Email justin@cybertracker.org with your feature request.
 
 ### Which desktop operating system does CyberTracker run on?
 
@@ -96,21 +96,6 @@ properties under the "Navigator" title. Note, typically you will also
 uncheck "Show Next" so that your users have no choice but to Save at the
 end of a sighting.
 
-### Why do I get the message "Time out of sync"?
-
-It was a common problem that data would have the wrong date/time. Now,
-the date/time on your device must be at least as recent as the
-Application you want to run. If you get this message often, the most
-likely reason is that your device time is wrong. Note, ActiveSync will
-automatically synchronize your time if you have a Partnership. Phones
-typically pick up the time from the carrier.
-
-### Why do I get the message "Version Error - resync"?
-
-Resource files on the device must be created with the same version of
-CyberTracker that is running on the desktop. You should either resync or
-delete them.
-
 ### When is my data downloaded from my device?
 
 CyberTracker downloads the data during a sync operation. You can force
@@ -141,20 +126,6 @@ Several controls allow you to persist their state by using their "Retain
 state" property. Click the "Layout" toolbar button in "Applications"
 mode, select the control and check that property.
 
-### What does the GPS Accuracy number mean?
-
-"Accuracy" is a number that the GPS provides to give some idea of the
-uncertainty of the reading. This number ranges from 0 to 50 and should
-typically be multiplied by 10 meters (32 feet) to get an idea of the
-area you are dealing with. For example, a value of 3.5 means that the
-GPS knows you are within 35 meters of where it says you are.
-
-### Does CyberTracker support Differential GPS?
-
-CyberTracker does not have a feature to post-process GPS data. However,
-if you are within North America and your GPS is WAAS enabled, then you
-get differential like characteristics for free.
-
 ### What are the different states for the GPS triangle button?
 
 The GPS triangle has 4 possible states:
@@ -176,24 +147,6 @@ navigator button size is too small (as is the case on legacy PalmOS),
 this may not show. In addition, the display is rounded off, e.g. 80
 seconds will show as "1m" (for 1 minute), even although it really is set
 at 80 seconds.
-
-### How can I get my RangeFinder and my GPS to both auto-detect without conflict?
-
-RangerFinder support is limited to Windows Mobile devices.
-
-If your RangeFinder is Bluetooth, then you cannot also have a Bluetooth
-GPS. The way to do this is to turn on your GPS and get it to detect
-first. Once CyberTracker has detected the GPS at a particular port, it
-will remember that for all future tries. Then do the same for the
-RangeFinder.
-
-### What RangeFinders does CyberTracker support?
-
-RangerFinder support is limited to Windows Mobile devices.
-
-CyberTracker supports RangeFinders that output the Laser Atlanta NMEA
-sentences LA1KA, LA1KC and LA1KD. RangeFinders are not currently
-supported on iOS or Android.
 
 ### How can I export data that I collect back to my GPS?
 
@@ -295,88 +248,9 @@ itself. This provides the ability to do counters. Try this:
 Now everytime you save and return to this screen, the number will
 automatically increment.
 
-### How to bind a bluetooth device on Windows Mobile?
-
-On an HP Travel Companion:
-
-1.  Tap Start and then Settings
-2.  Tap on the Connections tab
-3.  Tap the Bluetooth Icon
-4.  Tap "Turn on" to make sure Bluetooth is enabled
-5.  Tap on the "Bluetooth Manager" shortcut near the bottom of the
-    screen
-6.  Turn on the device you want to bind to and tap "New" on the bottom
-    left corner of the screen
-7.  Tap "Explore a Bluetooth device" and tap "Next" 8. An icon should
-    appear that describes the device you want to bind to. There may be
-    multiple devices, but just select the one you want and tap "Next".
-    Sometimes the screen will automatically press the next button for
-    you.
-8.  Uncheck "Use a secure, encrypted connection"
-9.  Under "Service selection", select "Bluetooth Serial Port" and tap
-    "Next".
-10. You may be asked to enter a password. The device documentation
-    provides this. Usually it is "0000" or "1111".
-
-On a Trimble GeoXM:
-
-1.  Tap Start and then Settings
-2.  Tap on the Connections tab
-3.  Tap the Bluetooth Icon
-4.  Select "On"
-5.  Select the "Bonded Devices" tab
-6.  Select the "New" list item
-7.  Select the device you want to bind to and tap "Next"
-8.  Enter the passcode for the device. This can be found in the device
-    manual. Usually it is "0000" or "1111".
-9.  Tap "Next" to create the shortcut
-10. Close the input field and tap on the "Serial Ports" tab
-11. In the "Client Serial Ports" box, tap "New"
-12. Select the device and tap "Next"
-13. Make sure "Authentication", "Encryption" and "Default Bluetooth
-    ActiveSync" are all unchecked
-14. Click "Finish"
-
 ### What does "No Result: Value not saved" and "No Result: Text not saved" mean?
 
 Text and Keypad screens require that the "Result Element" property be
 set. This specifies the storage Element for the result from the text
 editor and keypad screens. The error message occurs to prevent
 accidental data loss.
-
-### What is "Kiosk Mode" and how can I set it up?
-
-Kiosk's are fixed purpose devices. The goal of Kiosk mode is to turn a
-device into a fixed purpose CyberTracker device. To configure this, open
-the "Application Properties" dialog during screen design and check the
-"Kiosk Mode" box. Save your database and synchronize the Application to
-your device. Notice that the application cannot be closed in the usual
-ways. The task bar is also hidden.
-
-Kiosk mode is often combined with a password keypad to allow
-administrators to work on the system in the field.
-
-Note: Kiosk mode does not work on iOS and Android devices.
-
-### How can "Kiosk Mode" be bypassed in the field?
-
-Place an "Element Keypad" control on a screen and set the "Password"
-property to "1234". Set the "Password auto next" property to "Shutdown".
-When the correct password is entered, CyberTracker will close the
-current Application, thereby terminating Kiosk mode.
-
-Note: Kiosk mode does not work on iOS and Android devices.
-
-### CyberTracker reports that it cannot install to a Windows Mobile device: INF error
-
-To install CyberTracker on the device manually:
-
-1.  On the desktop CyberTracker icon, right click and select "Open File
-    Location"
-2.  Look for client5.arm.cab and copy this file to your Windows Mobile
-    6.1 device
-3.  Open File Explorer on the device and navigate to the file, then
-    double tap it
-
-This should install CyberTracker. After this, the desktop should
-communicate with it properly.

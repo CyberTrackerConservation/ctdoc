@@ -24,6 +24,3 @@ CyberTracker only affects how data is collected, not what is collected. It is tr
 1. Upload and publish the form to the desired backend (ODK Central, KoBoToolbox, Survey123)
 1. Connect with CyberTracker and collect data
 1. Tap 'Submit' to upload data
-
-## When should CyberTracker _not_ be used?
-While CyberTracker supports most of the commonly used XlsForm features, it is not as mature as the existing data collection tools like ODK Collect, Kobo Collect and Survey123. Users should prefer to use those tools for critical projects.

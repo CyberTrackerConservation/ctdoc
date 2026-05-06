@@ -15,3 +15,26 @@ CyberTracker Online is a web application for mobile data capture and visualizati
 ## Getting started
 The getting started guide can be found on the [CyberTracker web site](https://cybertracker.org/quick-start-build-a-simple-cybertracker-photo-notes-app/).
 
+## Screenshots from the Kalahari app
+<table>
+<tr>
+<td><img src="{{ site.baseurl }}/assets/cto/kalahari-1.png" /></td>
+<td><img src="{{ site.baseurl }}/assets/cto/kalahari-2.png" /></td>
+<td><img src="{{ site.baseurl }}/assets/cto/kalahari-3.png" /></td>
+</tr>
+<tr>
+<td><img src="{{ site.baseurl }}/assets/cto/kalahari-4.png" /></td>
+<td><img src="{{ site.baseurl }}/assets/cto/kalahari-5.png" /></td>
+<td><img src="{{ site.baseurl }}/assets/cto/kalahari-6.png" /></td>
+</tr>
+<tr>
+<td><img src="{{ site.baseurl }}/assets/cto/kalahari-7.png" /></td>
+<td><img src="{{ site.baseurl }}/assets/cto/kalahari-8.png" /></td>
+<td><img src="{{ site.baseurl }}/assets/cto/kalahari-9.png" /></td>
+</tr>
+<tr>
+<td><img src="{{ site.baseurl }}/assets/cto/kalahari-10.png" /></td>
+<td><img src="{{ site.baseurl }}/assets/cto/kalahari-11.png" /></td>
+<td><img src="{{ site.baseurl }}/assets/cto/kalahari-12.png" /></td>
+</tr>
+</table>

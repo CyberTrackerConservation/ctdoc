@@ -3,6 +3,7 @@ layout: page
 title: Tutorial
 nav_order: 2000
 parent: KoBoToolbox
+grand_parent: Connectors
 permalink: /kobo/tutorial
 has_toc: false
 ---
