@@ -18,13 +18,6 @@ Android APK:<br/>
 Desktop simulator for demos and testing - identical to the mobile version, but runs on Windows:<br/>
 [Download build 600 - for Windows 64bit](https://ctwiki.blob.core.windows.net/bin/CT-build-600-win64.zip)<br/>
 
-## Legacy downloads
-[Download Mobile for Android < 9](https://ctwiki.blob.core.windows.net/bin/CT-build-571-qt5.apk)
-This version is missing some newer features, but can be used on older devices.
-
-[Download Mobile for Desktop version 3.518 and earlier](https://ctwiki.blob.core.windows.net/bin/CT-build-389.apk)
-This version is compatible with Desktop versions 3.518 and earlier. A policy change by Google means that the Play Store version of CyberTracker is not compatible with desktop versions 3.518 and below.
-
 ## How do I install CyberTracker?
 
 1.  Click on the link above to download
