@@ -71,9 +71,8 @@ The SMART polygon attribute offers two ways to record boundary points:
 | **Advantage** | Hands-free; no need to interact with device while walking                     | Greater control; can pause at corners to improve accuracy     |
 | **Risk**      | Points recorded at regular intervals regardless of GPS quality at that moment | Requires ranger to actively monitor and engage with the device |
 
-> **✓ Recommendation**
->
-> Use Manual Tap when GPS accuracy is uncertain or the area is small. Pausing briefly at each corner before tapping gives the GPS time to settle, improving accuracy.
+{: .important }
+Use Manual Tap when GPS accuracy is uncertain or the area is small. Pausing briefly at each corner before tapping gives the GPS time to settle, improving accuracy.
 
 ### Walking the Boundary
 
