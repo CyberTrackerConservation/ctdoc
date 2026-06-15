@@ -12,11 +12,11 @@ Windows desktop application:<br/>
 [Download build 3.537 (admin install)](https://ctwiki.blob.core.windows.net/bin/ct3537.msi)<br/>
 
 Android APK:<br/>
-[Download build 602 - for Android 9+](https://ctwiki.blob.core.windows.net/bin/CT-build-602.apk)<br/>
+[Download build 603 - for Android 9+](https://ctwiki.blob.core.windows.net/bin/CT-build-603.apk)<br/>
 [Download build 571 - for older Android devices](https://ctwiki.blob.core.windows.net/bin/CT-build-571-qt5.apk)
 
 Desktop simulator for demos and testing - identical to the mobile version, but runs on desktop:<br/>
-[Download build 602 - for Windows 64bit](https://ctwiki.blob.core.windows.net/bin/CT-build-602-win64.zip)<br/>
+[Download build 603 - for Windows 64bit](https://ctwiki.blob.core.windows.net/bin/CT-build-603-win64.zip)<br/>
 [Download build 603 - for MacOS](https://ctwiki.blob.core.windows.net/bin/CT-build-603-mac.dmg)<br/>
 
 ## How do I install CyberTracker?
