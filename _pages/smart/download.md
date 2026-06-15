@@ -13,5 +13,5 @@ Android APK:<br/>
 
 Desktop simulator:<br/>
 [Download build 602 - for Windows 64-bit](https://ctwiki.blob.core.windows.net/bin/SM-build-602-win64.zip)<br/>
-[Download build 595 - for MacOS](https://ctwiki.blob.core.windows.net/bin/SM-build-595-mac.dmg)<br/>
+[Download build 603 - for MacOS](https://ctwiki.blob.core.windows.net/bin/SM-build-603-mac.dmg)<br/>
 
