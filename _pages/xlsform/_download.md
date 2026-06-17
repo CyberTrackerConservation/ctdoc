@@ -10,7 +10,7 @@ The desktop version of CyberTracker makes it easy to iterate and test the XlsFor
 3. Launch `CT` in that folder
 
 ## MacOS
-[Download MacOS Desktop Simulator Build 603](https://ctwiki.blob.core.windows.net/bin/CT-build-603-mac.dmg)
+[Download MacOS Desktop Simulator Build 604](https://ctwiki.blob.core.windows.net/bin/CT-build-604-mac.dmg)
 
 1. Download the DMG
 2. Open the DMG in Finder
