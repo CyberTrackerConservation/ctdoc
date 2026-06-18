@@ -32,7 +32,7 @@ If you do not change the connection type to **File transfer**, the desktop will 
 1. Open CyberTracker on the device
 2. Open the project you want to export data from
 3. Tap the **Options** button
-4. Go to the **Export data** tab
+4. Go to the **Export** tab
 5. Tap the **Export** button
 
 <table>
