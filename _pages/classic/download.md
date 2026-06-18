@@ -12,18 +12,12 @@ Windows desktop application:<br/>
 [Download build 3.537 (admin install)](https://ctwiki.blob.core.windows.net/bin/ct3537.msi)<br/>
 
 Android APK:<br/>
-[Download build 600 - for Android 9+](https://ctwiki.blob.core.windows.net/bin/CT-build-600.apk)<br/>
+[Download build 604 - for Android 9+](https://ctwiki.blob.core.windows.net/bin/CT-build-604.apk)<br/>
 [Download build 571 - for older Android devices](https://ctwiki.blob.core.windows.net/bin/CT-build-571-qt5.apk)
 
-Desktop simulator for demos and testing - identical to the mobile version, but runs on Windows:<br/>
-[Download build 600 - for Windows 64bit](https://ctwiki.blob.core.windows.net/bin/CT-build-600-win64.zip)<br/>
-
-## Legacy downloads
-[Download Mobile for Android < 9](https://ctwiki.blob.core.windows.net/bin/CT-build-571-qt5.apk)
-This version is missing some newer features, but can be used on older devices.
-
-[Download Mobile for Desktop version 3.518 and earlier](https://ctwiki.blob.core.windows.net/bin/CT-build-389.apk)
-This version is compatible with Desktop versions 3.518 and earlier. A policy change by Google means that the Play Store version of CyberTracker is not compatible with desktop versions 3.518 and below.
+Desktop simulator for demos and testing - identical to the mobile version, but runs on desktop:<br/>
+[Download build 604 - for Windows 64bit](https://ctwiki.blob.core.windows.net/bin/CT-build-604-win64.zip)<br/>
+[Download build 604 - for MacOS](https://ctwiki.blob.core.windows.net/bin/CT-build-604-mac.dmg)<br/>
 
 ## How do I install CyberTracker?
 

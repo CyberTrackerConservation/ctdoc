@@ -31,7 +31,7 @@ github_username: justinsteventon
 color_scheme: dark
 
 # Build settings
-remote_theme: just-the-docs/just-the-docs
+remote_theme: just-the-docs/just-the-docs@v0.12.0
 #theme: just-the-docs
 
 # Include for processing.

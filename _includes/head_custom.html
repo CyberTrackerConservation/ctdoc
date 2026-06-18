@@ -2,3 +2,44 @@
 <link href="https://fonts.googleapis.com/css?family=Fira+Mono" rel="stylesheet">
 <link rel="icon" type="image/svg+xml" href="{{ site.baseurl }}/favicon.svg">
 <link rel="icon" type="image/png" href="{{ site.baseurl }}/favicon.png">
+
+<!--
+  Fix #anchor links landing at the wrong scroll position.
+  Markdown images have no width/height, so the browser jumps to the anchor
+  before images above it load, then they push the target down. Re-apply the
+  hash scroll once the page has fully loaded (images + fonts), then keep
+  correcting briefly for late reflow — but stop the moment the user scrolls,
+  so we never fight a deliberate scroll.
+-->
+<script>
+(function () {
+  function target() {
+    if (!location.hash) return null;
+    var id = decodeURIComponent(location.hash.slice(1));
+    return document.getElementById(id) || document.getElementsByName(id)[0] || null;
+  }
+
+  function scrollToHash() {
+    var el = target();
+    if (el) el.scrollIntoView({ block: "start", behavior: "instant" });
+  }
+
+  window.addEventListener("load", function () {
+    if (!target()) return;
+
+    scrollToHash();
+
+    var userScrolled = false;
+    ["wheel", "touchstart", "keydown"].forEach(function (ev) {
+      window.addEventListener(ev, function () { userScrolled = true; },
+        { passive: true, once: true });
+    });
+
+    var tries = 0;
+    var timer = setInterval(function () {
+      if (userScrolled || ++tries > 6) { clearInterval(timer); return; }
+      scrollToHash();
+    }, 150);
+  });
+})();
+</script>
