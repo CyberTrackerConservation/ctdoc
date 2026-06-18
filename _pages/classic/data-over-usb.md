@@ -56,4 +56,10 @@ Open CyberTracker on the desktop and click **File → Download data over USB**. 
 </table>
 
 ## Alternate method
-The data is also exported to the `Download -> CyberTrackerData` folder as CTX files. You can manually copy this data off and import it into CyberTracker via `File->Import data`.
+The data is also exported to the `Download -> CyberTrackerData` folder as CTX files. You can manually copy this data using Windows Explorer and import it into CyberTracker via `File->Import data`.
+
+<table>
+<tr>
+<td><img src="{{ site.baseurl }}/assets/classic/data-usb-3.png" /></td>
+</tr>
+</table>
