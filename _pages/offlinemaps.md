@@ -103,7 +103,7 @@ If `layers.json` is absent, the runtime discovers layers from the archive files 
 ### 1.3 Symbols for shape files
 {: #symbols }
 
-A `symbol` field on a `layers.json` entry styles a shape file layer.
+A `symbol` field on a `layers.json` entry styles a shape file layer. It describes the point, line or area symbol, and can carry a nested [`label`](#label) that draws text from an attribute field.
 
 #### Point
 `marker-style` is one of `circle`, `cross`, `diamond`, `square`, `triangle`, `x`:
@@ -142,6 +142,36 @@ A `symbol` field on a `layers.json` entry styles a shape file layer.
   }  
 }
 ```
+
+#### Label
+{: #label }
+A `label` object nested inside `symbol` draws a text label from one of the shape file's attribute fields. It is *additive* — it renders in addition to the point, line or area symbol, so a single `symbol` can both draw a marker and label it. Labelling works for point, line and area shape files; the runtime places the text automatically (near points, along lines, centered in polygons).
+
+```json
+{
+  "marker-style": "circle",
+  "marker-color": "#ff0000",
+  "label": {
+    "field": "CAPITAL",
+    "color": "#000000",
+    "size": 10,
+    "halo-color": "#ffffff",
+    "halo-size": 1,
+    "placement": "above-center"
+  }
+}
+```
+
+| Field         | Type   | Purpose |
+| ------------- | ------ | ------- |
+| `field`       | string | **Required.** Name of the attribute (`.dbf`) field whose value is drawn. If empty or missing, no label is drawn. |
+| `color`       | string | Text color. Default `#000000`. |
+| `size`        | number | Base text size. Default `10`. Scaled by the app's global font-size setting, so it stays consistent with the rest of the UI. |
+| `halo-color`  | string | Color of the outline drawn around the text for legibility. Default `#ffffff`. |
+| `halo-size`   | number | Halo thickness. Default `1`. |
+| `placement`   | string | Position relative to a **point** feature: `center`, `center-left`, `center-right`, `above-center`, `above-left`, `above-right`, `below-center`, `below-left`, `below-right`. Default `above-center`. Ignored for lines and areas. |
+| `xoffset`     | number | Horizontal text offset. Default `0`. |
+| `yoffset`     | number | Vertical text offset. Default `0`. |
 
 ## 2. Adding a `package.json`
 {: #package-json }
