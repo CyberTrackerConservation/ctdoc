@@ -46,6 +46,13 @@ If you do not change the connection type to **File transfer**, the desktop will 
 
 If you tap **SHOW EXPORTED DATA**, then you will see the data file. You can choose to share it as a CTX via another channel as needed.
 
+Alternatively, when there is data available for export, then an extra icon will appear on the project line (on the right). Tapping this will open the **Options** page described above.
+<table>
+<tr>
+<td><img src="{{ site.baseurl }}/assets/classic/Project-export-icon.png" /></td>
+</tr>
+</table>
+
 ## Step 3 — Download the data on the desktop
 Open CyberTracker on the desktop and click **File → Download data over USB**. The data exported in the previous step will be downloaded and removed from the device.
 
