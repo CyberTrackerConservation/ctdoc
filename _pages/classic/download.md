@@ -17,7 +17,7 @@ Android APK:<br/>
 
 Desktop simulator for demos and testing - identical to the mobile version, but runs on desktop:<br/>
 [Download build 612 - for Windows 64bit](https://ctwiki.blob.core.windows.net/bin/CT-build-612-win64.zip)<br/>
-[Download build 607 - for MacOS](https://ctwiki.blob.core.windows.net/bin/CT-build-607-mac.dmg)<br/>
+[Download build 612 - for MacOS](https://ctwiki.blob.core.windows.net/bin/CT-build-612-mac.dmg)<br/>
 
 ## How do I install CyberTracker?
 
