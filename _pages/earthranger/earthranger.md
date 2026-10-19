@@ -2,7 +2,7 @@
 layout: default
 title: EarthRanger
 parent: Connectors
-has_children: false
+has_children: true
 nav_order: 1
 permalink: /earthranger/
 ---
