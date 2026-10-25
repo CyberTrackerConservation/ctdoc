@@ -203,12 +203,21 @@ A place lookup answers:
 
 > the user selected or tapped at `(x, y)` — what content applies here?
 
-A layer participates by setting `lookup: true` in its `layers.json` entry and shipping two companion files in the same zip:
+A layer participates by setting `lookup: true` in its `layers.json` entry and shipping companion files with the same basename in the same zip:
 
-- `<basename>.geojson` — lookup geometry - polygons and multi-polygons
+- Lookup geometry — polygons and multi-polygons, from **one** of two sources:
+  - **Shapefile**: `<basename>.shp`, `<basename>.shx`, `<basename>.dbf` and optionally `<basename>.prj`
+  - **GeoJSON**: `<basename>.geojson`
 - `<basename>.json` — renderable content
 
-If the primary layer file is a GeoJSON, this will not be rendered. To see polygons, use a different primary format (like ShapeFile), but include the geojson and json with the same basename: shape.shp, shape.shx, shape.dbf, shape.geojson and shape.json. 
+Pick the geometry source that fits the layer:
+
+| Source        | Drawn on the map | Typical use |
+| ------------- | ---------------- | ----------- |
+| **Shapefile** | Yes — the same file is the display layer and the lookup geometry, styled with [`symbol`](#symbols) like any other shapefile. | Boundaries the user should see: protected areas, zones, administrative regions. |
+| **GeoJSON**   | No — GeoJSON polygons are not rendered, so the layer is invisible. | Lookup geometry that has no need to be visible: a world polygon, a hemisphere split. |
+
+A shapefile lookup bundle is `shape.shp`, `shape.shx`, `shape.dbf`, `shape.prj` and `shape.json`; a GeoJSON lookup bundle is `shape.geojson` and `shape.json`. There is no need to ship both. If both are present, the shapefile is used.
 
 ### Triggering a lookup
 
@@ -245,7 +254,15 @@ The top-left back button returns to the prior page; the title-bar back button re
 
 ### Lookup geometry — the join key
 
-The companion GeoJSON is the file the point-in-polygon test runs against. Each feature used for matching must carry a string property named **`featureId`** inside `properties`:
+The lookup geometry is the file the point-in-polygon test runs against. Each polygon that contains the point contributes its **`featureId`**, and the content file's `filter.featureIds` ([§3.1](#filter-by-feature)) is evaluated against the matched ids. The content file is written the same way for either source.
+
+#### Scenario A: shapefile geometry
+
+The shapefile must have an attribute field named **`featureId`** (a `fid` field is accepted if there is no `featureId`). Field names are matched case-insensitively. Text fields are recommended; numeric fields work and are matched as their string form, so `12` is the id `"12"`. A `.prj` is honored if present; without one the shapefile is assumed to be WGS84.
+
+#### Scenario B: GeoJSON geometry
+
+Each feature used for matching must carry a property named **`featureId`** inside `properties`:
 
 ```json
 {
@@ -258,7 +275,9 @@ The companion GeoJSON is the file the point-in-polygon test runs against. Each f
 }
 ```
 
-The standard top-level GeoJSON `id` field is **not** used. `featureId` is an opaque string; conventional namespacing (`country:MN`, `region:MN-073`, `world`) keeps ids legible across packages but is not required.
+The property name is matched case-insensitively (a `fid` property is accepted if there is no `featureId`), and a numeric value is treated as its string form. The standard top-level GeoJSON `id` field is not used. Only `Polygon` and `MultiPolygon` geometries are tested.
+
+`featureId` is an opaque string; conventional namespacing (`country:MN`, `region:MN-073`, `world`) keeps ids legible across packages but is not required.
 
 ### Content JSON structure
 
@@ -399,9 +418,9 @@ Tone can be `note`, `important`, `caution`, `restriction`.
 ### Runtime lookup flow
 
 1. Identify layers whose `layers.json` entries have `lookup: true`
-2. For each such layer, locate `<basename>.geojson` and `<basename>.json`
-3. Run the point-in-polygon test against the companion GeoJSON
-4. Collect each selected feature's `properties.featureId`
+2. For each such layer, locate the lookup geometry (`<basename>.shp` if present, otherwise `<basename>.geojson`) and `<basename>.json`
+3. Run the point-in-polygon test against the geometry
+4. Collect each selected feature's `featureId` (the `.dbf` column or the GeoJSON property)
 5. Load the companion content JSON
 6. Evaluate every dataset's `filter.featureIds` against the selected ids ([§3.1](#filter-by-feature))
 7. If the runtime has an active date/time filter, evaluate `filter.when` ([§3.2](#filter-by-time-range))
@@ -410,7 +429,7 @@ Tone can be `note`, `important`, `caution`, `restriction`.
 ### 3.1 Filter by feature
 {: #filter-by-feature }
 
-`filter.featureIds` is an array of strings matched against the `featureId` property of the selected GeoJSON feature(s). The dataset applies if **any** element matches. The wildcard `["*"]` matches any selected feature.
+`filter.featureIds` is an array of strings matched against the `featureId` of the selected feature(s) in the lookup geometry. The dataset applies if **any** element matches. The wildcard `["*"]` matches any selected feature.
 
 ```json
 { "featureIds": ["country:MN", "region:MN-073"] }
