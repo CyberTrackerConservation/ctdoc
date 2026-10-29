@@ -642,3 +642,33 @@ Applinks for SMART Mobile:
 - [holidays in Mongolia](https://cybertrackerwiki.org/applink-smart/?x=eyJ3ZWJVcGRhdGVVcmwiOiAiaHR0cHM6Ly9jdHdpa2kuYmxvYi5jb3JlLndpbmRvd3MubmV0L2Jpbi9ob2xpZGF5cy56aXAifQ==)
 - [seasons by location and time](https://cybertrackerwiki.org/applink-smart/?x=eyJ3ZWJVcGRhdGVVcmwiOiAiaHR0cHM6Ly9jdHdpa2kuYmxvYi5jb3JlLndpbmRvd3MubmV0L2Jpbi9zZWFzb25zLnppcCJ9)
 - [weather by location via web](https://cybertrackerwiki.org/applink-smart/?x=eyJ3ZWJVcGRhdGVVcmwiOiAiaHR0cHM6Ly9jdHdpa2kuYmxvYi5jb3JlLndpbmRvd3MubmV0L2Jpbi93ZWF0aGVyLnppcCJ9)
+
+## 6. Legal Atlas packages
+
+Applinks for the [Legal Atlas®](#legal-atlas-demo) Mongolia packages. Scan a QR code or tap a link to install the package in the app.
+
+Applinks for CyberTracker:
+
+<table>
+<tr>
+<td align="center"><a href="https://cybertrackerwiki.org/applink/?x=eyJ3ZWJVcGRhdGVVcmwiOiAiaHR0cHM6Ly9nby5sZWdhbC1hdGxhcy5uZXQvbW4vc21hcnQvZW4ifQ=="><img width="200" src="{{ site.baseurl }}/assets/placelookup/legal-atlas-qr-ct-en.png" /></a></td>
+<td align="center"><a href="https://cybertrackerwiki.org/applink/?x=eyJ3ZWJVcGRhdGVVcmwiOiAiaHR0cHM6Ly9nby5sZWdhbC1hdGxhcy5uZXQvbW4vc21hcnQvbW4ifQ=="><img width="200" src="{{ site.baseurl }}/assets/placelookup/legal-atlas-qr-ct-mn.png" /></a></td>
+</tr>
+<tr>
+<td align="center"><a href="https://cybertrackerwiki.org/applink/?x=eyJ3ZWJVcGRhdGVVcmwiOiAiaHR0cHM6Ly9nby5sZWdhbC1hdGxhcy5uZXQvbW4vc21hcnQvZW4ifQ==">Mongolia (English)</a></td>
+<td align="center"><a href="https://cybertrackerwiki.org/applink/?x=eyJ3ZWJVcGRhdGVVcmwiOiAiaHR0cHM6Ly9nby5sZWdhbC1hdGxhcy5uZXQvbW4vc21hcnQvbW4ifQ==">Mongolia (Mongolian)</a></td>
+</tr>
+</table>
+
+Applinks for SMART Mobile:
+
+<table>
+<tr>
+<td align="center"><a href="https://cybertrackerwiki.org/applink-smart/?x=eyJ3ZWJVcGRhdGVVcmwiOiAiaHR0cHM6Ly9nby5sZWdhbC1hdGxhcy5uZXQvbW4vc21hcnQvZW4ifQ=="><img width="200" src="{{ site.baseurl }}/assets/placelookup/legal-atlas-qr-smart-en.png" /></a></td>
+<td align="center"><a href="https://cybertrackerwiki.org/applink-smart/?x=eyJ3ZWJVcGRhdGVVcmwiOiAiaHR0cHM6Ly9nby5sZWdhbC1hdGxhcy5uZXQvbW4vc21hcnQvbW4ifQ=="><img width="200" src="{{ site.baseurl }}/assets/placelookup/legal-atlas-qr-smart-mn.png" /></a></td>
+</tr>
+<tr>
+<td align="center"><a href="https://cybertrackerwiki.org/applink-smart/?x=eyJ3ZWJVcGRhdGVVcmwiOiAiaHR0cHM6Ly9nby5sZWdhbC1hdGxhcy5uZXQvbW4vc21hcnQvZW4ifQ==">Mongolia (English)</a></td>
+<td align="center"><a href="https://cybertrackerwiki.org/applink-smart/?x=eyJ3ZWJVcGRhdGVVcmwiOiAiaHR0cHM6Ly9nby5sZWdhbC1hdGxhcy5uZXQvbW4vc21hcnQvbW4ifQ==">Mongolia (Mongolian)</a></td>
+</tr>
+</table>
