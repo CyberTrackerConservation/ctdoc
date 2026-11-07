@@ -192,7 +192,7 @@ A `label` object nested inside `symbol` draws a text label from one of the shape
 | `id`       | string | Stable package identifier. The runtime uses it for deduplication. |
 | `name`     | string | [Optional] Human-readable package name. |
 | `version`  | string | [Optional] Package version. Versions are compared **lexically** — choose values whose string ordering gives the intended semantic ordering (e.g. ISO-style `2026.04.21`, or zero-padded numeric). |
-| `language` | string | [Optional] Language identifier such as `en` or `mn`. |
+| `language` | string | [Optional] Language the package's own strings are written in, such as `en` or `mn`. Other languages ship in the same package as translation catalogs ([§3.3](#translations)). |
 
 When `package.json` is present, the runtime uses `id` to decide whether an installed package should be replaced.
 
@@ -209,6 +209,7 @@ A layer participates by setting `lookup: true` in its `layers.json` entry and sh
   - **Shapefile**: `<basename>.shp`, `<basename>.shx`, `<basename>.dbf` and optionally `<basename>.prj`
   - **GeoJSON**: `<basename>.geojson`
 - `<basename>.json` — renderable content
+- `strings.<locale>.json` at the zip root — optional translation catalog shared by all lookup layers ([§3.3](#translations))
 
 Pick the geometry source that fits the layer:
 
@@ -312,7 +313,7 @@ Datasets render in declaration order; multiple matching datasets in the same con
 
 A row has:
 
-- `path` — full localized browse path shown in the UI (array of strings, parent-to-child).
+- `path` — full browse path shown in the UI (array of strings, parent-to-child). The path strings define the navigation hierarchy; translations ([§3.3](#translations)) change only the labels shown.
 - `view` — renderable content (see [Views](#views) below).
 - optional `filter` to override the dataset-level filter at row scope.
 
@@ -421,10 +422,10 @@ Tone can be `note`, `important`, `caution`, `restriction`.
 2. For each such layer, locate the lookup geometry (`<basename>.shp` if present, otherwise `<basename>.geojson`) and `<basename>.json`
 3. Run the point-in-polygon test against the geometry
 4. Collect each selected feature's `featureId` (the `.dbf` column or the GeoJSON property)
-5. Load the companion content JSON
+5. Load the companion content JSON and, if present, the translation catalogs for the current language ([§3.3](#translations))
 6. Evaluate every dataset's `filter.featureIds` against the selected ids ([§3.1](#filter-by-feature))
 7. If the runtime has an active date/time filter, evaluate `filter.when` ([§3.2](#filter-by-time-range))
-8. Render the matching rows in declaration order
+8. Render the matching rows in declaration order, translating display strings through the catalogs
 
 ### 3.1 Filter by feature
 {: #filter-by-feature }
@@ -554,7 +555,114 @@ A localized example with a fixed event window:
 }
 ```
 
-### 3.3 Legal Atlas demo
+### 3.3 Translations
+{: #translations }
+
+A content file is written once, in one language, and stays the single source of truth for structure and logic. Other languages are supplied as **translation catalogs**: flat JSON files that map each original display string to its translation. The original string is both the lookup key and the fallback text, so nothing is added to the content file and no per-language copies exist.
+
+#### Catalog files
+
+A package carries one catalog per locale, `strings.<locale>.json`, in the zip root. It covers every content file in the package:
+
+- `regions.json`, `zones.json` — canonical content, including all logic and the default strings
+- `strings.fr.json` — French
+- `strings.fr-CA.json` — Canadian French
+- `strings.mn.json` — Mongolian
+
+`<locale>` is a BCP 47 language tag: a lowercase language subtag, optionally followed by `-` and an uppercase region subtag (`en`, `fr`, `fr-CA`, `mn`, `pt-BR`). Filenames are matched exactly, so use this casing. No catalog is needed for the language the canonical files are written in. Catalogs apply to lookup content only; `layers.json` and `package.json` are not translated. `strings` is a reserved basename: a lookup layer must not be named `strings`.
+
+#### Catalog format
+
+A catalog is a single JSON object. Keys are original strings and values are their translations:
+
+```json
+{
+  "Hunting": "Chasse",
+  "Restrictions": "Restrictions",
+  "Hunting restrictions": "Restrictions de chasse",
+  "Hunting is prohibited in this zone.": "La chasse est interdite dans cette zone."
+}
+```
+
+- Keys are the exact original strings: case-sensitive, untrimmed, including any HTML markup in a `body` value.
+- Values are strings. An empty value is treated as missing.
+- A string that appears in several places, or in several content files, such as the block label `About` on every row, needs one entry. One string has one translation across the whole package.
+- Keys that do not occur in the content are ignored.
+- A catalog carries no structure or logic. It cannot add, remove, reorder or reconfigure content.
+
+#### Lookup and fallback
+
+For the current app language `L`, the runtime loads `strings.<L>.json` if present and, when `L` has a region subtag, also `strings.<language>.json` (`fr-CA` → `fr`). Each translatable string shows the first non-empty value found in those catalogs in that order, otherwise the original string.
+
+Missing catalogs, missing keys, empty values and malformed catalog files never stop a package from loading or a lookup from succeeding. A malformed catalog is logged and skipped. Catalogs are read once per lookup, so changing the app language takes effect on the next lookup without reinstalling the package.
+
+#### Translatable strings
+
+| Where            | Translated |
+| ---------------- | ---------- |
+| row              | each element of `path` (display label only) |
+| view             | `name`, `title`, `subtitle` |
+| every block      | `label` |
+| `body` block     | `value`, as one string, whether `text` or `html` |
+| `attributes`     | each item's `label`, and its `value` when it is a string |
+| `link` block     | `text` |
+| `notice` block   | `text` |
+
+Never translated: `content.id`, `content.language`, dataset ids, `filter` (feature ids and `when`), `type`, `format`, `tone`, `orientation`, `url`, `source`, numbers, booleans, JSON keys, and anything in `layers.json` or `package.json`. Translations affect presentation only; filtering, feature matching and dataset evaluation run on the canonical content.
+
+#### Preparing a catalog for translation
+
+The `extract_strings.py` script in the [offlinemaps repository](https://github.com/CyberTrackerConservation/offlinemaps) lists every translatable string in a package and writes `strings.<locale>.json` with empty values for the translator to fill. Run it again with `--merge` on an existing catalog to keep finished translations and add only the strings that are new. A catalog with empty values is valid to ship: those strings show the original text.
+
+#### Changing the canonical text
+
+The original string is the key, so editing a string in a content file disconnects it from its translation. Nothing fails: the app shows the new text in the canonical language and keeps translating everything else, so a correction never has to wait for translation. To catch the catalog up:
+
+1. Edit the content file and rebuild the package.
+2. Run the extraction script with `--merge` and the current catalog. Unchanged strings keep their translations. An edited string appears as a new key: if a dropped entry closely resembles it (a typo fix or a small rewording), its translation is carried over and the old/new pair is listed in the report for confirmation; otherwise the value is empty and the old entry is listed as dropped.
+3. Have the translator fill the empty values and confirm the carried-over pairs.
+4. Ship the returned file as `strings.<locale>.json` in the next package version.
+
+A rewrite of the canonical text costs one re-translation, while a small correction only costs a confirmation. Batch canonical edits ahead of a translation round.
+
+#### Navigation hierarchy
+
+The canonical `path` strings define navigation identity. Rows are grouped into nodes by their original path elements, and translations are applied only to the labels shown. Two different original nodes stay distinct even when their translated labels are identical, and a partial catalog never splits or merges nodes.
+
+#### Example
+
+`holidays.json` (English, abridged):
+
+```json
+{
+  "path": ["Mongolia", "July"],
+  "view": {
+    "title": "Naadam Festival",
+    "subtitle": "July 11–15",
+    "blocks": [
+      { "type": "body", "label": "About", "format": "text",
+        "value": "Mongolia's largest national holiday." }
+    ]
+  }
+}
+```
+
+`strings.mn.json`:
+
+```json
+{
+  "Mongolia": "Монгол Улс",
+  "July": "7-р сар",
+  "Naadam Festival": "Үндэсний их баяр наадам",
+  "July 11–15": "7-р сарын 11–15",
+  "About": "Тухай",
+  "Mongolia's largest national holiday.": "Монголын хамгийн том үндэсний баяр."
+}
+```
+
+The full demo is the `holidays` sample package in [§5](#sample-packages).
+
+### 3.4 Legal Atlas demo
 {: #legal-atlas-demo }
 
 <img src="{{ site.baseurl }}/assets/placelookup/logo.svg" align="right" class="inline" style="width:15%;"/>
@@ -630,6 +738,7 @@ For SMART Mobile, use the `applink-smart` prefix instead — `https://cybertrack
 Encoding the applink as a QR code also works: CyberTracker and SMART Mobile will read the QR code and install the package the same way.
 
 ## 5. Sample packages
+{: #sample-packages }
 
 Applinks for CyberTracker:
 - [blocks - all content block types](https://cybertrackerwiki.org/applink/?x=eyJ3ZWJVcGRhdGVVcmwiOiAiaHR0cHM6Ly9jdHdpa2kuYmxvYi5jb3JlLndpbmRvd3MubmV0L2Jpbi9ibG9ja3MuemlwIn0=)
