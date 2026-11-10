@@ -76,7 +76,7 @@ When draw order, opacity, layer names or place-lookup participation matter, add 
 [
   {
     "filename": "Gabon.mbtiles",
-    "name": "Gabon",
+    "names": { "default": "Gabon", "fr": "Gabon", "pt-BR": "Gabão" },
     "active": true,
     "opacity": 1.0
   },
@@ -92,11 +92,14 @@ When draw order, opacity, layer names or place-lookup participation matter, add 
 | Field      | Type    | Purpose |
 | ---------- | ------- | ------- |
 | `filename` | string  | A filename in the zip belonging to the layer — typically the primary display file (`.geojson`, `.shp`, `.mbtiles`, `.tif`, `.kml`, etc.). The runtime takes the **basename** to locate companion files. |
-| `name`     | string  | Human-readable layer name shown in the UI. |
+| `name`     | string  | Human-readable layer name shown in the UI. Not needed when `names` is present. |
+| `names`    | object  | Layer name per language, keyed by BCP 47 tag (`en`, `fr`, `pt-BR`), with an optional `default` entry. Use either `name` or `names`. |
 | `active`   | boolean | Whether the layer is visible when the package is first loaded. |
 | `opacity`  | number  | Optional layer opacity from `0.0` (transparent) to `1.0` (opaque). |
 | `lookup`   | boolean | Whether the layer participates in [place lookup](#place-lookup). |
 | `symbol`   | object  | Optional symbol description for vector layers (see [§1.3](#symbols)). |
+
+The app shows the `names` entry for its current language. When there is no exact match it takes the closest language (`pt-PT` finds `pt-BR`, `fr-CA` finds `fr`), then `default`, then the first entry. Keys are matched case-insensitively. If both `name` and `names` are given, `name` is only used when `names` is empty. Changing the app language updates layer names without reinstalling the package.
 
 If `layers.json` is absent, the runtime discovers layers from the archive files directly.
 
@@ -569,7 +572,7 @@ A package carries one catalog per locale, `strings.<locale>.json`, in the zip ro
 - `strings.fr-CA.json` — Canadian French
 - `strings.mn.json` — Mongolian
 
-`<locale>` is a BCP 47 language tag: a lowercase language subtag, optionally followed by `-` and an uppercase region subtag (`en`, `fr`, `fr-CA`, `mn`, `pt-BR`). Filenames are matched exactly, so use this casing. No catalog is needed for the language the canonical files are written in. Catalogs apply to lookup content only; `layers.json` and `package.json` are not translated. `strings` is a reserved basename: a lookup layer must not be named `strings`.
+`<locale>` is a BCP 47 language tag: a lowercase language subtag, optionally followed by `-` and an uppercase region subtag (`en`, `fr`, `fr-CA`, `mn`, `pt-BR`). Filenames are matched exactly, so use this casing. No catalog is needed for the language the canonical files are written in. Catalogs apply to lookup content only and do not translate `layers.json` or `package.json`; layer names are translated with the `names` map in `layers.json` ([§1.2](#layers-json)). `strings` is a reserved basename: a lookup layer must not be named `strings`.
 
 #### Catalog format
 
@@ -608,7 +611,7 @@ Missing catalogs, missing keys, empty values and malformed catalog files never s
 | `link` block     | `text` |
 | `notice` block   | `text` |
 
-Never translated: `content.id`, `content.language`, dataset ids, `filter` (feature ids and `when`), `type`, `format`, `tone`, `orientation`, `url`, `source`, numbers, booleans, JSON keys, and anything in `layers.json` or `package.json`. Translations affect presentation only; filtering, feature matching and dataset evaluation run on the canonical content.
+Never translated: `content.id`, `content.language`, dataset ids, `filter` (feature ids and `when`), `type`, `format`, `tone`, `orientation`, `url`, `source`, numbers, booleans, JSON keys, and anything in `layers.json` or `package.json` (layer names use the `names` map in `layers.json` instead, [§1.2](#layers-json)). Translations affect presentation only; filtering, feature matching and dataset evaluation run on the canonical content.
 
 #### Preparing a catalog for translation
 
